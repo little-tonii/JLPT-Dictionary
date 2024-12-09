@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
 
-class DartTheme {
+abstract class DartTheme {
   static final theme = ThemeData();
 }
