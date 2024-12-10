@@ -14,6 +14,7 @@ class SplashScreen extends StatelessWidget {
       }
     });
     return Scaffold(
+      backgroundColor: Theme.of(context).scaffoldBackgroundColor,
       body: BlocListener<SplashCubit, bool>(
         listener: (context, state) {
           if (state == true) {
@@ -24,7 +25,7 @@ class SplashScreen extends StatelessWidget {
         },
         child: Center(
           child: CircularProgressIndicator(
-            color: Theme.of(context).colorScheme.primary,
+            color: Theme.of(context).progressIndicatorTheme.color,
           ),
         ),
       ),
