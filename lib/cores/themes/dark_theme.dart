@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:jlpt_dictionary/cores/constants/colors.dart';
 import 'package:jlpt_dictionary/cores/constants/font_family.dart';
 
-abstract class DartTheme {
+abstract class DarkTheme {
   static final theme = ThemeData(
     scaffoldBackgroundColor: AppColors.black,
     textTheme: const TextTheme(

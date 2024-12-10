@@ -14,7 +14,6 @@ class SplashScreen extends StatelessWidget {
       }
     });
     return Scaffold(
-      backgroundColor: Theme.of(context).scaffoldBackgroundColor,
       body: BlocListener<SplashCubit, bool>(
         listener: (context, state) {
           if (state == true) {
@@ -23,10 +22,8 @@ class SplashScreen extends StatelessWidget {
             Navigator.of(context).popAndPushNamed(AppRoutes.home);
           }
         },
-        child: Center(
-          child: CircularProgressIndicator(
-            color: Theme.of(context).progressIndicatorTheme.color,
-          ),
+        child: const Center(
+          child: CircularProgressIndicator(),
         ),
       ),
     );
