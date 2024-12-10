@@ -7,16 +7,19 @@ class ThemeCubit extends Cubit<bool> {
   final SharedPreferences _sharedPreferences =
       DependenciesContainer.getIt<SharedPreferences>();
 
-  ThemeCubit() : super(true) {
+  ThemeCubit() : super(true);
+
+  void init() {
     emit(_sharedPreferences.getBool(SharedPreferencesKey.themeModeKey) ?? true);
   }
 
   void toggleTheme() {
-    if (state) {
+    if (state == false) {
       emit(false);
+      _sharedPreferences.setBool(SharedPreferencesKey.themeModeKey, false);
     } else {
       emit(true);
+      _sharedPreferences.setBool(SharedPreferencesKey.themeModeKey, true);
     }
-    _sharedPreferences.setBool(SharedPreferencesKey.themeModeKey, state);
   }
 }
