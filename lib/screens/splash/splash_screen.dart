@@ -22,8 +22,11 @@ class SplashScreen extends StatelessWidget {
             Navigator.of(context).popAndPushNamed(AppRoutes.home);
           }
         },
-        child: const Center(
-          child: CircularProgressIndicator(),
+        child: Center(
+          child: Text(
+            "日本語",
+            style: Theme.of(context).textTheme.labelMedium,
+          ),
         ),
       ),
     );

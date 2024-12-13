@@ -42,13 +42,30 @@ abstract class LightTheme {
         fontFamily: FontFamily.mPlus2,
         color: AppColors.black,
       ),
-    ),
-    appBarTheme: AppBarTheme(
-      backgroundColor: AppColors.white,
-      iconTheme: const IconThemeData(
+      labelSmall: TextStyle(
+        fontSize: 20,
+        fontWeight: FontWeight.w400,
+        fontFamily: FontFamily.mPlus2,
         color: AppColors.black,
       ),
-      color: AppColors.black,
+      labelMedium: TextStyle(
+        fontSize: 24,
+        fontWeight: FontWeight.w600,
+        fontFamily: FontFamily.mPlus2,
+        color: AppColors.black,
+      ),
+      labelLarge: TextStyle(
+        fontSize: 28,
+        fontWeight: FontWeight.w800,
+        fontFamily: FontFamily.mPlus2,
+        color: AppColors.black,
+      ),
+    ),
+    appBarTheme: const AppBarTheme(
+      backgroundColor: AppColors.white,
+      iconTheme: IconThemeData(
+        color: AppColors.black,
+      ),
     ),
     progressIndicatorTheme: const ProgressIndicatorThemeData(
       color: AppColors.black,

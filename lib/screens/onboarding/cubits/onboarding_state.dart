@@ -8,3 +8,14 @@ abstract class OnboardingState extends Equatable {
 }
 
 class OnboardingInitial extends OnboardingState {}
+
+class OnBoardingLoading extends OnboardingState {
+  final int percent;
+
+  const OnBoardingLoading(this.percent);
+
+  @override
+  List<Object> get props => [percent];
+}
+
+class OnBoardingLoaded extends OnboardingState {}
