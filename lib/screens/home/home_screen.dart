@@ -2,6 +2,10 @@ import 'package:animated_bottom_navigation_bar/animated_bottom_navigation_bar.da
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:jlpt_dictionary/cores/global_cubits/theme_cubit/theme_cubit.dart';
+import 'package:jlpt_dictionary/screens/home/widgets/tabs/grammar_tab.dart';
+import 'package:jlpt_dictionary/screens/home/widgets/tabs/home_tab.dart';
+import 'package:jlpt_dictionary/screens/home/widgets/tabs/kanji_tab.dart';
+import 'package:jlpt_dictionary/screens/home/widgets/tabs/vocabulary_tab.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
@@ -68,11 +72,14 @@ class _HomeScreenState extends State<HomeScreen> {
           splashSpeedInMilliseconds: 0,
           scaleFactor: 1,
         ),
-        body: Center(
-          child: Text(
-            "Home",
-            style: Theme.of(context).textTheme.displayMedium,
-          ),
+        body: IndexedStack(
+          index: _currentIndex,
+          children: const [
+            HomeTab(),
+            VocabularyTab(),
+            KanjiTab(),
+            GrammarTab(),
+          ],
         ),
       ),
     );
