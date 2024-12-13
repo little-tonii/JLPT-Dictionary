@@ -10,6 +10,7 @@ class JlptDictionary extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    context.read<ThemeCubit>().init();
     return MaterialApp(
       theme: context.watch<ThemeCubit>().state
           ? LightTheme.theme

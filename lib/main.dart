@@ -10,13 +10,8 @@ void main() async {
   await DependenciesContainer.initDependencies();
   await SystemChrome.setPreferredOrientations([DeviceOrientation.portraitUp]);
   runApp(
-    MultiBlocProvider(
-      providers: [
-        BlocProvider(
-          create: (context) =>
-              DependenciesContainer.getIt.get<ThemeCubit>()..init(),
-        ),
-      ],
+    BlocProvider<ThemeCubit>(
+      create: (context) => DependenciesContainer.getIt.get<ThemeCubit>(),
       child: const JlptDictionary(),
     ),
   );

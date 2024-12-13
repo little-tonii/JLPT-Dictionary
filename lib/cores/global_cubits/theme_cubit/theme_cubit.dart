@@ -15,11 +15,11 @@ class ThemeCubit extends Cubit<bool> {
 
   void toggleTheme() {
     if (state == false) {
-      emit(false);
-      _sharedPreferences.setBool(SharedPreferencesKey.themeModeKey, false);
-    } else {
       emit(true);
       _sharedPreferences.setBool(SharedPreferencesKey.themeModeKey, true);
+    } else {
+      emit(false);
+      _sharedPreferences.setBool(SharedPreferencesKey.themeModeKey, false);
     }
   }
 }
