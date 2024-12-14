@@ -12,9 +12,6 @@ class SplashCubit extends Cubit<bool> {
   void init() {
     final isFirstTime =
         _sharedPreferences.getBool(SharedPreferencesKey.isFirstTimeKey) ?? true;
-    if (isFirstTime) {
-      _sharedPreferences.setBool(SharedPreferencesKey.isFirstTimeKey, false);
-    }
     emit(isFirstTime);
   }
 }

@@ -4,13 +4,17 @@ import 'package:flutter/services.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:jlpt_dictionary/cores/constants/app_file_paths.dart';
 import 'package:jlpt_dictionary/cores/constants/db_key.dart';
+import 'package:jlpt_dictionary/cores/constants/shared_preferences_key.dart';
 import 'package:jlpt_dictionary/cores/dependencies/dependencies.dart';
 import 'package:jlpt_dictionary/cores/enums/yomi_type.dart';
 import 'package:jlpt_dictionary/screens/onboarding/cubits/onboarding_state.dart';
+import 'package:shared_preferences/shared_preferences.dart';
 import 'package:sqflite/sqflite.dart';
 
 class OnboardingCubit extends Cubit<OnboardingState> {
   final Database _database = DependenciesContainer.getIt<Database>();
+  final SharedPreferences _sharedPreferences =
+      DependenciesContainer.getIt.get<SharedPreferences>();
 
   OnboardingCubit() : super(OnboardingInitial());
 
@@ -87,6 +91,15 @@ class OnboardingCubit extends Cubit<OnboardingState> {
       emit(OnBoardingLoading(finishedTask * 100 ~/ totalTask));
     }
 
-    emit(OnBoardingLoaded());
+    final isFirstTime =
+        _sharedPreferences.getBool(SharedPreferencesKey.isFirstTimeKey) ?? true;
+    if (isFirstTime) {
+      await _sharedPreferences.setBool(
+          SharedPreferencesKey.isFirstTimeKey, false);
+    }
+
+    Future.delayed(const Duration(seconds: 1), () {
+      emit(OnBoardingLoaded());
+    });
   }
 }
