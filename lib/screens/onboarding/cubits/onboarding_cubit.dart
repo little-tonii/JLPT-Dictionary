@@ -8,31 +8,33 @@ class OnboardingCubit extends Cubit<OnboardingState> {
 
   OnboardingCubit() : super(OnboardingInitial());
 
-  void init() {
+  void init() async {
     emit(const OnBoardingLoading(0));
-    Future.delayed(const Duration(seconds: 1), () {
-      emit(const OnBoardingLoading(15));
-    });
-    Future.delayed(const Duration(seconds: 2), () {
-      emit(const OnBoardingLoading(30));
-    });
-    Future.delayed(const Duration(seconds: 3), () {
-      emit(const OnBoardingLoading(45));
-    });
-    Future.delayed(const Duration(seconds: 4), () {
-      emit(const OnBoardingLoading(60));
-    });
-    Future.delayed(const Duration(seconds: 5), () {
-      emit(const OnBoardingLoading(75));
-    });
-    Future.delayed(const Duration(seconds: 6), () {
-      emit(const OnBoardingLoading(90));
-    });
-    Future.delayed(const Duration(seconds: 7), () {
-      emit(const OnBoardingLoading(100));
-      Future.delayed(const Duration(seconds: 1), () {
-        emit(OnBoardingLoaded());
-      });
-    });
+    emit(OnBoardingLoaded());
+    // emit(const OnBoardingLoading(0));
+    // Future.delayed(const Duration(seconds: 1), () {
+    //   emit(const OnBoardingLoading(15));
+    // });
+    // Future.delayed(const Duration(seconds: 2), () {
+    //   emit(const OnBoardingLoading(30));
+    // });
+    // Future.delayed(const Duration(seconds: 3), () {
+    //   emit(const OnBoardingLoading(45));
+    // });
+    // Future.delayed(const Duration(seconds: 4), () {
+    //   emit(const OnBoardingLoading(60));
+    // });
+    // Future.delayed(const Duration(seconds: 5), () {
+    //   emit(const OnBoardingLoading(75));
+    // });
+    // Future.delayed(const Duration(seconds: 6), () {
+    //   emit(const OnBoardingLoading(90));
+    // });
+    // Future.delayed(const Duration(seconds: 7), () {
+    //   emit(const OnBoardingLoading(100));
+    //   Future.delayed(const Duration(seconds: 1), () {
+    //     emit(OnBoardingLoaded());
+    //   });
+    // });
   }
 }
