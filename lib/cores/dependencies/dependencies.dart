@@ -17,10 +17,11 @@ abstract class DependenciesContainer {
       await openDatabase(
         path,
         version: JlptDictionaryDatabase.databaseVersion,
-        onCreate: (db, version) {
-          db.execute(JlptDictionaryDatabase.createKanjiTableQuery);
-          db.execute(JlptDictionaryDatabase.createYomiTableQuery);
-          db.execute(JlptDictionaryDatabase.createKanjiSampleTableQuery);
+        onCreate: (db, version) async {
+          await db.execute(JlptDictionaryDatabase.createKanjiTableQuery);
+          await db.execute(JlptDictionaryDatabase.createYomiTableQuery);
+          await db.execute(JlptDictionaryDatabase.createKanjiSampleTableQuery);
+          await db.execute(JlptDictionaryDatabase.createVocabularyTableQuery);
         },
       ),
     );

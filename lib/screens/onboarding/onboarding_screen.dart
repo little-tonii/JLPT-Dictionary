@@ -27,6 +27,7 @@ class OnboardingScreen extends StatelessWidget {
               height: 16,
             ),
             BlocConsumer<OnboardingCubit, OnboardingState>(
+              buildWhen: (previous, current) => current is OnBoardingLoading,
               builder: (context, state) {
                 if (state is OnBoardingLoading) {
                   return Text(

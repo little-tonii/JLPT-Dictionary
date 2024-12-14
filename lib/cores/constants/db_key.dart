@@ -34,6 +34,25 @@ abstract class JlptDictionaryDatabase {
       FOREIGN KEY(${KanjiSampleKeys.yomiId}) REFERENCES ${YomiKeys.tableName}(${YomiKeys.id})
     );
   """;
+
+  static const String createVocabularyTableQuery = """
+    CREATE TABLE ${VocabularyKeys.tableName}(
+      ${VocabularyKeys.id} INTEGER PRIMARY KEY AUTOINCREMENT,
+      ${VocabularyKeys.kanjiForm} TEXT,
+      ${VocabularyKeys.normalForm} TEXT,
+      ${VocabularyKeys.meaning} TEXT,
+      ${VocabularyKeys.jlptLevel} TEXT
+    );
+  """;
+}
+
+abstract class VocabularyKeys {
+  static const String tableName = 'vocabularies';
+  static const String id = 'id';
+  static const String kanjiForm = 'kanji_form';
+  static const String normalForm = 'normal_form';
+  static const String meaning = 'meaning';
+  static const String jlptLevel = 'jlpt_level';
 }
 
 abstract class KanjiSampleKeys {
