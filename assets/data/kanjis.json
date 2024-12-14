@@ -6,7 +6,7 @@
             "kunyomi": [
                 {
                     "pronounce": "ひと",
-                    "kanji_sample": [
+                    "kanji_samples": [
                         {
                             "kanji_form": "一つ",
                             "normal_form": "ひとつ",
@@ -31,7 +31,7 @@
                 },
                 {
                     "pronounce": "ひとつ",
-                    "kanji_sample": [
+                    "kanji_samples": [
                         {
                             "kanji_form": "一月",
                             "normal_form": "ひとつき",
@@ -48,7 +48,7 @@
             "onyomi": [
                 {
                     "pronounce": "イチ",
-                    "kanji_sample": [
+                    "kanji_samples": [
                         {
                             "kanji_form": "一に",
                             "normal_form": "いちに",
@@ -78,7 +78,7 @@
                 },
                 {
                     "pronounce": "イツ",
-                    "kanji_sample": [
+                    "kanji_samples": [
                         {
                             "kanji_form": "不一",
                             "normal_form": "ふいつ",
