@@ -1,7 +1,11 @@
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:jlpt_dictionary/cores/dependencies/dependencies.dart';
 import 'package:jlpt_dictionary/screens/onboarding/cubits/onboarding_state.dart';
+import 'package:sqflite/sqflite.dart';
 
 class OnboardingCubit extends Cubit<OnboardingState> {
+  final Database _database = DependenciesContainer.getIt<Database>();
+
   OnboardingCubit() : super(OnboardingInitial());
 
   void init() {

@@ -1,6 +1,7 @@
 import 'package:animated_bottom_navigation_bar/animated_bottom_navigation_bar.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:ionicons/ionicons.dart';
 import 'package:jlpt_dictionary/cores/global_cubits/theme_cubit/theme_cubit.dart';
 import 'package:jlpt_dictionary/screens/home/widgets/tabs/grammar_tab.dart';
 import 'package:jlpt_dictionary/screens/home/widgets/tabs/home_tab.dart';
@@ -36,13 +37,9 @@ class _HomeScreenState extends State<HomeScreen> {
           child: BlocBuilder<ThemeCubit, bool>(
             builder: (context, state) {
               if (state) {
-                return const Icon(
-                  Icons.nightlight_round,
-                );
+                return const Icon(Ionicons.moon_outline);
               } else {
-                return const Icon(
-                  Icons.wb_sunny_rounded,
-                );
+                return const Icon(Ionicons.sunny_outline);
               }
             },
           ),
@@ -51,10 +48,10 @@ class _HomeScreenState extends State<HomeScreen> {
         bottomNavigationBar: AnimatedBottomNavigationBar(
           backgroundColor: Theme.of(context).scaffoldBackgroundColor,
           icons: const [
-            Icons.home_outlined,
-            Icons.home_outlined,
-            Icons.home_outlined,
-            Icons.home_outlined,
+            Ionicons.home_outline,
+            Ionicons.receipt_outline,
+            Ionicons.skull_outline,
+            Ionicons.library_outline,
           ],
           notchSmoothness: NotchSmoothness.smoothEdge,
           leftCornerRadius: 16,

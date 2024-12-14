@@ -4,11 +4,10 @@
     "kunyomi": [
         {
             "pronounce": "",
-            "sample": [
+            "kanji_sample": [
                 {
                     "kanji_form": "",
                     "normal_form": "",
-                    "vietnamese": "",
                     "meaning": ""
                 }
             ]
@@ -17,16 +16,15 @@
     "onyomi": [
         {
             "pronounce": "",
-            "sample": [
+            "kanji_sample": [
                 {
                     "kanji_form": "",
                     "normal_form": "",
-                    "vietnamese": "",
                     "meaning": ""
                 }
             ]
         }
     ],
-    "jlpt": "N5",
+    "jlpt_level": "N5",
     "number_of_writing_strokes": 0
 }
