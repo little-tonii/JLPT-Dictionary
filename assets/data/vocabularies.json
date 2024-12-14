@@ -1,3 +1,10 @@
 {
-    "vocabularies": []
+    "vocabularies": [
+        {
+            "kanji_form": "私",
+            "normal_form": "わたし",
+            "meaning": "Tôi",
+            "jlpt_level": "N5"
+        }
+    ]
 }
