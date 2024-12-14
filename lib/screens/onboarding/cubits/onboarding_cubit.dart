@@ -1,4 +1,10 @@
+import 'dart:convert';
+import 'dart:developer';
+
+import 'package:flutter/services.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:jlpt_dictionary/cores/constants/app_file_paths.dart';
+import 'package:jlpt_dictionary/cores/constants/db_key.dart';
 import 'package:jlpt_dictionary/cores/dependencies/dependencies.dart';
 import 'package:jlpt_dictionary/screens/onboarding/cubits/onboarding_state.dart';
 import 'package:sqflite/sqflite.dart';
@@ -10,6 +16,16 @@ class OnboardingCubit extends Cubit<OnboardingState> {
 
   void init() async {
     emit(const OnBoardingLoading(0));
+    final vocabularyRawData =
+        await rootBundle.loadString(AppFilePaths.vocabularyJsonData);
+    final vocabularyData = json
+        .decode(vocabularyRawData)[VocabularyKeys.tableName] as List<dynamic>;
+    log(vocabularyData.length.toString());
+    final kanjiRawData =
+        await rootBundle.loadString(AppFilePaths.kanjiJsonData);
+    final kanjiData =
+        json.decode(kanjiRawData)[KanjiKeys.tableName] as List<dynamic>;
+    log(kanjiData.length.toString());
     emit(OnBoardingLoaded());
     // emit(const OnBoardingLoading(0));
     // Future.delayed(const Duration(seconds: 1), () {

@@ -17,8 +17,8 @@ abstract class JlptDictionaryDatabase {
       ${YomiKeys.id} INTEGER PRIMARY KEY AUTOINCREMENT,
       ${YomiKeys.pronounce} TEXT,
       ${YomiKeys.kanjiId} INTEGER,
-      FOREIGN KEY(${YomiKeys.kanjiId}) REFERENCES ${KanjiKeys.tableName}(${KanjiKeys.id}),
-      ${YomiKeys.yomiType} TEXT
+      ${YomiKeys.yomiType} TEXT,
+      FOREIGN KEY(${YomiKeys.kanjiId}) REFERENCES ${KanjiKeys.tableName}(${KanjiKeys.id})
     );
   """;
 
