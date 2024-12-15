@@ -2,7 +2,9 @@ import 'package:animated_bottom_navigation_bar/animated_bottom_navigation_bar.da
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:ionicons/ionicons.dart';
+import 'package:jlpt_dictionary/dependencies/dependencies.dart';
 import 'package:jlpt_dictionary/global_cubits/theme_cubit/theme_cubit.dart';
+import 'package:jlpt_dictionary/screens/home/cubits/home_tab_cubit.dart';
 import 'package:jlpt_dictionary/screens/home/widgets/tabs/grammar_tab.dart';
 import 'package:jlpt_dictionary/screens/home/widgets/tabs/home_tab.dart';
 import 'package:jlpt_dictionary/screens/home/widgets/tabs/kanji_tab.dart';
@@ -72,7 +74,14 @@ class _HomeScreenState extends State<HomeScreen> {
         body: IndexedStack(
           index: _currentIndex,
           children: [
-            HomeTab(tabNavigator: _handleItemTapped),
+            BlocProvider<HomeTabCubit>(
+              create: (context) =>
+                  DependenciesContainer.getIt.get<HomeTabCubit>()
+                    ..loadVocabularies()
+                    ..loadKanjis()
+                    ..loadGrammars(),
+              child: HomeTab(tabNavigator: _handleItemTapped),
+            ),
             const VocabularyTab(),
             const KanjiTab(),
             const GrammarTab(),

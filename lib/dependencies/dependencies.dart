@@ -1,6 +1,7 @@
 import 'package:get_it/get_it.dart';
 import 'package:jlpt_dictionary/constants/db_key.dart';
 import 'package:jlpt_dictionary/global_cubits/theme_cubit/theme_cubit.dart';
+import 'package:jlpt_dictionary/screens/home/cubits/home_tab_cubit.dart';
 import 'package:jlpt_dictionary/screens/onboarding/cubits/onboarding_cubit.dart';
 import 'package:jlpt_dictionary/screens/splash/cubits/splash_cubit.dart';
 import 'package:path/path.dart';
@@ -29,5 +30,6 @@ abstract class DependenciesContainer {
     getIt.registerFactory(() => ThemeCubit());
     getIt.registerFactory(() => SplashCubit());
     getIt.registerFactory(() => OnboardingCubit());
+    getIt.registerFactory(() => HomeTabCubit());
   }
 }

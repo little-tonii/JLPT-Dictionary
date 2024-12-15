@@ -62,6 +62,8 @@ class HomeTab extends StatelessWidget {
                             ),
                             const Spacer(),
                             BlocBuilder<HomeTabCubit, HomeTabState>(
+                              buildWhen: (previous, current) =>
+                                  current is HomeTabVocabularyLoaded,
                               builder: (context, state) {
                                 if (state is HomeTabVocabularyLoaded) {
                                   return Text(
@@ -129,6 +131,8 @@ class HomeTab extends StatelessWidget {
                             ),
                             const Spacer(),
                             BlocBuilder<HomeTabCubit, HomeTabState>(
+                              buildWhen: (previous, current) =>
+                                  current is HomeTabKanjiLoaded,
                               builder: (context, state) {
                                 if (state is HomeTabKanjiLoaded) {
                                   return Text(
@@ -197,6 +201,8 @@ class HomeTab extends StatelessWidget {
                             ),
                             const Spacer(),
                             BlocBuilder<HomeTabCubit, HomeTabState>(
+                              buildWhen: (previous, current) =>
+                                  current is HomeTabGrammarLoaded,
                               builder: (context, state) {
                                 if (state is HomeTabGrammarLoaded) {
                                   return Text(
