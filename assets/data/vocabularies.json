@@ -3,8 +3,224 @@
         {
             "kanji_form": "私",
             "normal_form": "わたし",
-            "meaning": "Tôi",
+            "meaning": "tôi",
             "jlpt_level": "N5"
+        },
+        {
+            "kanji_form": "私たち",
+            "normal_form": "わたしたち",
+            "jlpt_level": "N5",
+            "meaning": "chúng tôi, chúng ta"
+        },
+        {
+            "kanji_form": "彼",
+            "normal_form": "かれ",
+            "jlpt_level": "N5",
+            "meaning": "anh ấy, bạn trai"
+        },
+        {
+            "kanji_form": "彼女",
+            "normal_form": "かのじょ",
+            "jlpt_level": "N5",
+            "meaning": "cô ấy, bạn gái"
+        },
+        {
+            "kanji_form": "皆さん",
+            "normal_form": "みなさん",
+            "jlpt_level": "N5",
+            "meaning": "các anh chị, các ông bà, các bạn, quý vị"
+        },
+        {
+            "kanji_form": "",
+            "normal_form": "あなた",
+            "jlpt_level": "N5",
+            "meaning": "anh/chị, ông/bà, bạn (ngôi thứ II số ít)"
+        },
+        {
+            "kanji_form": "あの人",
+            "normal_form": "あのひと",
+            "jlpt_level": "N5",
+            "meaning": "người đó, anh kia, chị kia"
+        },
+        {
+            "kanji_form": "あの方",
+            "normal_form": "あのかた",
+            "jlpt_level": "N5",
+            "meaning": "vị kia (cách nói lịch sự của あのひと)"
+        },
+        {
+            "kanji_form": "教師",
+            "normal_form": "きょうし",
+            "jlpt_level": "N5",
+            "meaning": "giáo viên"
+        },
+        {
+            "kanji_form": "先生",
+            "normal_form": "せんせい",
+            "jlpt_level": "N5",
+            "meaning": "thầy/cô"
+        },
+        {
+            "kanji_form": "学生",
+            "normal_form": "がくせい",
+            "jlpt_level": "N5",
+            "meaning": "học sinh"
+        },
+        {
+            "kanji_form": "運転手",
+            "normal_form": "うんてんしゅ",
+            "jlpt_level": "N5",
+            "meaning": "tài xế"
+        },
+        {
+            "kanji_form": "会社員",
+            "normal_form": "かいしゃいん",
+            "jlpt_level": "N5",
+            "meaning": "nhân viên công ty"
+        },
+        {
+            "kanji_form": "社員",
+            "normal_form": "しゃいん",
+            "jlpt_level": "N5",
+            "meaning": "nhân viên công ty"
+        },
+        {
+            "kanji_form": "銀行員",
+            "normal_form": "ぎんこういん",
+            "jlpt_level": "N5",
+            "meaning": "nhân viên ngân hàng"
+        },
+        {
+            "kanji_form": "医者",
+            "normal_form": "いしゃ",
+            "jlpt_level": "N5",
+            "meaning": "bác sĩ"
+        },
+        {
+            "kanji_form": "",
+            "normal_form": "エンジニア",
+            "jlpt_level": "N5",
+            "meaning": "kỹ sư"
+        },
+        {
+            "kanji_form": "研究者",
+            "normal_form": "けんきゅうしゃ",
+            "jlpt_level": "N5",
+            "meaning": "nhà nghiên cứu"
+        },
+        {
+            "kanji_form": "留学生",
+            "normal_form": "りゅうがくせい",
+            "jlpt_level": "N5",
+            "meaning": "du học sinh"
+        },
+        {
+            "kanji_form": "",
+            "normal_form": "だれ",
+            "jlpt_level": "N5",
+            "meaning": "ai"
+        },
+        {
+            "kanji_form": "",
+            "normal_form": "どなた",
+            "jlpt_level": "N5",
+            "meaning": "vị nào (cách nói lịch sự của だれ)"
+        },
+        {
+            "kanji_form": "大学",
+            "normal_form": "だいがく",
+            "jlpt_level": "N5",
+            "meaning": "đại học, trường đại học"
+        },
+        {
+            "kanji_form": "病院",
+            "normal_form": "びょういん",
+            "jlpt_level": "N5",
+            "meaning": "bệnh viện"
+        },
+        {
+            "kanji_form": "日本",
+            "normal_form": "にほん",
+            "jlpt_level": "N5",
+            "meaning": "Nhật Bản"
+        },
+        {
+            "kanji_form": "",
+            "normal_form": "ベトナム",
+            "jlpt_level": "N5",
+            "meaning": "Việt Nam"
+        },
+        {
+            "kanji_form": "韓国",
+            "normal_form": "かんこく",
+            "jlpt_level": "N5",
+            "meaning": "Hàn Quốc"
+        },
+        {
+            "kanji_form": "中国",
+            "normal_form": "ちゅうごく",
+            "jlpt_level": "N5",
+            "meaning": "Trung Quốc"
+        },
+        {
+            "kanji_form": "",
+            "normal_form": "アメリカ",
+            "jlpt_level": "N5",
+            "meaning": "Mỹ"
+        },
+        {
+            "kanji_form": "",
+            "normal_form": "イギリス",
+            "jlpt_level": "N5",
+            "meaning": "Anh"
+        },
+        {
+            "kanji_form": "出身",
+            "normal_form": "しゅっしん",
+            "jlpt_level": "N5",
+            "meaning": "xuất thân, quê quán"
+        },
+        {
+            "kanji_form": "",
+            "normal_form": "はい",
+            "jlpt_level": "N5",
+            "meaning": "vâng, dạ"
+        },
+        {
+            "kanji_form": "",
+            "normal_form": "いいえ",
+            "jlpt_level": "N5",
+            "meaning": "không"
+        },
+        {
+            "kanji_form": "失礼ですが",
+            "normal_form": "しつれいですが",
+            "jlpt_level": "N5",
+            "meaning": "xin lỗi, thứ lỗi (dùng khi hỏi ai đó về thông tin cá nhân như là tên hoặc địa chỉ của họ)"
+        },
+        {
+            "kanji_form": "お名前をもう一度お願いします",
+            "normal_form": "おなまえをもういちどおねがいします",
+            "jlpt_level": "N5",
+            "meaning": "anh/chị vui lòng nhắc lại tên một lần nữa được không ạ?"
+        },
+        {
+            "kanji_form": "どうぞよろしくお願いします",
+            "normal_form": "どうぞよろしくおねがいします",
+            "jlpt_level": "N5",
+            "meaning": "rất mong nhận được sự giúp đỡ của anh/chị!"
+        },
+        {
+            "kanji_form": "",
+            "normal_form": "そうですか",
+            "jlpt_level": "N5",
+            "meaning": "vậy à/thế à"
+        },
+        {
+            "kanji_form": "お仕事は何ですか",
+            "normal_form": "おしごとはなんですか",
+            "jlpt_level": "N5",
+            "meaning": "công việc của anh/chị là gì thế?"
         }
     ]
 }
