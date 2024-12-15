@@ -71,11 +71,11 @@ class _HomeScreenState extends State<HomeScreen> {
         ),
         body: IndexedStack(
           index: _currentIndex,
-          children: const [
-            HomeTab(),
-            VocabularyTab(),
-            KanjiTab(),
-            GrammarTab(),
+          children: [
+            HomeTab(tabNavigator: _handleItemTapped),
+            const VocabularyTab(),
+            const KanjiTab(),
+            const GrammarTab(),
           ],
         ),
       ),
