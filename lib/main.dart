@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:jlpt_dictionary/cores/dependencies/dependencies.dart';
-import 'package:jlpt_dictionary/cores/global_cubits/theme_cubit/theme_cubit.dart';
+import 'package:jlpt_dictionary/dependencies/dependencies.dart';
+import 'package:jlpt_dictionary/global_cubits/theme_cubit/theme_cubit.dart';
 import 'package:jlpt_dictionary/jlpt_dictionary.dart';
 
 void main() async {

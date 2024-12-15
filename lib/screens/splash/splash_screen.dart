@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:jlpt_dictionary/cores/routes/app_routes.dart';
+import 'package:jlpt_dictionary/routes/app_routes.dart';
 import 'package:jlpt_dictionary/screens/splash/cubits/splash_cubit.dart';
 
 class SplashScreen extends StatelessWidget {

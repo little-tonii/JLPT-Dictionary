@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:jlpt_dictionary/cores/dependencies/dependencies.dart';
+import 'package:jlpt_dictionary/dependencies/dependencies.dart';
 import 'package:jlpt_dictionary/screens/home/home_screen.dart';
 import 'package:jlpt_dictionary/screens/onboarding/cubits/onboarding_cubit.dart';
 import 'package:jlpt_dictionary/screens/onboarding/onboarding_screen.dart';

@@ -1,5 +1,5 @@
-import 'package:jlpt_dictionary/cores/constants/db_key.dart';
-import 'package:jlpt_dictionary/cores/enums/jlpt_level.dart';
+import 'package:jlpt_dictionary/constants/db_key.dart';
+import 'package:jlpt_dictionary/enums/jlpt_level.dart';
 
 class VocabularyModel {
   final int? id;

@@ -1,6 +1,6 @@
 import 'package:get_it/get_it.dart';
-import 'package:jlpt_dictionary/cores/constants/db_key.dart';
-import 'package:jlpt_dictionary/cores/global_cubits/theme_cubit/theme_cubit.dart';
+import 'package:jlpt_dictionary/constants/db_key.dart';
+import 'package:jlpt_dictionary/global_cubits/theme_cubit/theme_cubit.dart';
 import 'package:jlpt_dictionary/screens/onboarding/cubits/onboarding_cubit.dart';
 import 'package:jlpt_dictionary/screens/splash/cubits/splash_cubit.dart';
 import 'package:path/path.dart';

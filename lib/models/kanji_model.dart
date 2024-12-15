@@ -1,7 +1,7 @@
-import 'package:jlpt_dictionary/cores/constants/db_key.dart';
-import 'package:jlpt_dictionary/cores/enums/jlpt_level.dart';
-import 'package:jlpt_dictionary/cores/models/yomi_model.dart';
-import 'package:jlpt_dictionary/cores/enums/yomi_type.dart';
+import 'package:jlpt_dictionary/constants/db_key.dart';
+import 'package:jlpt_dictionary/enums/jlpt_level.dart';
+import 'package:jlpt_dictionary/models/yomi_model.dart';
+import 'package:jlpt_dictionary/enums/yomi_type.dart';
 
 class KanjiModel {
   final int? id;

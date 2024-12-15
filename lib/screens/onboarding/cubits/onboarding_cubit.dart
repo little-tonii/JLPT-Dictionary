@@ -2,11 +2,11 @@ import 'dart:convert';
 
 import 'package:flutter/services.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:jlpt_dictionary/cores/constants/app_file_paths.dart';
-import 'package:jlpt_dictionary/cores/constants/db_key.dart';
-import 'package:jlpt_dictionary/cores/constants/shared_preferences_key.dart';
-import 'package:jlpt_dictionary/cores/dependencies/dependencies.dart';
-import 'package:jlpt_dictionary/cores/enums/yomi_type.dart';
+import 'package:jlpt_dictionary/constants/app_file_paths.dart';
+import 'package:jlpt_dictionary/constants/db_key.dart';
+import 'package:jlpt_dictionary/constants/shared_preferences_key.dart';
+import 'package:jlpt_dictionary/dependencies/dependencies.dart';
+import 'package:jlpt_dictionary/enums/yomi_type.dart';
 import 'package:jlpt_dictionary/screens/onboarding/cubits/onboarding_state.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:sqflite/sqflite.dart';

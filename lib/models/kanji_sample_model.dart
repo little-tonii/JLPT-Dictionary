@@ -1,4 +1,4 @@
-import 'package:jlpt_dictionary/cores/constants/db_key.dart';
+import 'package:jlpt_dictionary/constants/db_key.dart';
 
 class KanjiSampleModel {
   final int? id;
