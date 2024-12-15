@@ -10,6 +10,15 @@ abstract class HomeTabState extends Equatable {
 
 class HomeTabInitial extends HomeTabState {}
 
+class HomeTabCaroselLoaded extends HomeTabState {
+  final int index;
+
+  const HomeTabCaroselLoaded({required this.index});
+
+  @override
+  List<Object> get props => [index];
+}
+
 class HomeTabVocabularyLoaded extends HomeTabState {
   final Map<JlptLevel, int> vocabularyCount;
 

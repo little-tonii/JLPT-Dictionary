@@ -16,7 +16,6 @@ class HomeTab extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final indexImage = Random().nextInt(3) + 1;
     return SafeArea(
       child: Scaffold(
         body: CustomScrollView(
@@ -34,9 +33,18 @@ class HomeTab extends StatelessWidget {
                   return Stack(
                     fit: StackFit.expand,
                     children: [
-                      Image.asset(
-                        'assets/carosels/$indexImage.jpg',
-                        fit: BoxFit.cover,
+                      BlocBuilder<HomeTabCubit, HomeTabState>(
+                        buildWhen: (previous, current) =>
+                            current is HomeTabCaroselLoaded,
+                        builder: (context, state) {
+                          if (state is HomeTabCaroselLoaded) {
+                            return Image.asset(
+                              'assets/carosels/${state.index}.jpg',
+                              fit: BoxFit.cover,
+                            );
+                          }
+                          return const SizedBox();
+                        },
                       ),
                       ClipRect(
                         child: BackdropFilter(
@@ -73,6 +81,77 @@ class HomeTab extends StatelessWidget {
             SliverToBoxAdapter(
               child: Column(
                 children: [
+                  Row(
+                    children: [
+                      GestureDetector(
+                        onTap: () {},
+                        child: Container(
+                          padding: const EdgeInsets.all(8),
+                          margin: const EdgeInsets.only(
+                            left: 12,
+                            top: 12,
+                          ),
+                          width:
+                              (MediaQuery.of(context).size.width - 12 * 3) / 2,
+                          height:
+                              (MediaQuery.of(context).size.width - 12 * 3) / 2,
+                          decoration: BoxDecoration(
+                            borderRadius: BorderRadius.circular(8),
+                            boxShadow: [
+                              BoxShadow(
+                                color: context.watch<ThemeCubit>().state
+                                    ? AppColors.black.withOpacity(0.1)
+                                    : AppColors.white.withOpacity(0.1),
+                                blurRadius: 8,
+                                offset: const Offset(4, 4),
+                              ),
+                            ],
+                            color: context.watch<ThemeCubit>().state
+                                ? AppColors.white
+                                : AppColors.black,
+                          ),
+                          child: Text(
+                            "Luyện tập từ vựng",
+                            style: Theme.of(context).textTheme.titleLarge,
+                          ),
+                        ),
+                      ),
+                      const Spacer(),
+                      GestureDetector(
+                        onTap: () {},
+                        child: Container(
+                          padding: const EdgeInsets.all(8),
+                          margin: const EdgeInsets.only(
+                            right: 12,
+                            top: 12,
+                          ),
+                          width:
+                              (MediaQuery.of(context).size.width - 12 * 3) / 2,
+                          height:
+                              (MediaQuery.of(context).size.width - 12 * 3) / 2,
+                          decoration: BoxDecoration(
+                            borderRadius: BorderRadius.circular(8),
+                            boxShadow: [
+                              BoxShadow(
+                                color: context.watch<ThemeCubit>().state
+                                    ? AppColors.black.withOpacity(0.1)
+                                    : AppColors.white.withOpacity(0.1),
+                                blurRadius: 8,
+                                offset: const Offset(4, 4),
+                              ),
+                            ],
+                            color: context.watch<ThemeCubit>().state
+                                ? AppColors.white
+                                : AppColors.black,
+                          ),
+                          child: Text(
+                            "Luyện tập kanji",
+                            style: Theme.of(context).textTheme.titleLarge,
+                          ),
+                        ),
+                      ),
+                    ],
+                  ),
                   GestureDetector(
                     onTap: () => tabNavigator(1),
                     child: Container(
@@ -238,7 +317,6 @@ class HomeTab extends StatelessWidget {
                         top: 12,
                         left: 12,
                         right: 12,
-                        bottom: 12,
                       ),
                       child: Column(
                         children: [
@@ -287,72 +365,7 @@ class HomeTab extends StatelessWidget {
                       ),
                     ),
                   ),
-                  Row(
-                    children: [
-                      GestureDetector(
-                        onTap: () {},
-                        child: Container(
-                          padding: const EdgeInsets.all(8),
-                          margin: const EdgeInsets.only(left: 12),
-                          width:
-                              (MediaQuery.of(context).size.width - 12 * 3) / 2,
-                          height:
-                              (MediaQuery.of(context).size.width - 12 * 3) / 2,
-                          decoration: BoxDecoration(
-                            borderRadius: BorderRadius.circular(8),
-                            boxShadow: [
-                              BoxShadow(
-                                color: context.watch<ThemeCubit>().state
-                                    ? AppColors.black.withOpacity(0.1)
-                                    : AppColors.white.withOpacity(0.1),
-                                blurRadius: 8,
-                                offset: const Offset(4, 4),
-                              ),
-                            ],
-                            color: context.watch<ThemeCubit>().state
-                                ? AppColors.white
-                                : AppColors.black,
-                          ),
-                          child: Text(
-                            "Luyện tập từ vựng",
-                            style: Theme.of(context).textTheme.titleLarge,
-                          ),
-                        ),
-                      ),
-                      const Spacer(),
-                      GestureDetector(
-                        onTap: () {},
-                        child: Container(
-                          padding: const EdgeInsets.all(8),
-                          margin: const EdgeInsets.only(right: 12),
-                          width:
-                              (MediaQuery.of(context).size.width - 12 * 3) / 2,
-                          height:
-                              (MediaQuery.of(context).size.width - 12 * 3) / 2,
-                          decoration: BoxDecoration(
-                            borderRadius: BorderRadius.circular(8),
-                            boxShadow: [
-                              BoxShadow(
-                                color: context.watch<ThemeCubit>().state
-                                    ? AppColors.black.withOpacity(0.1)
-                                    : AppColors.white.withOpacity(0.1),
-                                blurRadius: 8,
-                                offset: const Offset(4, 4),
-                              ),
-                            ],
-                            color: context.watch<ThemeCubit>().state
-                                ? AppColors.white
-                                : AppColors.black,
-                          ),
-                          child: Text(
-                            "Luyện tập kanji",
-                            style: Theme.of(context).textTheme.titleLarge,
-                          ),
-                        ),
-                      ),
-                    ],
-                  ),
-                  const SizedBox(height: 24),
+                  const SizedBox(height: 32),
                 ],
               ),
             ),

@@ -77,6 +77,7 @@ class _HomeScreenState extends State<HomeScreen> {
             BlocProvider<HomeTabCubit>(
               create: (context) =>
                   DependenciesContainer.getIt.get<HomeTabCubit>()
+                    ..loadCarosel()
                     ..loadVocabularies()
                     ..loadKanjis()
                     ..loadGrammars(),

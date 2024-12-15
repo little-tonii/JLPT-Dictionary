@@ -1,3 +1,5 @@
+import 'dart:math';
+
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:jlpt_dictionary/constants/db_key.dart';
 import 'package:jlpt_dictionary/dependencies/dependencies.dart';
@@ -9,6 +11,10 @@ class HomeTabCubit extends Cubit<HomeTabState> {
   final Database _database = DependenciesContainer.getIt.get<Database>();
 
   HomeTabCubit() : super(HomeTabInitial());
+
+  void loadCarosel() {
+    emit(HomeTabCaroselLoaded(index: Random().nextInt(3) + 1));
+  }
 
   void loadVocabularies() async {
     final vocabularyCount = <JlptLevel, int>{
