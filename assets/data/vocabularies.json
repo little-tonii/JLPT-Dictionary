@@ -221,6 +221,276 @@
             "normal_form": "おしごとはなんですか",
             "jlpt_level": "N5",
             "meaning": "công việc của anh/chị là gì thế?"
+        },
+        {
+            "kanji_form": "",
+            "normal_form": "これ",
+            "jlpt_level": "N5",
+            "meaning": "cái này, đây (vật ở gần người nói)"
+        },
+        {
+            "kanji_form": "",
+            "normal_form": "それ",
+            "jlpt_level": "N5",
+            "meaning": "cái đó, đó (vật ở gần người nghe)"
+        },
+        {
+            "kanji_form": "",
+            "normal_form": "あれ",
+            "jlpt_level": "N5",
+            "meaning": "cái kia, kia (vật ở xa cả người nói và người nghe)"
+        },
+        {
+            "kanji_form": "",
+            "normal_form": "この",
+            "jlpt_level": "N5",
+            "meaning": "này~"
+        },
+        {
+            "kanji_form": "",
+            "normal_form": "その",
+            "jlpt_level": "N5",
+            "meaning": "đó"
+        },
+        {
+            "kanji_form": "",
+            "normal_form": "あの",
+            "jlpt_level": "N5",
+            "meaning": "kia"
+        },
+        {
+            "kanji_form": "",
+            "normal_form": "パソコン",
+            "jlpt_level": "N5",
+            "meaning": "máy tính cá nhân"
+        },
+        {
+            "kanji_form": "携帯",
+            "normal_form": "けいたい",
+            "jlpt_level": "N5",
+            "meaning": "điện thoại di động"
+        },
+        {
+            "kanji_form": "電話",
+            "normal_form": "でんわ",
+            "jlpt_level": "N5",
+            "meaning": "điện thoại"
+        },
+        {
+            "kanji_form": "",
+            "normal_form": "アイフォン",
+            "jlpt_level": "N5",
+            "meaning": "iphone"
+        },
+        {
+            "kanji_form": "充電器",
+            "normal_form": "じゅうでんき",
+            "jlpt_level": "N5",
+            "meaning": "sạc pin"
+        },
+        {
+            "kanji_form": "",
+            "normal_form": "ヘッドフォン",
+            "jlpt_level": "N5",
+            "meaning": "tai nghe"
+        },
+        {
+            "kanji_form": "",
+            "normal_form": "カメラ",
+            "jlpt_level": "N5",
+            "meaning": "máy ảnh"
+        },
+        {
+            "kanji_form": "",
+            "normal_form": "テレビ",
+            "jlpt_level": "N5",
+            "meaning": "tivi"
+        },
+        {
+            "kanji_form": "車",
+            "normal_form": "くるま",
+            "jlpt_level": "N5",
+            "meaning": "ô tô, xe hơi"
+        },
+        {
+            "kanji_form": "時計",
+            "normal_form": "とけい",
+            "jlpt_level": "N5",
+            "meaning": "đồng hồ"
+        },
+        {
+            "kanji_form": "",
+            "normal_form": "ペン",
+            "jlpt_level": "N5",
+            "meaning": "bút"
+        },
+        {
+            "kanji_form": "",
+            "normal_form": "ボールペン",
+            "jlpt_level": "N5",
+            "meaning": "bút bi"
+        },
+        {
+            "kanji_form": "鉛筆",
+            "normal_form": "えんぴつ",
+            "jlpt_level": "N5",
+            "meaning": "bút chì"
+        },
+        {
+            "kanji_form": "",
+            "normal_form": "シャープペンシル",
+            "jlpt_level": "N5",
+            "meaning": "bút chì kim"
+        },
+        {
+            "kanji_form": "消しゴム",
+            "normal_form": "けしゴム",
+            "jlpt_level": "N5",
+            "meaning": "tẩy"
+        },
+        {
+            "kanji_form": "本",
+            "normal_form": "ほん",
+            "jlpt_level": "N5",
+            "meaning": "sách"
+        },
+        {
+            "kanji_form": "",
+            "normal_form": "ノート",
+            "jlpt_level": "N5",
+            "meaning": "vở"
+        },
+        {
+            "kanji_form": "手帳",
+            "normal_form": "てちょう",
+            "jlpt_level": "N5",
+            "meaning": "sổ tay"
+        },
+        {
+            "kanji_form": "辞書",
+            "normal_form": "じしょ",
+            "jlpt_level": "N5",
+            "meaning": "từ điển"
+        },
+        {
+            "kanji_form": "新聞",
+            "normal_form": "しんぶん",
+            "jlpt_level": "N5",
+            "meaning": "báo"
+        },
+        {
+            "kanji_form": "雑誌",
+            "normal_form": "ざっし",
+            "jlpt_level": "N5",
+            "meaning": "tạp chí"
+        },
+        {
+            "kanji_form": "名刺",
+            "normal_form": "めいし",
+            "jlpt_level": "N5",
+            "meaning": "danh thiếp"
+        },
+        {
+            "kanji_form": "",
+            "normal_form": "カード",
+            "jlpt_level": "N5",
+            "meaning": "thẻ, cạc"
+        },
+        {
+            "kanji_form": "",
+            "normal_form": "クレジットカード",
+            "jlpt_level": "N5",
+            "meaning": "thẻ tín dụng"
+        },
+        {
+            "kanji_form": "帽子",
+            "normal_form": "ぼうし",
+            "jlpt_level": "N5",
+            "meaning": "mũ"
+        },
+        {
+            "kanji_form": "財布",
+            "normal_form": "さいふ",
+            "jlpt_level": "N5",
+            "meaning": "ví"
+        },
+        {
+            "kanji_form": "",
+            "normal_form": "かばん",
+            "jlpt_level": "N5",
+            "meaning": "cặp sách, túi xách"
+        },
+        {
+            "kanji_form": "靴",
+            "normal_form": "くつ",
+            "jlpt_level": "N5",
+            "meaning": "giày"
+        },
+        {
+            "kanji_form": "",
+            "normal_form": "スリッパ",
+            "jlpt_level": "N5",
+            "meaning": "dép đi trong nhà"
+        },
+        {
+            "kanji_form": "靴下",
+            "normal_form": "くつした",
+            "jlpt_level": "N5",
+            "meaning": "tất"
+        },
+        {
+            "kanji_form": "鍵",
+            "normal_form": "かぎ",
+            "jlpt_level": "N5",
+            "meaning": "chìa khoá"
+        },
+        {
+            "kanji_form": "傘",
+            "normal_form": "かさ",
+            "jlpt_level": "N5",
+            "meaning": "ô, dù"
+        },
+        {
+            "kanji_form": "机",
+            "normal_form": "つくえ",
+            "jlpt_level": "N5",
+            "meaning": "bàn"
+        },
+        {
+            "kanji_form": "椅子",
+            "normal_form": "いす",
+            "jlpt_level": "N5",
+            "meaning": "ghế"
+        },
+        {
+            "kanji_form": "英語",
+            "normal_form": "えいご",
+            "jlpt_level": "N5",
+            "meaning": "tiếng Anh"
+        },
+        {
+            "kanji_form": "何",
+            "normal_form": "なん",
+            "jlpt_level": "N5",
+            "meaning": "cái gì (từ để hỏi)"
+        },
+        {
+            "kanji_form": "",
+            "normal_form": "そう",
+            "jlpt_level": "N5",
+            "meaning": "đúng, phải, đúng vậy"
+        },
+        {
+            "kanji_form": "違います",
+            "normal_form": "ちがいます",
+            "jlpt_level": "N5",
+            "meaning": "không phải, sai rồi"
+        },
+        {
+            "kanji_form": "ほんの気持ち",
+            "normal_form": "ほんのきもち",
+            "jlpt_level": "N5",
+            "meaning": "đây là chút lòng thành của tôi!"
         }
     ]
 }
