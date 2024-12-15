@@ -17,12 +17,6 @@ class HomeTab extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final indexImage = Random().nextInt(3) + 1;
-    final currentDate = DateTime.now();
-    final currentDay =
-        currentDate.day < 10 ? "0${currentDate.day}" : currentDate.day;
-    final currentMonth =
-        currentDate.month < 10 ? "0${currentDate.month}" : currentDate.month;
-    final currentYear = "${currentDate.year}";
     return SafeArea(
       child: Scaffold(
         body: CustomScrollView(
@@ -60,12 +54,15 @@ class HomeTab extends StatelessWidget {
                       if (currentHeight <= 120)
                         Center(
                           child: Text(
-                            "$currentDay/$currentMonth/$currentYear",
+                            "万事随缘",
                             style: Theme.of(context)
                                 .textTheme
-                                .titleLarge!
+                                .labelLarge!
                                 .copyWith(
-                                    color: AppColors.white.withOpacity(0.6)),
+                                  color: AppColors.white.withOpacity(0.6),
+                                  fontSize: 24,
+                                  fontWeight: FontWeight.w400,
+                                ),
                           ),
                         ),
                     ],
