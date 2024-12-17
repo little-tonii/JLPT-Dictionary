@@ -725,6 +725,162 @@
             "jlpt_level": "N5",
             "normal_form": "えん",
             "kanji_form": "円"
+        },
+        {
+            "meaning": "đẹp trai",
+            "jlpt_level": "N5",
+            "normal_form": "イケメン",
+            "kanji_form": ""
+        },
+        {
+            "meaning": "xinh, đẹp, sạch",
+            "jlpt_level": "N5",
+            "normal_form": "きれい",
+            "kanji_form": "綺麗"
+        },
+        {
+            "meaning": "tốt bụng",
+            "jlpt_level": "N5",
+            "normal_form": "しんせつ",
+            "kanji_form": "親切"
+        },
+        {
+            "meaning": "khoẻ mạnh",
+            "jlpt_level": "N5",
+            "normal_form": "げんき",
+            "kanji_form": "元気"
+        },
+        {
+            "meaning": "yên tĩnh",
+            "jlpt_level": "N5",
+            "normal_form": "しずか",
+            "kanji_form": "静か"
+        },
+        {
+            "meaning": "náo nhiệt",
+            "jlpt_level": "N5",
+            "normal_form": "にぎやか",
+            "kanji_form": "賑やか"
+        },
+        {
+            "meaning": "nổi tiếng",
+            "jlpt_level": "N5",
+            "normal_form": "ゆうめい",
+            "kanji_form": "有名"
+        },
+        {
+            "meaning": "tiện lợi",
+            "jlpt_level": "N5",
+            "normal_form": "べんり",
+            "kanji_form": "便利"
+        },
+        {
+            "meaning": "quan trọng",
+            "jlpt_level": "N5",
+            "normal_form": "たいせつ",
+            "kanji_form": "大切"
+        },
+        {
+            "meaning": "rảnh rỗi",
+            "jlpt_level": "N5",
+            "normal_form": "ひま",
+            "kanji_form": "暇"
+        },
+        {
+            "meaning": "bận rộn",
+            "jlpt_level": "N5",
+            "normal_form": "いそがしい",
+            "kanji_form": "忙しい"
+        },
+        {
+            "meaning": "to, lớn",
+            "jlpt_level": "N5",
+            "normal_form": "おおきい",
+            "kanji_form": "大きい"
+        },
+        {
+            "meaning": "nhỏ, bé",
+            "jlpt_level": "N5",
+            "normal_form": "ちいさい",
+            "kanji_form": "小さい"
+        },
+        {
+            "meaning": "mới",
+            "jlpt_level": "N5",
+            "normal_form": "あたらしい",
+            "kanji_form": "新しい"
+        },
+        {
+            "meaning": "cũ",
+            "jlpt_level": "N5",
+            "normal_form": "ふるい",
+            "kanji_form": "古い"
+        },
+        {
+            "meaning": "tốt",
+            "jlpt_level": "N5",
+            "normal_form": "いい",
+            "kanji_form": ""
+        },
+        {
+            "meaning": "xấu",
+            "jlpt_level": "N5",
+            "normal_form": "わるい",
+            "kanji_form": "悪い"
+        },
+        {
+            "meaning": "nóng (dùng cho thời tiết)",
+            "jlpt_level": "N5",
+            "normal_form": "あつい",
+            "kanji_form": "暑い"
+        },
+        {
+            "meaning": "lạnh, rét (dùng cho thời tiết)",
+            "jlpt_level": "N5",
+            "normal_form": "さむい",
+            "kanji_form": "寒い"
+        },
+        {
+            "meaning": "nóng (dùng cho cảm giác)",
+            "jlpt_level": "N5",
+            "normal_form": "あつい",
+            "kanji_form": "熱い"
+        },
+        {
+            "meaning": "lạnh, buốt (dùng cho cảm giác)",
+            "jlpt_level": "N5",
+            "normal_form": "つめたい",
+            "kanji_form": "冷たい"
+        },
+        {
+            "meaning": "khó",
+            "jlpt_level": "N5",
+            "normal_form": "むずかしい",
+            "kanji_form": "難しい"
+        },
+        {
+            "meaning": "dễ, hiền lành",
+            "jlpt_level": "N5",
+            "normal_form": "やさしい",
+            "kanji_form": "易しい"
+        },
+        {
+            "meaning": "dễ, hiền lành",
+            "jlpt_level": "N5",
+            "normal_form": "やさしい",
+            "kanji_form": "優しい"
+        },
+        {
+            "meaning": "đắt, cao",
+            "jlpt_level": "N5",
+            "normal_form": "たかい",
+            "kanji_form": "高い"
+        },
+        {
+            "meaning": "rẻ",
+            "jlpt_level": "N5",
+            "normal_form": "やすい",
+            "kanji_form": "安い"
         }
     ]
 }
