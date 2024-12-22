@@ -6,47 +6,41 @@
             "kunyomi": [
                 {
                     "pronounce": "ひと",
-                    "sample": [
+                    "kanji_samples": [
                         {
                             "kanji_form": "一つ",
                             "normal_form": "ひとつ",
-                            "vietnamese": "Nhất",
-                            "meaning": "Một"
+                            "meaning": "một"
                         },
                         {
                             "kanji_form": "一人で",
                             "normal_form": "ひとりで",
-                            "vietnamese": "Nhất Nhân",
-                            "meaning": "Một mình"
+                            "meaning": "một mình"
                         },
                         {
                             "kanji_form": "一つ目",
                             "normal_form": "ひとつめ",
-                            "vietnamese": "Nhất Mục",
-                            "meaning": "Quái vật một mắt"
+                            "meaning": "quái vật một mắt"
                         },
                         {
                             "kanji_form": "一つ身",
                             "normal_form": "ひとつみ",
-                            "vietnamese": "Nhất Thân",
-                            "meaning": "Quần áo em bé"
+                            "meaning": "quần áo em bé"
                         }
                     ]
                 },
                 {
                     "pronounce": "ひとつ",
-                    "sample": [
+                    "kanji_samples": [
                         {
                             "kanji_form": "一月",
                             "normal_form": "ひとつき",
-                            "vietnamese": "Nhất Nguyệt",
-                            "meaning": "Một tháng"
+                            "meaning": "một tháng"
                         },
                         {
                             "kanji_form": "一粒",
                             "normal_form": "ひとつぶ",
-                            "vietnamese": "Nhất Lạp",
-                            "meaning": "Một hạt"
+                            "meaning": "một hạt"
                         }
                     ]
                 }
@@ -54,76 +48,66 @@
             "onyomi": [
                 {
                     "pronounce": "イチ",
-                    "sample": [
+                    "kanji_samples": [
                         {
                             "kanji_form": "一に",
                             "normal_form": "いちに",
-                            "vietnamese": "Nhất",
-                            "meaning": "Chỉ có"
+                            "meaning": "chỉ có"
                         },
                         {
                             "kanji_form": "一は",
                             "normal_form": "いちは",
-                            "vietnamese": "Nhất",
-                            "meaning": "Một phần"
+                            "meaning": "một phần"
                         },
                         {
                             "kanji_form": "一事",
                             "normal_form": "いちじ",
-                            "vietnamese": "Nhất Sự",
-                            "meaning": "Một thứ"
+                            "meaning": "một thứ"
                         },
                         {
                             "kanji_form": "一二",
                             "normal_form": "いちに",
-                            "vietnamese": "Nhất Nhị",
-                            "meaning": "Một hoặc hai"
+                            "meaning": "một hoặc hai"
                         },
                         {
                             "kanji_form": "一位",
                             "normal_form": "いちい",
-                            "vietnamese": "Nhất Vị",
-                            "meaning": "Hàng cao nhất"
+                            "meaning": "hàng cao nhất"
                         }
                     ]
                 },
                 {
                     "pronounce": "イツ",
-                    "sample": [
+                    "kanji_samples": [
                         {
                             "kanji_form": "不一",
                             "normal_form": "ふいつ",
-                            "vietnamese": "Bất Nhất",
-                            "meaning": "Rất chân thành là của bạn"
+                            "meaning": "rất chân thành là của bạn"
                         },
                         {
                             "kanji_form": "唯一",
                             "normal_form": "ゆいつ",
-                            "vietnamese": "Duy Nhất",
-                            "meaning": "Duy nhất"
+                            "meaning": "duy nhất"
                         },
                         {
                             "kanji_form": "帰一",
                             "normal_form": "きいつ",
-                            "vietnamese": "Quy Nhất",
-                            "meaning": "Sự hợp nhất thành một"
+                            "meaning": "sự hợp nhất thành một"
                         },
                         {
                             "kanji_form": "劃一",
                             "normal_form": "かくいつ",
-                            "vietnamese": "Nhất",
-                            "meaning": "Tính giống nhau"
+                            "meaning": "tính giống nhau"
                         },
                         {
                             "kanji_form": "単一",
                             "normal_form": "たんいつ",
-                            "vietnamese": "Đơn Nhất",
-                            "meaning": "Đơn nhất"
+                            "meaning": "đơn nhất"
                         }
                     ]
                 }
             ],
-            "jlpt": "N5",
+            "jlpt_level": "N5",
             "number_of_writing_strokes": 1
         }
     ]
