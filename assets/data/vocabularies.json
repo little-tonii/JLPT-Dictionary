@@ -1937,6 +1937,264 @@
             "jlpt_level": "N5",
             "normal_form": "ときどき",
             "kanji_form": "時々"
+        },
+        {
+            "meaning": "mỗi tuần",
+            "jlpt_level": "N5",
+            "normal_form": "まいしゅう",
+            "kanji_form": "毎週"
+        },
+        {
+            "meaning": "mỗi tháng",
+            "jlpt_level": "N5",
+            "normal_form": "まいつき",
+            "kanji_form": "毎月"
+        },
+        {
+            "meaning": "mỗi năm",
+            "jlpt_level": "N5",
+            "normal_form": "まいとし",
+            "kanji_form": "毎年"
+        },
+        {
+            "meaning": "bố (dùng khi nói về bố mình)",
+            "jlpt_level": "N5",
+            "normal_form": "ちち",
+            "kanji_form": "父"
+        },
+        {
+            "meaning": "mẹ (dùng khi nói về mẹ mình)",
+            "jlpt_level": "N5",
+            "normal_form": "はは",
+            "kanji_form": "母"
+        },
+        {
+            "meaning": "bố (dùng khi nói về bố người khác và dùng khi xưng hô với bố mình)",
+            "jlpt_level": "N5",
+            "normal_form": "おとうさん",
+            "kanji_form": "お父さん"
+        },
+        {
+            "meaning": "mẹ (dùng khi nói về mẹ người khác và dùng khi xưng hô với mẹ mình)",
+            "jlpt_level": "N5",
+            "normal_form": "おかあさん",
+            "kanji_form": "お母さん"
+        },
+        {
+            "meaning": "chồng (mình)",
+            "jlpt_level": "N5",
+            "normal_form": "しゅじん",
+            "kanji_form": "主人"
+        },
+        {
+            "meaning": "chồng (mình)",
+            "jlpt_level": "N5",
+            "normal_form": "おっと",
+            "kanji_form": "夫"
+        },
+        {
+            "meaning": "vợ (mình)",
+            "jlpt_level": "N5",
+            "normal_form": "かない",
+            "kanji_form": "家内"
+        },
+        {
+            "meaning": "vợ (mình)",
+            "jlpt_level": "N5",
+            "normal_form": "つま",
+            "kanji_form": "妻"
+        },
+        {
+            "meaning": "chồng (của người khác)",
+            "jlpt_level": "N5",
+            "normal_form": "ごしゅじん",
+            "kanji_form": "ご主人"
+        },
+        {
+            "meaning": "vợ (của người khác)",
+            "jlpt_level": "N5",
+            "normal_form": "おくさん",
+            "kanji_form": "奥さん"
+        },
+        {
+            "meaning": "tay",
+            "jlpt_level": "N5",
+            "normal_form": "て",
+            "kanji_form": "手"
+        },
+        {
+            "meaning": "đũa",
+            "jlpt_level": "N5",
+            "normal_form": "はし",
+            "kanji_form": "箸"
+        },
+        {
+            "meaning": "thìa",
+            "jlpt_level": "N5",
+            "normal_form": "スプーン",
+            "kanji_form": ""
+        },
+        {
+            "meaning": "dĩa, nĩa",
+            "jlpt_level": "N5",
+            "normal_form": "フォーク",
+            "kanji_form": ""
+        },
+        {
+            "meaning": "dao",
+            "jlpt_level": "N5",
+            "normal_form": "ナイフ",
+            "kanji_form": ""
+        },
+        {
+            "meaning": "kéo",
+            "jlpt_level": "N5",
+            "normal_form": "はさみ",
+            "kanji_form": "鋏"
+        },
+        {
+            "meaning": "giấy",
+            "jlpt_level": "N5",
+            "normal_form": "かみ",
+            "kanji_form": "紙"
+        },
+        {
+            "meaning": "hoa",
+            "jlpt_level": "N5",
+            "normal_form": "はな",
+            "kanji_form": "花"
+        },
+        {
+            "meaning": "áo sơ mi",
+            "jlpt_level": "N5",
+            "normal_form": "シャツ",
+            "kanji_form": ""
+        },
+        {
+            "meaning": "quà tặng",
+            "jlpt_level": "N5",
+            "normal_form": "プレゼント",
+            "kanji_form": ""
+        },
+        {
+            "meaning": "vé",
+            "jlpt_level": "N5",
+            "normal_form": "きっぷ",
+            "kanji_form": "切符"
+        },
+        {
+            "meaning": "bát",
+            "jlpt_level": "N5",
+            "normal_form": "おちゃわん",
+            "kanji_form": "お茶碗"
+        },
+        {
+            "meaning": "tiền",
+            "jlpt_level": "N5",
+            "normal_form": "おかね",
+            "kanji_form": "お金"
+        },
+        {
+            "meaning": "giáng sinh",
+            "jlpt_level": "N5",
+            "normal_form": "クリスマス",
+            "kanji_form": ""
+        },
+        {
+            "meaning": "internet",
+            "jlpt_level": "N5",
+            "normal_form": "インターネット",
+            "kanji_form": ""
+        },
+        {
+            "meaning": "tin tức, bản tin",
+            "jlpt_level": "N5",
+            "normal_form": "ニュース",
+            "kanji_form": ""
+        },
+        {
+            "meaning": "cắt",
+            "jlpt_level": "N5",
+            "normal_form": "きります",
+            "kanji_form": "切ります"
+        },
+        {
+            "meaning": "gửi",
+            "jlpt_level": "N5",
+            "normal_form": "おくります",
+            "kanji_form": "送ります"
+        },
+        {
+            "meaning": "nhận",
+            "jlpt_level": "N5",
+            "normal_form": "もらいます",
+            "kanji_form": "貰います"
+        },
+        {
+            "meaning": "học",
+            "jlpt_level": "N5",
+            "normal_form": "ならいます",
+            "kanji_form": "習います"
+        },
+        {
+            "meaning": "cho mượn",
+            "jlpt_level": "N5",
+            "normal_form": "かします",
+            "kanji_form": "貸します"
+        },
+        {
+            "meaning": "cho, tặng",
+            "jlpt_level": "N5",
+            "normal_form": "あげます",
+            "kanji_form": "上げます"
+        },
+        {
+            "meaning": "dạy",
+            "jlpt_level": "N5",
+            "normal_form": "おしえます",
+            "kanji_form": "教えます"
+        },
+        {
+            "meaning": "gọi điện thoại",
+            "jlpt_level": "N5",
+            "normal_form": "でんわをかけます",
+            "kanji_form": "電話をかけます"
+        },
+        {
+            "meaning": "vay, mượn",
+            "jlpt_level": "N5",
+            "normal_form": "かります",
+            "kanji_form": "借ります"
+        },
+        {
+            "meaning": "đã",
+            "jlpt_level": "N5",
+            "normal_form": "もう",
+            "kanji_form": ""
+        },
+        {
+            "meaning": "vẫn, chưa",
+            "jlpt_level": "N5",
+            "normal_form": "まだ",
+            "kanji_form": ""
+        },
+        {
+            "meaning": "từ bây giờ, từ nay",
+            "jlpt_level": "N5",
+            "normal_form": "これから",
+            "kanji_form": ""
+        },
+        {
+            "meaning": "vừa rồi, hôm nọ",
+            "jlpt_level": "N5",
+            "normal_form": "このあいだ",
+            "kanji_form": "この間"
+        },
+        {
+            "meaning": "người yêu",
+            "jlpt_level": "N5",
+            "normal_form": "こいびと",
+            "kanji_form": "恋人"
         }
     ]
 }
