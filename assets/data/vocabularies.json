@@ -2645,6 +2645,312 @@
             "jlpt_level": "N5",
             "normal_form": "います",
             "kanji_form": "居ます"
+        },
+        {
+            "meaning": "anh trai (mình)",
+            "jlpt_level": "N5",
+            "normal_form": "あに",
+            "kanji_form": "兄"
+        },
+        {
+            "meaning": "anh trai (của người khác và khi xưng hô với anh trai mình)",
+            "jlpt_level": "N5",
+            "normal_form": "おにいさん",
+            "kanji_form": "お兄さん"
+        },
+        {
+            "meaning": "chị gái (mình)",
+            "jlpt_level": "N5",
+            "normal_form": "あね",
+            "kanji_form": "姉"
+        },
+        {
+            "meaning": "chị gái (của người khác và khi xưng hô với chị gái mình)",
+            "jlpt_level": "N5",
+            "normal_form": "おねえさん",
+            "kanji_form": "お姉さん"
+        },
+        {
+            "meaning": "em trai (mình)",
+            "jlpt_level": "N5",
+            "normal_form": "おとうと",
+            "kanji_form": "弟"
+        },
+        {
+            "meaning": "em gái (mình)",
+            "jlpt_level": "N5",
+            "normal_form": "いもうと",
+            "kanji_form": "妹"
+        },
+        {
+            "meaning": "anh em",
+            "jlpt_level": "N5",
+            "normal_form": "きょうだい",
+            "kanji_form": "兄弟"
+        },
+        {
+            "meaning": "trẻ con, trẻ em",
+            "jlpt_level": "N5",
+            "normal_form": "こども",
+            "kanji_form": "子供"
+        },
+        {
+            "meaning": "kem",
+            "jlpt_level": "N5",
+            "normal_form": "アイスクリーム",
+            "kanji_form": ""
+        },
+        {
+            "meaning": "bưu thiếp",
+            "jlpt_level": "N5",
+            "normal_form": "はがき",
+            "kanji_form": "葉書"
+        },
+        {
+            "meaning": "bên trong cùng",
+            "jlpt_level": "N5",
+            "normal_form": "おく",
+            "kanji_form": "奥"
+        },
+        {
+            "meaning": "giá sách",
+            "jlpt_level": "N5",
+            "normal_form": "ほんだな",
+            "kanji_form": "本棚"
+        },
+        {
+            "meaning": "ký túc xá",
+            "jlpt_level": "N5",
+            "normal_form": "りょう",
+            "kanji_form": "寮"
+        },
+        {
+            "meaning": "quê, nông thôn",
+            "jlpt_level": "N5",
+            "normal_form": "いなか",
+            "kanji_form": "田舎"
+        },
+        {
+            "meaning": "nước ngoài",
+            "jlpt_level": "N5",
+            "normal_form": "がいこく",
+            "kanji_form": "外国"
+        },
+        {
+            "meaning": "động vật",
+            "jlpt_level": "N5",
+            "normal_form": "どうぶつ",
+            "kanji_form": "動物"
+        },
+        {
+            "meaning": "ngủ trưa",
+            "jlpt_level": "N5",
+            "normal_form": "ひるね",
+            "kanji_form": "昼寝"
+        },
+        {
+            "meaning": "một cái",
+            "jlpt_level": "N5",
+            "normal_form": "ひとつ",
+            "kanji_form": "一つ"
+        },
+        {
+            "meaning": "hai cái",
+            "jlpt_level": "N5",
+            "normal_form": "ふたつ",
+            "kanji_form": "二つ"
+        },
+        {
+            "meaning": "ba cái",
+            "jlpt_level": "N5",
+            "normal_form": "みっつ",
+            "kanji_form": "三つ"
+        },
+        {
+            "meaning": "bốn cái",
+            "jlpt_level": "N5",
+            "normal_form": "よっつ",
+            "kanji_form": "四つ"
+        },
+        {
+            "meaning": "năm cái",
+            "jlpt_level": "N5",
+            "normal_form": "いつつ",
+            "kanji_form": "五つ"
+        },
+        {
+            "meaning": "sáu cái",
+            "jlpt_level": "N5",
+            "normal_form": "むっつ",
+            "kanji_form": "六つ"
+        },
+        {
+            "meaning": "bảy cái",
+            "jlpt_level": "N5",
+            "normal_form": "ななつ",
+            "kanji_form": "七つ"
+        },
+        {
+            "meaning": "tám cái",
+            "jlpt_level": "N5",
+            "normal_form": "やっつ",
+            "kanji_form": "八つ"
+        },
+        {
+            "meaning": "chín cái",
+            "jlpt_level": "N5",
+            "normal_form": "ここのつ",
+            "kanji_form": "九つ"
+        },
+        {
+            "meaning": "mười cái",
+            "jlpt_level": "N5",
+            "normal_form": "とお",
+            "kanji_form": "十"
+        },
+        {
+            "meaning": "một người",
+            "jlpt_level": "N5",
+            "normal_form": "ひとり",
+            "kanji_form": "一人"
+        },
+        {
+            "meaning": "hai người",
+            "jlpt_level": "N5",
+            "normal_form": "ふたり",
+            "kanji_form": "二人"
+        },
+        {
+            "meaning": "người",
+            "jlpt_level": "N5",
+            "normal_form": "にん",
+            "kanji_form": "人"
+        },
+        {
+            "meaning": "cái",
+            "jlpt_level": "N5",
+            "normal_form": "だい",
+            "kanji_form": "台"
+        },
+        {
+            "meaning": "tờ, tấm",
+            "jlpt_level": "N5",
+            "normal_form": "まい",
+            "kanji_form": "枚"
+        },
+        {
+            "meaning": "lần",
+            "jlpt_level": "N5",
+            "normal_form": "かい",
+            "kanji_form": "回"
+        },
+        {
+            "meaning": "tiếng",
+            "jlpt_level": "N5",
+            "normal_form": "じかん",
+            "kanji_form": "時間"
+        },
+        {
+            "meaning": "tuần",
+            "jlpt_level": "N5",
+            "normal_form": "しゅうかん",
+            "kanji_form": "週間"
+        },
+        {
+            "meaning": "tháng",
+            "jlpt_level": "N5",
+            "normal_form": "かげつ",
+            "kanji_form": "ヶ月"
+        },
+        {
+            "meaning": "năm",
+            "jlpt_level": "N5",
+            "normal_form": "ねん",
+            "kanji_form": "年"
+        },
+        {
+            "meaning": "mấy cái, bao nhiêu cái",
+            "jlpt_level": "N5",
+            "normal_form": "いくつ",
+            "kanji_form": ""
+        },
+        {
+            "meaning": "bao lâu",
+            "jlpt_level": "N5",
+            "normal_form": "どのくらい",
+            "kanji_form": ""
+        },
+        {
+            "meaning": "khoảng",
+            "jlpt_level": "N5",
+            "normal_form": "ぐらい",
+            "kanji_form": ""
+        },
+        {
+            "meaning": "tổng cộng",
+            "jlpt_level": "N5",
+            "normal_form": "ぜんぶで",
+            "kanji_form": "全部で"
+        },
+        {
+            "meaning": "chỉ",
+            "jlpt_level": "N5",
+            "normal_form": "だけ",
+            "kanji_form": ""
+        },
+        {
+            "meaning": "có con",
+            "jlpt_level": "N5",
+            "normal_form": "こどもがいます",
+            "kanji_form": "子供が居ます"
+        },
+        {
+            "meaning": "có, ở Nhật",
+            "jlpt_level": "N5",
+            "normal_form": "にほんにいます",
+            "kanji_form": "日本に居ます"
+        },
+        {
+            "meaning": "mất, tốn",
+            "jlpt_level": "N5",
+            "normal_form": "かかります",
+            "kanji_form": ""
+        },
+        {
+            "meaning": "mất tiền",
+            "jlpt_level": "N5",
+            "normal_form": "おかねがかかります",
+            "kanji_form": "お金がかかります"
+        },
+        {
+            "meaning": "tốn thời gian",
+            "jlpt_level": "N5",
+            "normal_form": "じかんがかかります",
+            "kanji_form": "時間がかかります"
+        },
+        {
+            "meaning": "nướng",
+            "jlpt_level": "N5",
+            "normal_form": "やきます",
+            "kanji_form": "焼きます"
+        },
+        {
+            "meaning": "ở đằng xa",
+            "jlpt_level": "N5",
+            "normal_form": "とおくに",
+            "kanji_form": "遠くに"
+        },
+        {
+            "meaning": "cần thiết",
+            "jlpt_level": "N5",
+            "normal_form": "ひつよう",
+            "kanji_form": "必要"
+        },
+        {
+            "meaning": "bố mẹ",
+            "jlpt_level": "N5",
+            "normal_form": "りょうしん",
+            "kanji_form": "両親"
         }
     ]
 }
