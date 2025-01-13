@@ -2195,6 +2195,270 @@
             "jlpt_level": "N5",
             "normal_form": "こいびと",
             "kanji_form": "恋人"
+        },
+        {
+            "meaning": "thích",
+            "jlpt_level": "N5",
+            "normal_form": "すき",
+            "kanji_form": "好き"
+        },
+        {
+            "meaning": "ghét, không thích",
+            "jlpt_level": "N5",
+            "normal_form": "きらい",
+            "kanji_form": "嫌い"
+        },
+        {
+            "meaning": "giỏi, khéo",
+            "jlpt_level": "N5",
+            "normal_form": "じょうず",
+            "kanji_form": "上手"
+        },
+        {
+            "meaning": "kém",
+            "jlpt_level": "N5",
+            "normal_form": "へた",
+            "kanji_form": "下手"
+        },
+        {
+            "meaning": "đau",
+            "jlpt_level": "N5",
+            "normal_form": "いたい",
+            "kanji_form": "痛い"
+        },
+        {
+            "meaning": "ông",
+            "jlpt_level": "N5",
+            "normal_form": "おじいさん",
+            "kanji_form": "お祖父さん"
+        },
+        {
+            "meaning": "ông",
+            "jlpt_level": "N5",
+            "normal_form": "おじいちゃん",
+            "kanji_form": "お祖父ちゃん"
+        },
+        {
+            "meaning": "bà",
+            "jlpt_level": "N5",
+            "normal_form": "おばあさん",
+            "kanji_form": "お祖母さん"
+        },
+        {
+            "meaning": "bà",
+            "jlpt_level": "N5",
+            "normal_form": "おばあちゃん",
+            "kanji_form": "お祖母ちゃん"
+        },
+        {
+            "meaning": "nha sĩ",
+            "jlpt_level": "N5",
+            "normal_form": "はいしゃ",
+            "kanji_form": "歯医者"
+        },
+        {
+            "meaning": "món ăn",
+            "jlpt_level": "N5",
+            "normal_form": "りょうり",
+            "kanji_form": "料理"
+        },
+        {
+            "meaning": "việc nấu ăn",
+            "jlpt_level": "N5",
+            "normal_form": "りょうりをします",
+            "kanji_form": "料理をします"
+        },
+        {
+            "meaning": "đồ uống",
+            "jlpt_level": "N5",
+            "normal_form": "のみもの",
+            "kanji_form": "飲み物"
+        },
+        {
+            "meaning": "thể thao",
+            "jlpt_level": "N5",
+            "normal_form": "スポーツ",
+            "kanji_form": ""
+        },
+        {
+            "meaning": "bóng chày",
+            "jlpt_level": "N5",
+            "normal_form": "やきゅう",
+            "kanji_form": "野球"
+        },
+        {
+            "meaning": "nhảy, khiêu vũ",
+            "jlpt_level": "N5",
+            "normal_form": "ダンス",
+            "kanji_form": ""
+        },
+        {
+            "meaning": "karaoke",
+            "jlpt_level": "N5",
+            "normal_form": "カラオケ",
+            "kanji_form": ""
+        },
+        {
+            "meaning": "bài hát",
+            "jlpt_level": "N5",
+            "normal_form": "うた",
+            "kanji_form": "歌"
+        },
+        {
+            "meaning": "kịch kabuki",
+            "jlpt_level": "N5",
+            "normal_form": "かぶき",
+            "kanji_form": "歌舞伎"
+        },
+        {
+            "meaning": "tranh, hội hoạ",
+            "jlpt_level": "N5",
+            "normal_form": "え",
+            "kanji_form": "絵"
+        },
+        {
+            "meaning": "chữ",
+            "jlpt_level": "N5",
+            "normal_form": "じ",
+            "kanji_form": "字"
+        },
+        {
+            "meaning": "chữ Hán",
+            "jlpt_level": "N5",
+            "normal_form": "かんじ",
+            "kanji_form": "漢字"
+        },
+        {
+            "meaning": "cảm, cúm",
+            "jlpt_level": "N5",
+            "normal_form": "かぜ",
+            "kanji_form": "風邪"
+        },
+        {
+            "meaning": "bị cảm",
+            "jlpt_level": "N5",
+            "normal_form": "かぜをひきます",
+            "kanji_form": "風邪をひきます"
+        },
+        {
+            "meaning": "sốt",
+            "jlpt_level": "N5",
+            "normal_form": "ねつ",
+            "kanji_form": "熱"
+        },
+        {
+            "meaning": "bị sốt",
+            "jlpt_level": "N5",
+            "normal_form": "ねつがあります",
+            "kanji_form": "熱があります"
+        },
+        {
+            "meaning": "thời gian",
+            "jlpt_level": "N5",
+            "normal_form": "じかん",
+            "kanji_form": "時間"
+        },
+        {
+            "meaning": "việc bận, công chuyện",
+            "jlpt_level": "N5",
+            "normal_form": "ようじ",
+            "kanji_form": "用事"
+        },
+        {
+            "meaning": "cuộc hẹn, lời hứa",
+            "jlpt_level": "N5",
+            "normal_form": "やくそく",
+            "kanji_form": "約束"
+        },
+        {
+            "meaning": "răng",
+            "jlpt_level": "N5",
+            "normal_form": "は",
+            "kanji_form": "歯"
+        },
+        {
+            "meaning": "tại sao",
+            "jlpt_level": "N5",
+            "normal_form": "どうして",
+            "kanji_form": ""
+        },
+        {
+            "meaning": "hiểu, nắm được",
+            "jlpt_level": "N5",
+            "normal_form": "わかります",
+            "kanji_form": "分かります"
+        },
+        {
+            "meaning": "có (sở hữu)",
+            "jlpt_level": "N5",
+            "normal_form": "あります",
+            "kanji_form": "有ります"
+        },
+        {
+            "meaning": "tốt, rõ (chỉ mức độ), thường",
+            "jlpt_level": "N5",
+            "normal_form": "よく",
+            "kanji_form": ""
+        },
+        {
+            "meaning": "đại khái, đại thể",
+            "jlpt_level": "N5",
+            "normal_form": "だいたい",
+            "kanji_form": ""
+        },
+        {
+            "meaning": "nhiều",
+            "jlpt_level": "N5",
+            "normal_form": "たくさん",
+            "kanji_form": ""
+        },
+        {
+            "meaning": "ít, một ít",
+            "jlpt_level": "N5",
+            "normal_form": "すこし",
+            "kanji_form": "少し"
+        },
+        {
+            "meaning": "hoàn toàn không",
+            "jlpt_level": "N5",
+            "normal_form": "ぜんぜん",
+            "kanji_form": "全然"
+        },
+        {
+            "meaning": "sớm, nhanh",
+            "jlpt_level": "N5",
+            "normal_form": "はやく",
+            "kanji_form": "早く"
+        },
+        {
+            "meaning": "vì",
+            "jlpt_level": "N5",
+            "normal_form": "から",
+            "kanji_form": ""
+        },
+        {
+            "meaning": "ngoài ra, bên cạnh đó",
+            "jlpt_level": "N5",
+            "normal_form": "ほかに",
+            "kanji_form": "他に"
+        },
+        {
+            "meaning": "buổi hoà nhạc",
+            "jlpt_level": "N5",
+            "normal_form": "コンサート",
+            "kanji_form": ""
+        },
+        {
+            "meaning": "vé",
+            "jlpt_level": "N5",
+            "normal_form": "チケット",
+            "kanji_form": ""
+        },
+        {
+            "meaning": "đáng tiếc",
+            "jlpt_level": "N5",
+            "normal_form": "ざんねん",
+            "kanji_form": "残念"
         }
     ]
 }
