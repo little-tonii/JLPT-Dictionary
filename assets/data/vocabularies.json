@@ -2459,6 +2459,192 @@
             "jlpt_level": "N5",
             "normal_form": "ざんねん",
             "kanji_form": "残念"
+        },
+        {
+            "meaning": "nhiều, đa dạng",
+            "jlpt_level": "N5",
+            "normal_form": "いろいろ",
+            "kanji_form": "色々"
+        },
+        {
+            "meaning": "người đàn ông",
+            "jlpt_level": "N5",
+            "normal_form": "おとこのひと",
+            "kanji_form": "男の人"
+        },
+        {
+            "meaning": "người phụ nữ",
+            "jlpt_level": "N5",
+            "normal_form": "おんなのひと",
+            "kanji_form": "女の人"
+        },
+        {
+            "meaning": "cậu bé",
+            "jlpt_level": "N5",
+            "normal_form": "おとこのこ",
+            "kanji_form": "男の子"
+        },
+        {
+            "meaning": "cô bé",
+            "jlpt_level": "N5",
+            "normal_form": "おんなのこ",
+            "kanji_form": "女の子"
+        },
+        {
+            "meaning": "chó",
+            "jlpt_level": "N5",
+            "normal_form": "いぬ",
+            "kanji_form": "犬"
+        },
+        {
+            "meaning": "mèo",
+            "jlpt_level": "N5",
+            "normal_form": "ねこ",
+            "kanji_form": "猫"
+        },
+        {
+            "meaning": "cây, gỗ",
+            "jlpt_level": "N5",
+            "normal_form": "き",
+            "kanji_form": "木"
+        },
+        {
+            "meaning": "vật, đồ vật",
+            "jlpt_level": "N5",
+            "normal_form": "もの",
+            "kanji_form": "物"
+        },
+        {
+            "meaning": "hộp",
+            "jlpt_level": "N5",
+            "normal_form": "はこ",
+            "kanji_form": "箱"
+        },
+        {
+            "meaning": "tủ lạnh",
+            "jlpt_level": "N5",
+            "normal_form": "れいぞうこ",
+            "kanji_form": "冷蔵庫"
+        },
+        {
+            "meaning": "bàn",
+            "jlpt_level": "N5",
+            "normal_form": "テーブル",
+            "kanji_form": ""
+        },
+        {
+            "meaning": "giường",
+            "jlpt_level": "N5",
+            "normal_form": "ベッド",
+            "kanji_form": ""
+        },
+        {
+            "meaning": "công viên",
+            "jlpt_level": "N5",
+            "normal_form": "こうえん",
+            "kanji_form": "公園"
+        },
+        {
+            "meaning": "hiệu sách",
+            "jlpt_level": "N5",
+            "normal_form": "ほんや",
+            "kanji_form": "本屋"
+        },
+        {
+            "meaning": "cái ao",
+            "jlpt_level": "N5",
+            "normal_form": "いけ",
+            "kanji_form": "池"
+        },
+        {
+            "meaning": "hiệu, cửa hàng",
+            "jlpt_level": "N5",
+            "normal_form": "や",
+            "kanji_form": ""
+        },
+        {
+            "meaning": "tầng hầm",
+            "jlpt_level": "N5",
+            "normal_form": "ちか",
+            "kanji_form": "地下"
+        },
+        {
+            "meaning": "trên",
+            "jlpt_level": "N5",
+            "normal_form": "うえ",
+            "kanji_form": "上"
+        },
+        {
+            "meaning": "dưới",
+            "jlpt_level": "N5",
+            "normal_form": "した",
+            "kanji_form": "下"
+        },
+        {
+            "meaning": "trước",
+            "jlpt_level": "N5",
+            "normal_form": "まえ",
+            "kanji_form": "前"
+        },
+        {
+            "meaning": "sau",
+            "jlpt_level": "N5",
+            "normal_form": "うしろ",
+            "kanji_form": "後ろ"
+        },
+        {
+            "meaning": "phải",
+            "jlpt_level": "N5",
+            "normal_form": "みぎ",
+            "kanji_form": "右"
+        },
+        {
+            "meaning": "trái",
+            "jlpt_level": "N5",
+            "normal_form": "ひだり",
+            "kanji_form": "左"
+        },
+        {
+            "meaning": "trong, giữa",
+            "jlpt_level": "N5",
+            "normal_form": "なか",
+            "kanji_form": "中"
+        },
+        {
+            "meaning": "ngoài",
+            "jlpt_level": "N5",
+            "normal_form": "そと",
+            "kanji_form": "外"
+        },
+        {
+            "meaning": "bên cạnh",
+            "jlpt_level": "N5",
+            "normal_form": "となり",
+            "kanji_form": "隣"
+        },
+        {
+            "meaning": "gần",
+            "jlpt_level": "N5",
+            "normal_form": "ちかく",
+            "kanji_form": "近く"
+        },
+        {
+            "meaning": "giữa",
+            "jlpt_level": "N5",
+            "normal_form": "あいだ",
+            "kanji_form": "間"
+        },
+        {
+            "meaning": "có (tồn tại, dùng cho đồ vật)",
+            "jlpt_level": "N5",
+            "normal_form": "あります",
+            "kanji_form": "有ります"
+        },
+        {
+            "meaning": "có, ở (tồn tại, dùng cho người và động vật)",
+            "jlpt_level": "N5",
+            "normal_form": "います",
+            "kanji_form": "居ます"
         }
     ]
 }
