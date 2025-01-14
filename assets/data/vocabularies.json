@@ -3203,6 +3203,162 @@
             "jlpt_level": "N5",
             "normal_form": "いっしょうけんめい",
             "kanji_form": "一生懸命"
+        },
+        {
+            "meaning": "muốn có",
+            "jlpt_level": "N5",
+            "normal_form": "ほしい",
+            "kanji_form": "欲しい"
+        },
+        {
+            "meaning": "buồn, cô đơn",
+            "jlpt_level": "N5",
+            "normal_form": "さびしい",
+            "kanji_form": "寂しい"
+        },
+        {
+            "meaning": "buồn ngủ",
+            "jlpt_level": "N5",
+            "normal_form": "ねむい",
+            "kanji_form": "眠い"
+        },
+        {
+            "meaning": "hiệu trưởng",
+            "jlpt_level": "N5",
+            "normal_form": "こうちょう",
+            "kanji_form": "校長"
+        },
+        {
+            "meaning": "kinh tế",
+            "jlpt_level": "N5",
+            "normal_form": "けいざい",
+            "kanji_form": "経済"
+        },
+        {
+            "meaning": "mỹ thuật",
+            "jlpt_level": "N5",
+            "normal_form": "びじゅつ",
+            "kanji_form": "美術"
+        },
+        {
+            "meaning": "câu cá",
+            "jlpt_level": "N5",
+            "normal_form": "つり",
+            "kanji_form": ""
+        },
+        {
+            "meaning": "trượt tuyết",
+            "jlpt_level": "N5",
+            "normal_form": "スキー",
+            "kanji_form": ""
+        },
+        {
+            "meaning": "toà thị chính",
+            "jlpt_level": "N5",
+            "normal_form": "しやくしょ",
+            "kanji_form": "市役所"
+        },
+        {
+            "meaning": "bể bơi",
+            "jlpt_level": "N5",
+            "normal_form": "プール",
+            "kanji_form": ""
+        },
+        {
+            "meaning": "sông",
+            "jlpt_level": "N5",
+            "normal_form": "かわ",
+            "kanji_form": "川"
+        },
+        {
+            "meaning": "sashimi",
+            "jlpt_level": "N5",
+            "normal_form": "さしみ",
+            "kanji_form": "刺身"
+        },
+        {
+            "meaning": "cơm thịt bò",
+            "jlpt_level": "N5",
+            "normal_form": "ぎゅうどん",
+            "kanji_form": "牛丼"
+        },
+        {
+            "meaning": "sữa",
+            "jlpt_level": "N5",
+            "normal_form": "ぎゅうにゅう",
+            "kanji_form": "牛乳"
+        },
+        {
+            "meaning": "chơi",
+            "jlpt_level": "N5",
+            "normal_form": "あそびます",
+            "kanji_form": "遊びます"
+        },
+        {
+            "meaning": "bơi",
+            "jlpt_level": "N5",
+            "normal_form": "およぎます",
+            "kanji_form": "泳ぎます"
+        },
+        {
+            "meaning": "gửi",
+            "jlpt_level": "N5",
+            "normal_form": "だします",
+            "kanji_form": "出します"
+        },
+        {
+            "meaning": "vào",
+            "jlpt_level": "N5",
+            "normal_form": "はいります",
+            "kanji_form": "入ります"
+        },
+        {
+            "meaning": "ra, ra khỏi",
+            "jlpt_level": "N5",
+            "normal_form": "でます",
+            "kanji_form": "出ます"
+        },
+        {
+            "meaning": "đón",
+            "jlpt_level": "N5",
+            "normal_form": "むかえます",
+            "kanji_form": "迎えます"
+        },
+        {
+            "meaning": "kết hôn, lập gia đình",
+            "jlpt_level": "N5",
+            "normal_form": "けっこんします",
+            "kanji_form": "結婚します"
+        },
+        {
+            "meaning": "mua sắm",
+            "jlpt_level": "N5",
+            "normal_form": "かいものします",
+            "kanji_form": "買い物します"
+        },
+        {
+            "meaning": "đi dạo",
+            "jlpt_level": "N5",
+            "normal_form": "さんぽします",
+            "kanji_form": "散歩します"
+        },
+        {
+            "meaning": "cái gì đó",
+            "jlpt_level": "N5",
+            "normal_form": "なにか",
+            "kanji_form": ""
+        },
+        {
+            "meaning": "đâu đó, chỗ nào đó",
+            "jlpt_level": "N5",
+            "normal_form": "どこか",
+            "kanji_form": ""
+        },
+        {
+            "meaning": "lại",
+            "jlpt_level": "N5",
+            "normal_form": "また",
+            "kanji_form": ""
         }
     ]
 }
