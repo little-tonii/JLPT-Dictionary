@@ -4073,6 +4073,186 @@
             "jlpt_level": "N5",
             "normal_form": "じんじゃ",
             "kanji_form": "神社"
+        },
+        {
+            "meaning": "rộng",
+            "jlpt_level": "N5",
+            "normal_form": "ひろい",
+            "kanji_form": "広い"
+        },
+        {
+            "meaning": "hẹp, chật",
+            "jlpt_level": "N5",
+            "normal_form": "せまい",
+            "kanji_form": "狭い"
+        },
+        {
+            "meaning": "đau",
+            "jlpt_level": "N5",
+            "normal_form": "いたい",
+            "kanji_form": "痛い"
+        },
+        {
+            "meaning": "vấn đề",
+            "jlpt_level": "N5",
+            "normal_form": "もんだい",
+            "kanji_form": "問題"
+        },
+        {
+            "meaning": "câu trả lời",
+            "jlpt_level": "N5",
+            "normal_form": "こたえ",
+            "kanji_form": "答え"
+        },
+        {
+            "meaning": "hành lý",
+            "jlpt_level": "N5",
+            "normal_form": "にもつ",
+            "kanji_form": "荷物"
+        },
+        {
+            "meaning": "cấm hút thuốc",
+            "jlpt_level": "N5",
+            "normal_form": "きんえん",
+            "kanji_form": "禁煙"
+        },
+        {
+            "meaning": "chuẩn bị",
+            "jlpt_level": "N5",
+            "normal_form": "じゅんび",
+            "kanji_form": "準備"
+        },
+        {
+            "meaning": "làm thêm giờ",
+            "jlpt_level": "N5",
+            "normal_form": "ざんぎょう",
+            "kanji_form": "残業"
+        },
+        {
+            "meaning": "ốm, bệnh",
+            "jlpt_level": "N5",
+            "normal_form": "びょうき",
+            "kanji_form": "病気"
+        },
+        {
+            "meaning": "áo khoác",
+            "jlpt_level": "N5",
+            "normal_form": "うわぎ",
+            "kanji_form": "上着"
+        },
+        {
+            "meaning": "áo lót",
+            "jlpt_level": "N5",
+            "normal_form": "したぎ",
+            "kanji_form": "下着"
+        },
+        {
+            "meaning": "bắp cải",
+            "jlpt_level": "N5",
+            "normal_form": "キャベツ",
+            "kanji_form": ""
+        },
+        {
+            "meaning": "trả tiền",
+            "jlpt_level": "N5",
+            "normal_form": "はらいます",
+            "kanji_form": "払います"
+        },
+        {
+            "meaning": "mất, đánh mất",
+            "jlpt_level": "N5",
+            "normal_form": "なくします",
+            "kanji_form": "無くします"
+        },
+        {
+            "meaning": "nộp",
+            "jlpt_level": "N5",
+            "normal_form": "だします",
+            "kanji_form": "出します"
+        },
+        {
+            "meaning": "nộp báo cáo",
+            "jlpt_level": "N5",
+            "normal_form": "レポートをだします",
+            "kanji_form": "レポートを出します"
+        },
+        {
+            "meaning": "trả lại",
+            "jlpt_level": "N5",
+            "normal_form": "かえします",
+            "kanji_form": "返します"
+        },
+        {
+            "meaning": "cởi",
+            "jlpt_level": "N5",
+            "normal_form": "ぬぎます",
+            "kanji_form": "脱ぎます"
+        },
+        {
+            "meaning": "mang đi, mang theo",
+            "jlpt_level": "N5",
+            "normal_form": "もっていきます",
+            "kanji_form": "持って行きます"
+        },
+        {
+            "meaning": "mang đến",
+            "jlpt_level": "N5",
+            "normal_form": "もってきます",
+            "kanji_form": "持って来ます"
+        },
+        {
+            "meaning": "ra ngoài",
+            "jlpt_level": "N5",
+            "normal_form": "でかけます",
+            "kanji_form": "出かけます"
+        },
+        {
+            "meaning": "nhớ",
+            "jlpt_level": "N5",
+            "normal_form": "おぼえます",
+            "kanji_form": "覚えます"
+        },
+        {
+            "meaning": "quên",
+            "jlpt_level": "N5",
+            "normal_form": "わすれます",
+            "kanji_form": "忘れます"
+        },
+        {
+            "meaning": "lo lắng",
+            "jlpt_level": "N5",
+            "normal_form": "しんぱいします",
+            "kanji_form": "心配します"
+        },
+        {
+            "meaning": "đi công tác",
+            "jlpt_level": "N5",
+            "normal_form": "しゅっちょうします",
+            "kanji_form": "出張します"
+        },
+        {
+            "meaning": "chuyển nhà",
+            "jlpt_level": "N5",
+            "normal_form": "ひっこしします",
+            "kanji_form": "引っ越しします"
+        },
+        {
+            "meaning": "tự (mình)",
+            "jlpt_level": "N5",
+            "normal_form": "じぶんで",
+            "kanji_form": "自分で"
+        },
+        {
+            "meaning": "trước (chỉ thời hạn)",
+            "jlpt_level": "N5",
+            "normal_form": "までに",
+            "kanji_form": ""
+        },
+        {
+            "meaning": "vì thế, vì vậy, do đó",
+            "jlpt_level": "N5",
+            "normal_form": "ですから",
+            "kanji_form": ""
         }
     ]
 }
