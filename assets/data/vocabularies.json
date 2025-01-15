@@ -4397,6 +4397,120 @@
             "jlpt_level": "N5",
             "normal_form": "じゅぎょう",
             "kanji_form": "授業"
+        },
+        {
+            "meaning": "trà đạo",
+            "jlpt_level": "N5",
+            "normal_form": "さどう",
+            "kanji_form": "茶道"
+        },
+        {
+            "meaning": "nụ hôn, hôn",
+            "jlpt_level": "N5",
+            "normal_form": "キス",
+            "kanji_form": ""
+        },
+        {
+            "meaning": "bạn trai",
+            "jlpt_level": "N5",
+            "normal_form": "かれし",
+            "kanji_form": "彼氏"
+        },
+        {
+            "meaning": "hẹn hò",
+            "jlpt_level": "N5",
+            "normal_form": "デートをします",
+            "kanji_form": ""
+        },
+        {
+            "meaning": "sắp sửa",
+            "jlpt_level": "N5",
+            "normal_form": "そろそろ",
+            "kanji_form": ""
+        },
+        {
+            "meaning": "leo",
+            "jlpt_level": "N5",
+            "normal_form": "のぼります",
+            "kanji_form": "登ります"
+        },
+        {
+            "meaning": "leo núi",
+            "jlpt_level": "N5",
+            "normal_form": "やまにのぼります",
+            "kanji_form": "山に登ります"
+        },
+        {
+            "meaning": "trọ",
+            "jlpt_level": "N5",
+            "normal_form": "とまります",
+            "kanji_form": "泊まります"
+        },
+        {
+            "meaning": "trọ ở khách sạn",
+            "jlpt_level": "N5",
+            "normal_form": "ホテルにとまります",
+            "kanji_form": "ホテルに泊まります"
+        },
+        {
+            "meaning": "trở thành, trở nên",
+            "jlpt_level": "N5",
+            "normal_form": "なります",
+            "kanji_form": ""
+        },
+        {
+            "meaning": "dọn vệ sinh",
+            "jlpt_level": "N5",
+            "normal_form": "そうじします",
+            "kanji_form": "掃除します"
+        },
+        {
+            "meaning": "giặt",
+            "jlpt_level": "N5",
+            "normal_form": "せんたくします",
+            "kanji_form": "洗濯します"
+        },
+        {
+            "meaning": "luyện tập, thực hành",
+            "jlpt_level": "N5",
+            "normal_form": "れんしゅうします",
+            "kanji_form": "練習します"
+        },
+        {
+            "meaning": "tương lai",
+            "jlpt_level": "N5",
+            "normal_form": "しょうらい",
+            "kanji_form": "将来"
+        },
+        {
+            "meaning": "một lần",
+            "jlpt_level": "N5",
+            "normal_form": "いちど",
+            "kanji_form": "一度"
+        },
+        {
+            "meaning": "chưa lần nào",
+            "jlpt_level": "N5",
+            "normal_form": "いちども",
+            "kanji_form": "一度も"
+        },
+        {
+            "meaning": "dần dần",
+            "jlpt_level": "N5",
+            "normal_form": "だんだん",
+            "kanji_form": "段々"
+        },
+        {
+            "meaning": "sắp",
+            "jlpt_level": "N5",
+            "normal_form": "もうすぐ",
+            "kanji_form": ""
+        },
+        {
+            "meaning": "bẩn",
+            "jlpt_level": "N5",
+            "normal_form": "きたない",
+            "kanji_form": "汚い"
         }
     ]
 }
