@@ -4793,6 +4793,144 @@
             "jlpt_level": "N5",
             "normal_form": "オーストラリア",
             "kanji_form": ""
+        },
+        {
+            "meaning": "khó khăn, vất vả",
+            "jlpt_level": "N5",
+            "normal_form": "たいへん",
+            "kanji_form": "大変"
+        },
+        {
+            "meaning": "bão",
+            "jlpt_level": "N5",
+            "normal_form": "たいふう",
+            "kanji_form": "台風"
+        },
+        {
+            "meaning": "quà",
+            "jlpt_level": "N5",
+            "normal_form": "おみやげ",
+            "kanji_form": "お土産"
+        },
+        {
+            "meaning": "com-lê",
+            "jlpt_level": "N5",
+            "normal_form": "スーツ",
+            "kanji_form": ""
+        },
+        {
+            "meaning": "áo len",
+            "jlpt_level": "N5",
+            "normal_form": "セーター",
+            "kanji_form": ""
+        },
+        {
+            "meaning": "kính",
+            "jlpt_level": "N5",
+            "normal_form": "めがね",
+            "kanji_form": "眼鏡"
+        },
+        {
+            "meaning": "ngày",
+            "jlpt_level": "N5",
+            "normal_form": "ひ",
+            "kanji_form": "日"
+        },
+        {
+            "meaning": "tủ âm tường",
+            "jlpt_level": "N5",
+            "normal_form": "おしいれ",
+            "kanji_form": "押入れ"
+        },
+        {
+            "meaning": "bản đồ",
+            "jlpt_level": "N5",
+            "normal_form": "ちず",
+            "kanji_form": "地図"
+        },
+        {
+            "meaning": "đi, xỏ, mặc",
+            "jlpt_level": "N5",
+            "normal_form": "はきます",
+            "kanji_form": "履きます"
+        },
+        {
+            "meaning": "đi giày",
+            "jlpt_level": "N5",
+            "normal_form": "くつをはきます",
+            "kanji_form": "靴を履きます"
+        },
+        {
+            "meaning": "xỏ tất",
+            "jlpt_level": "N5",
+            "normal_form": "くつしたをはきます",
+            "kanji_form": "靴下を履きます"
+        },
+        {
+            "meaning": "mặc quần",
+            "jlpt_level": "N5",
+            "normal_form": "ズボンをはきます",
+            "kanji_form": "ズボンを履きます"
+        },
+        {
+            "meaning": "đội mũ",
+            "jlpt_level": "N5",
+            "normal_form": "ぼうしをかぶります",
+            "kanji_form": "帽子を被ります"
+        },
+        {
+            "meaning": "mặc áo sơ mi",
+            "jlpt_level": "N5",
+            "normal_form": "シャツをきます",
+            "kanji_form": "シャツを着ます"
+        },
+        {
+            "meaning": "đeo kính",
+            "jlpt_level": "N5",
+            "normal_form": "めがねをかけます",
+            "kanji_form": "眼鏡をかけます"
+        },
+        {
+            "meaning": "được sinh ra",
+            "jlpt_level": "N5",
+            "normal_form": "うまれます",
+            "kanji_form": "生まれます"
+        },
+        {
+            "meaning": "thường, hay",
+            "jlpt_level": "N5",
+            "normal_form": "よく",
+            "kanji_form": ""
+        },
+        {
+            "meaning": "chúc mừng (dùng để nói trong dịp sinh nhật, lễ cưới, năm mới v.v)",
+            "jlpt_level": "N5",
+            "normal_form": "おめでとうございます",
+            "kanji_form": ""
+        },
+        {
+            "meaning": "nổi giận",
+            "jlpt_level": "N5",
+            "normal_form": "おこります",
+            "kanji_form": "怒ります"
+        },
+        {
+            "meaning": "cơm hộp",
+            "jlpt_level": "N5",
+            "normal_form": "べんとう",
+            "kanji_form": "弁当"
+        },
+        {
+            "meaning": "cửa hàng tiện lợi",
+            "jlpt_level": "N5",
+            "normal_form": "コンビニ",
+            "kanji_form": ""
+        },
+        {
+            "meaning": "ôn bài",
+            "jlpt_level": "N5",
+            "normal_form": "ふくしゅうします",
+            "kanji_form": "復習します"
         }
     ]
 }
