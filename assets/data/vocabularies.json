@@ -3493,12 +3493,6 @@
             "kanji_form": "持ちます"
         },
         {
-            "meaning": "lấy",
-            "jlpt_level": "N5",
-            "normal_form": "とります",
-            "kanji_form": "取ります"
-        },
-        {
             "meaning": "mưa",
             "jlpt_level": "N5",
             "normal_form": "ふります",
@@ -4253,6 +4247,156 @@
             "jlpt_level": "N5",
             "normal_form": "ですから",
             "kanji_form": ""
+        },
+        {
+            "meaning": "tổ trưởng",
+            "jlpt_level": "N5",
+            "normal_form": "かちょう",
+            "kanji_form": "課長"
+        },
+        {
+            "meaning": "trưởng phòng",
+            "jlpt_level": "N5",
+            "normal_form": "ぶちょう",
+            "kanji_form": "部長"
+        },
+        {
+            "meaning": "giám đốc",
+            "jlpt_level": "N5",
+            "normal_form": "しゃちょう",
+            "kanji_form": "社長"
+        },
+        {
+            "meaning": "đàn piano",
+            "jlpt_level": "N5",
+            "normal_form": "ピアノ",
+            "kanji_form": ""
+        },
+        {
+            "meaning": "sở thích, thú vui",
+            "jlpt_level": "N5",
+            "normal_form": "しゅみ",
+            "kanji_form": "趣味"
+        },
+        {
+            "meaning": "con voi",
+            "jlpt_level": "N5",
+            "normal_form": "ぞう",
+            "kanji_form": "象"
+        },
+        {
+            "meaning": "con chim",
+            "jlpt_level": "N5",
+            "normal_form": "とり",
+            "kanji_form": "鳥"
+        },
+        {
+            "meaning": "thế à (dùng để biểu thị sự ngạc nhiên hoặc quan tâm)",
+            "jlpt_level": "N5",
+            "normal_form": "へえ",
+            "kanji_form": ""
+        },
+        {
+            "meaning": "đại sứ quán",
+            "jlpt_level": "N5",
+            "normal_form": "たいしかん",
+            "kanji_form": "大使館"
+        },
+        {
+            "meaning": "quốc tế",
+            "jlpt_level": "N5",
+            "normal_form": "こくさい",
+            "kanji_form": "国際"
+        },
+        {
+            "meaning": "rửa",
+            "jlpt_level": "N5",
+            "normal_form": "あらいます",
+            "kanji_form": "洗います"
+        },
+        {
+            "meaning": "hát",
+            "jlpt_level": "N5",
+            "normal_form": "うたいます",
+            "kanji_form": "歌います"
+        },
+        {
+            "meaning": "chơi nhạc cụ",
+            "jlpt_level": "N5",
+            "normal_form": "ひきます",
+            "kanji_form": "弾きます"
+        },
+        {
+            "meaning": "lấy, chuyển",
+            "jlpt_level": "N5",
+            "normal_form": "とります",
+            "kanji_form": "取ります"
+        },
+        {
+            "meaning": "có thể",
+            "jlpt_level": "N5",
+            "normal_form": "できます",
+            "kanji_form": ""
+        },
+        {
+            "meaning": "vứt, bỏ đi",
+            "jlpt_level": "N5",
+            "normal_form": "すてます",
+            "kanji_form": "捨てます"
+        },
+        {
+            "meaning": "tìm hiểu, điều tra, xem",
+            "jlpt_level": "N5",
+            "normal_form": "しらべます",
+            "kanji_form": "調べます"
+        },
+        {
+            "meaning": "thu thập, sưu tầm",
+            "jlpt_level": "N5",
+            "normal_form": "あつめます",
+            "kanji_form": "集めます"
+        },
+        {
+            "meaning": "lái",
+            "jlpt_level": "N5",
+            "normal_form": "うんてんします",
+            "kanji_form": "運転します"
+        },
+        {
+            "meaning": "đặt chỗ, đặt trước",
+            "jlpt_level": "N5",
+            "normal_form": "よやくします",
+            "kanji_form": "予約します"
+        },
+        {
+            "meaning": "tham quan với mục đích học tập",
+            "jlpt_level": "N5",
+            "normal_form": "けんがくします",
+            "kanji_form": "見学します"
+        },
+        {
+            "meaning": "hay thật nhỉ",
+            "jlpt_level": "N5",
+            "normal_form": "それはおもしろいですね",
+            "kanji_form": "それは面白いですね"
+        },
+        {
+            "meaning": "khó mà, không dễ, mãi mà (dùng với thể phủ định)",
+            "jlpt_level": "N5",
+            "normal_form": "なかなか",
+            "kanji_form": ""
+        },
+        {
+            "meaning": "nhất định, rất",
+            "jlpt_level": "N5",
+            "normal_form": "ぜひ",
+            "kanji_form": "是非"
+        },
+        {
+            "meaning": "giờ học",
+            "jlpt_level": "N5",
+            "normal_form": "じゅぎょう",
+            "kanji_form": "授業"
         }
     ]
 }
