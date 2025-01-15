@@ -4511,6 +4511,120 @@
             "jlpt_level": "N5",
             "normal_form": "きたない",
             "kanji_form": "汚い"
+        },
+        {
+            "meaning": "tôi, tớ (cách xưng thân mật của わたし được dùng bởi nam giới)",
+            "jlpt_level": "N5",
+            "normal_form": "ぼく",
+            "kanji_form": "僕"
+        },
+        {
+            "meaning": "cậu, bạn (cách xưng thân mật của あなた được dùng với người ngang hàng hoặc ít tuổi hơn)",
+            "jlpt_level": "N5",
+            "normal_form": "きみ",
+            "kanji_form": "君"
+        },
+        {
+            "meaning": "visa, thị thực",
+            "jlpt_level": "N5",
+            "normal_form": "ビザ",
+            "kanji_form": ""
+        },
+        {
+            "meaning": "phía nào, chỗ nào (cách nói thân mật của どちら)",
+            "jlpt_level": "N5",
+            "normal_form": "どっち",
+            "kanji_form": ""
+        },
+        {
+            "meaning": "cần",
+            "jlpt_level": "N5",
+            "normal_form": "いります",
+            "kanji_form": "要ります"
+        },
+        {
+            "meaning": "cần visa",
+            "jlpt_level": "N5",
+            "normal_form": "ビザがいります",
+            "kanji_form": "ビザが要ります"
+        },
+        {
+            "meaning": "sửa, chữa",
+            "jlpt_level": "N5",
+            "normal_form": "なおします",
+            "kanji_form": "直します"
+        },
+        {
+            "meaning": "sửa chữa, tu sửa (máy móc)",
+            "jlpt_level": "N5",
+            "normal_form": "しゅうりします",
+            "kanji_form": "修理します"
+        },
+        {
+            "meaning": "gọi điện thoại",
+            "jlpt_level": "N5",
+            "normal_form": "でんわします",
+            "kanji_form": "電話します"
+        },
+        {
+            "meaning": "nhưng (cách nói thân mật của が)",
+            "jlpt_level": "N5",
+            "normal_form": "けど",
+            "kanji_form": ""
+        },
+        {
+            "meaning": "ừ (cách nói thân mật của はい)",
+            "jlpt_level": "N5",
+            "normal_form": "うん",
+            "kanji_form": ""
+        },
+        {
+            "meaning": "không (cách nói thân mật của いいえ)",
+            "jlpt_level": "N5",
+            "normal_form": "ううん",
+            "kanji_form": ""
+        },
+        {
+            "meaning": "ban đầu, lúc đầu",
+            "jlpt_level": "N5",
+            "normal_form": "はじめ",
+            "kanji_form": "初め"
+        },
+        {
+            "meaning": "kết thúc",
+            "jlpt_level": "N5",
+            "normal_form": "おわり",
+            "kanji_form": "終わり"
+        },
+        {
+            "meaning": "gia vị",
+            "jlpt_level": "N5",
+            "normal_form": "ちょうみりょう",
+            "kanji_form": "調味料"
+        },
+        {
+            "meaning": "dấm",
+            "jlpt_level": "N5",
+            "normal_form": "おす",
+            "kanji_form": "お酢"
+        },
+        {
+            "meaning": "nước tương",
+            "jlpt_level": "N5",
+            "normal_form": "しょうゆ",
+            "kanji_form": "醤油"
+        },
+        {
+            "meaning": "miso",
+            "jlpt_level": "N5",
+            "normal_form": "みそ",
+            "kanji_form": "味噌"
+        },
+        {
+            "meaning": "hạt tiêu",
+            "jlpt_level": "N5",
+            "normal_form": "こしょう",
+            "kanji_form": "胡椒"
         }
     ]
 }
