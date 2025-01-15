@@ -3815,6 +3815,264 @@
             "jlpt_level": "N5",
             "normal_form": "すんでいます",
             "kanji_form": "住んでいます"
+        },
+        {
+            "meaning": "mạnh",
+            "jlpt_level": "N5",
+            "normal_form": "つよい",
+            "kanji_form": "強い"
+        },
+        {
+            "meaning": "yếu",
+            "jlpt_level": "N5",
+            "normal_form": "よわい",
+            "kanji_form": "弱い"
+        },
+        {
+            "meaning": "trẻ",
+            "jlpt_level": "N5",
+            "normal_form": "わかい",
+            "kanji_form": "若い"
+        },
+        {
+            "meaning": "thông minh",
+            "jlpt_level": "N5",
+            "normal_form": "あたまがいい",
+            "kanji_form": "頭がいい"
+        },
+        {
+            "meaning": "tóc",
+            "jlpt_level": "N5",
+            "normal_form": "かみ",
+            "kanji_form": "髪"
+        },
+        {
+            "meaning": "mặt",
+            "jlpt_level": "N5",
+            "normal_form": "かお",
+            "kanji_form": "顔"
+        },
+        {
+            "meaning": "miệng",
+            "jlpt_level": "N5",
+            "normal_form": "くち",
+            "kanji_form": "口"
+        },
+        {
+            "meaning": "tai",
+            "jlpt_level": "N5",
+            "normal_form": "みみ",
+            "kanji_form": "耳"
+        },
+        {
+            "meaning": "mắt",
+            "jlpt_level": "N5",
+            "normal_form": "め",
+            "kanji_form": "目"
+        },
+        {
+            "meaning": "chân",
+            "jlpt_level": "N5",
+            "normal_form": "あし",
+            "kanji_form": "足"
+        },
+        {
+            "meaning": "hồ",
+            "jlpt_level": "N5",
+            "normal_form": "みずうみ",
+            "kanji_form": "湖"
+        },
+        {
+            "meaning": "nút, cúc, khuy",
+            "jlpt_level": "N5",
+            "normal_form": "ボタン",
+            "kanji_form": ""
+        },
+        {
+            "meaning": "việc chạy bộ",
+            "jlpt_level": "N5",
+            "normal_form": "ジョギング",
+            "kanji_form": ""
+        },
+        {
+            "meaning": "vòi hoa sen",
+            "jlpt_level": "N5",
+            "normal_form": "シャワー",
+            "kanji_form": ""
+        },
+        {
+            "meaning": "bồn tắm",
+            "jlpt_level": "N5",
+            "normal_form": "おふろ",
+            "kanji_form": "お風呂"
+        },
+        {
+            "meaning": "sự xác nhận, sự kiểm tra",
+            "jlpt_level": "N5",
+            "normal_form": "かくにん",
+            "kanji_form": "確認"
+        },
+        {
+            "meaning": "xác nhận, kiểm tra",
+            "jlpt_level": "N5",
+            "normal_form": "かくにんします",
+            "kanji_form": "確認します"
+        },
+        {
+            "meaning": "làm thế nào",
+            "jlpt_level": "N5",
+            "normal_form": "どうやって",
+            "kanji_form": ""
+        },
+        {
+            "meaning": "cái nào (dùng với trường hợp từ ba thứ trở lên)",
+            "jlpt_level": "N5",
+            "normal_form": "どの",
+            "kanji_form": ""
+        },
+        {
+            "meaning": "lấy ra, rút",
+            "jlpt_level": "N5",
+            "normal_form": "だします",
+            "kanji_form": "出します"
+        },
+        {
+            "meaning": "rút tiền",
+            "jlpt_level": "N5",
+            "normal_form": "おかねをだします",
+            "kanji_form": "お金を出します"
+        },
+        {
+            "meaning": "bấm, ấn",
+            "jlpt_level": "N5",
+            "normal_form": "おします",
+            "kanji_form": "押します"
+        },
+        {
+            "meaning": "ấn nút, bấm nút",
+            "jlpt_level": "N5",
+            "normal_form": "ボタンをおします",
+            "kanji_form": "ボタンを押します"
+        },
+        {
+            "meaning": "đi, lên (phương tiện)",
+            "jlpt_level": "N5",
+            "normal_form": "のります",
+            "kanji_form": "乗ります"
+        },
+        {
+            "meaning": "lên tàu",
+            "jlpt_level": "N5",
+            "normal_form": "でんしゃにのります",
+            "kanji_form": "電車に乗ります"
+        },
+        {
+            "meaning": "vào, nhập học",
+            "jlpt_level": "N5",
+            "normal_form": "はいります",
+            "kanji_form": "入ります"
+        },
+        {
+            "meaning": "nhập học đại học",
+            "jlpt_level": "N5",
+            "normal_form": "だいがくにはいります",
+            "kanji_form": "大学に入ります"
+        },
+        {
+            "meaning": "ra, tốt nghiệp",
+            "jlpt_level": "N5",
+            "normal_form": "でます",
+            "kanji_form": "出ます"
+        },
+        {
+            "meaning": "tốt nghiệp đại học",
+            "jlpt_level": "N5",
+            "normal_form": "だいがくをでます",
+            "kanji_form": "大学を出ます"
+        },
+        {
+            "meaning": "chuyển, đổi",
+            "jlpt_level": "N5",
+            "normal_form": "のりかえます",
+            "kanji_form": "乗り換えます"
+        },
+        {
+            "meaning": "chuyển tàu",
+            "jlpt_level": "N5",
+            "normal_form": "でんしゃをのりかえます",
+            "kanji_form": "電車を乗り換えます"
+        },
+        {
+            "meaning": "tắm",
+            "jlpt_level": "N5",
+            "normal_form": "あびます",
+            "kanji_form": "浴びます"
+        },
+        {
+            "meaning": "tắm vòi hoa sen",
+            "jlpt_level": "N5",
+            "normal_form": "シャワーをあびます",
+            "kanji_form": "シャワーを浴びます"
+        },
+        {
+            "meaning": "cho vào, bỏ vào",
+            "jlpt_level": "N5",
+            "normal_form": "いれます",
+            "kanji_form": "入れます"
+        },
+        {
+            "meaning": "xuống (phương tiện)",
+            "jlpt_level": "N5",
+            "normal_form": "おります",
+            "kanji_form": "降ります"
+        },
+        {
+            "meaning": "xuống tàu",
+            "jlpt_level": "N5",
+            "normal_form": "でんしゃをおります",
+            "kanji_form": "電車を降ります"
+        },
+        {
+            "meaning": "trước hết, đầu tiên",
+            "jlpt_level": "N5",
+            "normal_form": "まず",
+            "kanji_form": ""
+        },
+        {
+            "meaning": "ban đầu",
+            "jlpt_level": "N5",
+            "normal_form": "はじめに",
+            "kanji_form": "初めに"
+        },
+        {
+            "meaning": "tiếp theo",
+            "jlpt_level": "N5",
+            "normal_form": "つぎに",
+            "kanji_form": "次に"
+        },
+        {
+            "meaning": "đánh, mài",
+            "jlpt_level": "N5",
+            "normal_form": "みがきます",
+            "kanji_form": "磨きます"
+        },
+        {
+            "meaning": "chọn lựa",
+            "jlpt_level": "N5",
+            "normal_form": "えらびます",
+            "kanji_form": "選びます"
+        },
+        {
+            "meaning": "chùa",
+            "jlpt_level": "N5",
+            "normal_form": "おてら",
+            "kanji_form": "お寺"
+        },
+        {
+            "meaning": "đền thờ thần đạo",
+            "jlpt_level": "N5",
+            "normal_form": "じんじゃ",
+            "kanji_form": "神社"
         }
     ]
 }
