@@ -5203,10 +5203,82 @@
             "kanji_form": "故郷"
         },
         {
-            "meaning": "tình trạng",
+            "meaning": "tình trạng (sức khoẻ, máy móc)",
             "jlpt_level": "N5",
             "normal_form": "ちょうし",
             "kanji_form": "調子"
+        },
+        {
+            "meaning": "cơ thể",
+            "jlpt_level": "N5",
+            "normal_form": "からだ",
+            "kanji_form": "体"
+        },
+        {
+            "meaning": "nhóm, đoàn",
+            "jlpt_level": "N5",
+            "normal_form": "グループ",
+            "kanji_form": ""
+        },
+        {
+            "meaning": "cơ hội",
+            "jlpt_level": "N5",
+            "normal_form": "チャンス",
+            "kanji_form": ""
+        },
+        {
+            "meaning": "hàng Nhật (có xuất xứ từ Nhật)",
+            "jlpt_level": "N5",
+            "normal_form": "にほんせい",
+            "kanji_form": "日本製"
+        },
+        {
+            "meaning": "đến",
+            "jlpt_level": "N5",
+            "normal_form": "つきます",
+            "kanji_form": "着きます"
+        },
+        {
+            "meaning": "đến ga",
+            "jlpt_level": "N5",
+            "normal_form": "えきにつきます",
+            "kanji_form": "駅に着きます"
+        },
+        {
+            "meaning": "nghĩ, suy nghĩ",
+            "jlpt_level": "N5",
+            "normal_form": "かんがえます",
+            "kanji_form": "考えます"
+        },
+        {
+            "meaning": "du học",
+            "jlpt_level": "N5",
+            "normal_form": "りゅうがくします",
+            "kanji_form": "留学します"
+        },
+        {
+            "meaning": "tốt cho sức khoẻ",
+            "jlpt_level": "N5",
+            "normal_form": "からだにいい",
+            "kanji_form": "体にいい"
+        },
+        {
+            "meaning": "lương",
+            "jlpt_level": "N5",
+            "normal_form": "きゅうりょう",
+            "kanji_form": "給料"
+        },
+        {
+            "meaning": "tỉnh giấc",
+            "jlpt_level": "N5",
+            "normal_form": "めがざめます",
+            "kanji_form": "目が覚めます"
+        },
+        {
+            "meaning": "từ vựng",
+            "jlpt_level": "N5",
+            "normal_form": "ことば",
+            "kanji_form": "言葉"
         }
     ]
 }
