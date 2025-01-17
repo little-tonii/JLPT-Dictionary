@@ -8,30 +8,30 @@
         style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></path>
     <path fill="none" stroke="#bcc9e2" d="M0,62.5L125,62.5" stroke-width="0.5" stroke-dasharray="4,1.5"
         style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></path>
-    <path fill="none" stroke="#524cbf"
+    <path fill="none" stroke="#000000"
         d="M14.38,24.73C16.68,25.27,20.9,25.51,23.19,25.27C44.760000000000005,23,67.63,19.63,88.09,19.29C91.92,19.23,94.21000000000001,19.55,96.13,19.82"
         stroke-width="3" stroke-linecap="round" stroke-linejoin="round"
         style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); stroke-linecap: round; stroke-linejoin: round; transition: stroke 400ms; stroke-dasharray: 82.1222, 82.1222; stroke-dashoffset: 0;">
     </path><text x="7.50" y="26.50" text-anchor="middle" font-family="&quot;Arial&quot;" font-size="8px" stroke="none"
-        fill="#524cbf"
+        fill="rgba(0,0,0,0.4)"
         style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); text-anchor: middle; font-family: Arial; font-size: 8px;">
         <tspan dy="2.7999987602233887" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">1</tspan>
     </text>
-    <path fill="none" stroke="#b94cbf"
+    <path fill="none" stroke="#000000"
         d="M51,41.5C52.45,42.2,54.19,42.93,56.19,43.24C63.5,44.38,73.24,45.18,78.83,44.74C83.47,44.370000000000005,85.21,45.82,84,49.47C77.88,68,72.75,78.75,63.87,90.4C56.269999999999996,100.37,53.75,93.62,51.25,90.60000000000001"
         stroke-width="3" stroke-linecap="round" stroke-linejoin="round"
         style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); stroke-linecap: round; stroke-linejoin: round; transition: stroke 400ms; stroke-dasharray: 100.037, 100.037; stroke-dashoffset: 0;">
     </path><text x="57.50" y="41.50" text-anchor="middle" font-family="&quot;Arial&quot;" font-size="8px" stroke="none"
-        fill="#b94cbf"
+        fill="rgba(0,0,0,0.4)"
         style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); text-anchor: middle; font-family: Arial; font-size: 8px;">
         <tspan dy="2.8000006675720215" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">2</tspan>
     </text>
-    <path fill="none" stroke="#bf4c5d"
+    <path fill="none" stroke="#000000"
         d="M51.75,25.5C52.25,27.5,51.97,29.28,51.54,31.39C48.95,43.8,34.75,73.38,13.56,87.97" stroke-width="3"
         stroke-linecap="round" stroke-linejoin="round"
         style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); stroke-linecap: round; stroke-linejoin: round; transition: stroke 400ms; stroke-dasharray: 75.3378, 75.3378; stroke-dashoffset: 0;">
     </path><text x="43.50" y="33.50" text-anchor="middle" font-family="&quot;Arial&quot;" font-size="8px" stroke="none"
-        fill="#bf4c5d"
+        fill="rgba(0,0,0,0.4)"
         style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); text-anchor: middle; font-family: Arial; font-size: 8px;">
         <tspan dy="2.7999987602233887" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">3</tspan>
     </text>
