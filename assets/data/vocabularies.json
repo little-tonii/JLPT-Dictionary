@@ -4931,6 +4931,354 @@
             "jlpt_level": "N5",
             "normal_form": "ふくしゅうします",
             "kanji_form": "復習します"
+        },
+        {
+            "meaning": "dài",
+            "jlpt_level": "N5",
+            "normal_form": "ながい",
+            "kanji_form": "長い"
+        },
+        {
+            "meaning": "ngắn",
+            "jlpt_level": "N5",
+            "normal_form": "みじかい",
+            "kanji_form": "短い"
+        },
+        {
+            "meaning": "âm thanh",
+            "jlpt_level": "N5",
+            "normal_form": "おと",
+            "kanji_form": "音"
+        },
+        {
+            "meaning": "ngã tư",
+            "jlpt_level": "N5",
+            "normal_form": "こうさてん",
+            "kanji_form": "交差点"
+        },
+        {
+            "meaning": "đèn tín hiệu",
+            "jlpt_level": "N5",
+            "normal_form": "しんごう",
+            "kanji_form": "信号"
+        },
+        {
+            "meaning": "cầu",
+            "jlpt_level": "N5",
+            "normal_form": "はし",
+            "kanji_form": "橋"
+        },
+        {
+            "meaning": "bãi đỗ xe",
+            "jlpt_level": "N5",
+            "normal_form": "ちゅうしゃじょう",
+            "kanji_form": "駐車場"
+        },
+        {
+            "meaning": "thẻ bảo hiểm",
+            "jlpt_level": "N5",
+            "normal_form": "ほけんしょう",
+            "kanji_form": "保険証"
+        },
+        {
+            "meaning": "tiền lẻ",
+            "jlpt_level": "N5",
+            "normal_form": "こまかいおかね",
+            "kanji_form": "細かいお金"
+        },
+        {
+            "meaning": "pin",
+            "jlpt_level": "N5",
+            "normal_form": "でんち",
+            "kanji_form": "電池"
+        },
+        {
+            "meaning": "kích cỡ",
+            "jlpt_level": "N5",
+            "normal_form": "サイズ",
+            "kanji_form": ""
+        },
+        {
+            "meaning": "góc",
+            "jlpt_level": "N5",
+            "normal_form": "かど",
+            "kanji_form": "角"
+        },
+        {
+            "meaning": "hỏi",
+            "jlpt_level": "N5",
+            "normal_form": "ききます",
+            "kanji_form": "聞きます"
+        },
+        {
+            "meaning": "hỏi giáo viên",
+            "jlpt_level": "N5",
+            "normal_form": "せんせいにききます",
+            "kanji_form": "先生に聞きます"
+        },
+        {
+            "meaning": "kéo",
+            "jlpt_level": "N5",
+            "normal_form": "ひきます",
+            "kanji_form": "引きます"
+        },
+        {
+            "meaning": "chuyển động",
+            "jlpt_level": "N5",
+            "normal_form": "うごきます",
+            "kanji_form": "動きます"
+        },
+        {
+            "meaning": "đi bộ",
+            "jlpt_level": "N5",
+            "normal_form": "あるきます",
+            "kanji_form": "歩きます"
+        },
+        {
+            "meaning": "sờ, chạm vào",
+            "jlpt_level": "N5",
+            "normal_form": "さわります",
+            "kanji_form": "触ります"
+        },
+        {
+            "meaning": "đi qua, băng qua",
+            "jlpt_level": "N5",
+            "normal_form": "わたります",
+            "kanji_form": "渡ります"
+        },
+        {
+            "meaning": "đổi",
+            "jlpt_level": "N5",
+            "normal_form": "かえます",
+            "kanji_form": "変えます"
+        },
+        {
+            "meaning": "mệt mỏi",
+            "jlpt_level": "N5",
+            "normal_form": "つかれます",
+            "kanji_form": "疲れます"
+        },
+        {
+            "meaning": "chú ý",
+            "jlpt_level": "N5",
+            "normal_form": "ちゅういします",
+            "kanji_form": "注意します"
+        },
+        {
+            "meaning": "thẳng",
+            "jlpt_level": "N5",
+            "normal_form": "まっすぐ",
+            "kanji_form": ""
+        },
+        {
+            "meaning": "hộp tiết kiệm",
+            "jlpt_level": "N5",
+            "normal_form": "ちょきんばこ",
+            "kanji_form": "貯金箱"
+        },
+        {
+            "meaning": "trang điểm",
+            "jlpt_level": "N5",
+            "normal_form": "けしょうします",
+            "kanji_form": "化粧します"
+        },
+        {
+            "meaning": "truyện tranh",
+            "jlpt_level": "N5",
+            "normal_form": "まんが",
+            "kanji_form": "漫画"
+        },
+        {
+            "meaning": "mệt",
+            "jlpt_level": "N5",
+            "normal_form": "つかれます",
+            "kanji_form": "疲れます"
+        },
+        {
+            "meaning": "quạt",
+            "jlpt_level": "N5",
+            "normal_form": "せんぷうき",
+            "kanji_form": "扇風機"
+        },
+        {
+            "meaning": "thái tử Shotoku",
+            "jlpt_level": "N5",
+            "normal_form": "しょうとくたいし",
+            "kanji_form": "聖徳太子"
+        },
+        {
+            "meaning": "chùa Horyu",
+            "jlpt_level": "N5",
+            "normal_form": "ほうりゅうじ",
+            "kanji_form": "法隆寺"
+        },
+        {
+            "meaning": "quần áo, đồ Âu",
+            "jlpt_level": "N5",
+            "normal_form": "ようふく",
+            "kanji_form": "洋服"
+        },
+        {
+            "meaning": "lâu đài Osaka",
+            "jlpt_level": "N5",
+            "normal_form": "おおさかじょう",
+            "kanji_form": "大阪城"
+        },
+        {
+            "meaning": "dẫn đi",
+            "jlpt_level": "N5",
+            "normal_form": "つれていきます",
+            "kanji_form": "連れて行きます"
+        },
+        {
+            "meaning": "dẫn đến",
+            "jlpt_level": "N5",
+            "normal_form": "つれてきます",
+            "kanji_form": "連れて来ます"
+        },
+        {
+            "meaning": "pha",
+            "jlpt_level": "N5",
+            "normal_form": "いれます",
+            "kanji_form": "入れます"
+        },
+        {
+            "meaning": "pha cà phê",
+            "jlpt_level": "N5",
+            "normal_form": "コーヒーをいれます",
+            "kanji_form": "コーヒーを入れます"
+        },
+        {
+            "meaning": "cho (tôi)",
+            "jlpt_level": "N5",
+            "normal_form": "くれます",
+            "kanji_form": ""
+        },
+        {
+            "meaning": "giới thiệu",
+            "jlpt_level": "N5",
+            "normal_form": "しょうかいします",
+            "kanji_form": "紹介します"
+        },
+        {
+            "meaning": "hướng dẫn, giới thiệu, dẫn đường",
+            "jlpt_level": "N5",
+            "normal_form": "あんないします",
+            "kanji_form": "案内します"
+        },
+        {
+            "meaning": "giải thích, trình bày",
+            "jlpt_level": "N5",
+            "normal_form": "せつめいします",
+            "kanji_form": "説明します"
+        },
+        {
+            "meaning": "toàn bộ, tất cả",
+            "jlpt_level": "N5",
+            "normal_form": "ぜんぶ",
+            "kanji_form": "全部"
+        },
+        {
+            "meaning": "kể chuyện",
+            "jlpt_level": "N5",
+            "normal_form": "おはなしをします",
+            "kanji_form": "お話をします"
+        },
+        {
+            "meaning": "nhẫn",
+            "jlpt_level": "N5",
+            "normal_form": "ゆびわ",
+            "kanji_form": "指輪"
+        },
+        {
+            "meaning": "công trường",
+            "jlpt_level": "N5",
+            "normal_form": "こうじょう",
+            "kanji_form": "工場"
+        },
+        {
+            "meaning": "quê",
+            "jlpt_level": "N5",
+            "normal_form": "ふるさと",
+            "kanji_form": "故郷"
+        },
+        {
+            "meaning": "tình trạng (sức khoẻ, máy móc)",
+            "jlpt_level": "N5",
+            "normal_form": "ちょうし",
+            "kanji_form": "調子"
+        },
+        {
+            "meaning": "cơ thể",
+            "jlpt_level": "N5",
+            "normal_form": "からだ",
+            "kanji_form": "体"
+        },
+        {
+            "meaning": "nhóm, đoàn",
+            "jlpt_level": "N5",
+            "normal_form": "グループ",
+            "kanji_form": ""
+        },
+        {
+            "meaning": "cơ hội",
+            "jlpt_level": "N5",
+            "normal_form": "チャンス",
+            "kanji_form": ""
+        },
+        {
+            "meaning": "hàng Nhật (có xuất xứ từ Nhật)",
+            "jlpt_level": "N5",
+            "normal_form": "にほんせい",
+            "kanji_form": "日本製"
+        },
+        {
+            "meaning": "đến",
+            "jlpt_level": "N5",
+            "normal_form": "つきます",
+            "kanji_form": "着きます"
+        },
+        {
+            "meaning": "đến ga",
+            "jlpt_level": "N5",
+            "normal_form": "えきにつきます",
+            "kanji_form": "駅に着きます"
+        },
+        {
+            "meaning": "nghĩ, suy nghĩ",
+            "jlpt_level": "N5",
+            "normal_form": "かんがえます",
+            "kanji_form": "考えます"
+        },
+        {
+            "meaning": "du học",
+            "jlpt_level": "N5",
+            "normal_form": "りゅうがくします",
+            "kanji_form": "留学します"
+        },
+        {
+            "meaning": "tốt cho sức khoẻ",
+            "jlpt_level": "N5",
+            "normal_form": "からだにいい",
+            "kanji_form": "体にいい"
+        },
+        {
+            "meaning": "lương",
+            "jlpt_level": "N5",
+            "normal_form": "きゅうりょう",
+            "kanji_form": "給料"
+        },
+        {
+            "meaning": "tỉnh giấc",
+            "jlpt_level": "N5",
+            "normal_form": "めがざめます",
+            "kanji_form": "目が覚めます"
+        },
+        {
+            "meaning": "từ vựng",
+            "jlpt_level": "N5",
+            "normal_form": "ことば",
+            "kanji_form": "言葉"
         }
     ]
 }

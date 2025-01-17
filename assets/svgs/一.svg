@@ -1,20 +1,21 @@
 <svg height="250px" version="1.1" width="250px" xmlns="http://www.w3.org/2000/svg"
     xmlns:xlink="http://www.w3.org/1999/xlink"
-    style="overflow: hidden; position: relative; top: -0.515625px;" viewBox="0 0 125 125"
+    style="overflow: hidden; position: relative; left: -0.75px; top: -0.200005px;" viewBox="0 0 125 125"
     preserveAspectRatio="xMinYMin" class="dmak-svg">
     <desc style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">Created with Raphaël 2.1.2</desc>
     <defs style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></defs>
-    <path fill="none" stroke="#cccccc" d="M62.5,0L62.5,125" stroke-width="0.5"
-        stroke-dasharray="4,1.5" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></path>
-    <path fill="none" stroke="#cccccc" d="M0,62.5L125,62.5" stroke-width="0.5"
-        stroke-dasharray="4,1.5" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></path>
-    <path fill="none" stroke="#4cbf9c"
+    <path fill="none" stroke="#bcc9e2" d="M62.5,0L62.5,125" stroke-width="0.5" stroke-dasharray="4,1.5"
+        style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></path>
+    <path fill="none" stroke="#bcc9e2" d="M0,62.5L125,62.5" stroke-width="0.5" stroke-dasharray="4,1.5"
+        style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></path>
+    <path fill="none" stroke="#000000"
         d="M11,54.25C14.19,54.87,17.25,55,20.73,54.75C41.370000000000005,53.25,71.12,49.63,89.31,49.51C92.91,49.489999999999995,95.08,49.75,96.88,50"
         stroke-width="3" stroke-linecap="round" stroke-linejoin="round"
-        style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); stroke-linecap: round; stroke-linejoin: round; transition: stroke 400ms; stroke-dasharray: 86.1607, 86.1607; stroke-dashoffset: 0;"></path>
-    <text x="4.25" y="54.13" text-anchor="middle" font-family="&quot;Arial&quot;" font-size="8px"
-        stroke="none" fill="#4cbf9c"
+        style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); stroke-linecap: round; stroke-linejoin: round; transition: stroke 400ms; stroke-dasharray: 86.1607, 86.1607; stroke-dashoffset: 0;">
+    </path>
+    <text x="4.25" y="54.13" text-anchor="middle" font-family="&quot;Arial&quot;" font-size="8px" stroke="none"
+        fill="rgba(0,0,0,0.4)"
         style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); text-anchor: middle; font-family: Arial; font-size: 8px;">
-        <tspan dy="2.749998931884768" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">1</tspan>
+        <tspan dy="2.7999995994567897" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">1</tspan>
     </text>
 </svg>
