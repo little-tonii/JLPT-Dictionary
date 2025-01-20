@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:jlpt_dictionary/constants/colors.dart';
+import 'package:jlpt_dictionary/global_cubits/theme_cubit/theme_cubit.dart';
 import 'package:jlpt_dictionary/models/vocabulary_model.dart';
 
 class VocabularyItem extends StatelessWidget {
@@ -34,10 +36,14 @@ class VocabularyItem extends StatelessWidget {
       ),
       padding: EdgeInsets.all(8),
       decoration: BoxDecoration(
-        color: AppColors.white,
+        color: context.watch<ThemeCubit>().state
+            ? AppColors.white
+            : AppColors.black,
         borderRadius: BorderRadius.circular(8),
         border: Border.all(
-          color: AppColors.black.withValues(alpha: 0.2),
+          color: context.watch<ThemeCubit>().state
+              ? AppColors.black.withValues(alpha: 0.2)
+              : AppColors.white.withValues(alpha: 0.2),
         ),
       ),
       child: Stack(
@@ -72,7 +78,9 @@ class VocabularyItem extends StatelessWidget {
               onTap: _speak,
               child: Icon(
                 Icons.volume_up_rounded,
-                color: AppColors.black.withValues(alpha: 0.4),
+                color: context.watch<ThemeCubit>().state
+                    ? AppColors.black.withValues(alpha: 0.4)
+                    : AppColors.white.withValues(alpha: 0.4),
               ),
             ),
           ),

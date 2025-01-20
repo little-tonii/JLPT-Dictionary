@@ -18,6 +18,11 @@ class SearchTextField extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return TextField(
+      style: Theme.of(context).textTheme.displayMedium!.copyWith(
+            color: context.watch<ThemeCubit>().state
+                ? AppColors.black
+                : AppColors.white,
+          ),
       onChanged: onChanged,
       onSubmitted: onSubmit,
       cursorColor:
