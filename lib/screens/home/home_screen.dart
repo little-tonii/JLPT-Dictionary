@@ -88,7 +88,7 @@ class _HomeScreenState extends State<HomeScreen> {
             BlocProvider<VocabularyTabCubit>(
               create: (context) =>
                   DependenciesContainer.getIt.get<VocabularyTabCubit>()
-                    ..loadVocabularies(),
+                    ..loadVocabularies(page: 1),
               child: const VocabularyTab(),
             ),
             const KanjiTab(),

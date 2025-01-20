@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:jlpt_dictionary/widgets/search_text_field.dart';
 
 class KanjiTab extends StatelessWidget {
   const KanjiTab({super.key});
@@ -13,14 +12,14 @@ class KanjiTab extends StatelessWidget {
           height: double.infinity,
           child: Column(
             children: [
-              Container(
-                padding: EdgeInsets.all(8),
-                width: double.infinity,
-                child: SearchTextField(
-                  onSubmit: (value) {},
-                  hintText: 'Tìm kiếm Hán tự',
-                ),
-              ),
+              // Container(
+              //   padding: EdgeInsets.all(8),
+              //   width: double.infinity,
+              //   child: SearchTextField(
+              //     onSubmit: (value) {},
+              //     hintText: 'Tìm kiếm Hán tự',
+              //   ),
+              // ),
             ],
           ),
         ),
