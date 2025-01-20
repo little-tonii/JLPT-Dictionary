@@ -45,3 +45,12 @@ class HomeTabGrammarLoaded extends HomeTabState {
   @override
   List<Object> get props => [grammarCount];
 }
+
+class HomeTabError extends HomeTabState {
+  final String message;
+
+  const HomeTabError(this.message);
+
+  @override
+  List<Object> get props => [message];
+}

@@ -19,3 +19,12 @@ class OnBoardingLoading extends OnboardingState {
 }
 
 class OnBoardingLoaded extends OnboardingState {}
+
+class OnboardingError extends OnboardingState {
+  final String message;
+
+  const OnboardingError(this.message);
+
+  @override
+  List<Object> get props => [message];
+}

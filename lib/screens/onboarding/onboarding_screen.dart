@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:jlpt_dictionary/helpers/toast_helper.dart';
 import 'package:jlpt_dictionary/routes/app_routes.dart';
 import 'package:jlpt_dictionary/screens/onboarding/cubits/onboarding_cubit.dart';
 import 'package:jlpt_dictionary/screens/onboarding/cubits/onboarding_state.dart';
@@ -41,6 +42,9 @@ class OnboardingScreen extends StatelessWidget {
               listener: (BuildContext context, OnboardingState state) {
                 if (state is OnBoardingLoaded) {
                   Navigator.of(context).popAndPushNamed(AppRoutes.home);
+                }
+                if (state is OnboardingError) {
+                  ToastHelper.showError(context, state.message);
                 }
               },
             ),
