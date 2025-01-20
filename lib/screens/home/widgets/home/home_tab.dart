@@ -52,8 +52,8 @@ class HomeTab extends StatelessWidget {
                             sigmaY: blurValue.clamp(0, 8),
                           ),
                           child: Container(
-                            color: AppColors.black.withOpacity(
-                              opacityValue.clamp(0, 0.8),
+                            color: AppColors.black.withValues(
+                              alpha: opacityValue.clamp(0, 0.8),
                             ),
                           ),
                         ),
@@ -66,7 +66,7 @@ class HomeTab extends StatelessWidget {
                                 .textTheme
                                 .labelLarge!
                                 .copyWith(
-                                  color: AppColors.white.withOpacity(0.6),
+                                  color: AppColors.white.withValues(alpha: 0.6),
                                   fontSize: 24,
                                   fontWeight: FontWeight.w400,
                                 ),
@@ -99,8 +99,8 @@ class HomeTab extends StatelessWidget {
                             boxShadow: [
                               BoxShadow(
                                 color: context.watch<ThemeCubit>().state
-                                    ? AppColors.black.withOpacity(0.1)
-                                    : AppColors.white.withOpacity(0.1),
+                                    ? AppColors.black.withValues(alpha: 0.1)
+                                    : AppColors.white.withValues(alpha: 0.1),
                                 blurRadius: 8,
                                 offset: const Offset(4, 4),
                               ),
@@ -133,8 +133,8 @@ class HomeTab extends StatelessWidget {
                             boxShadow: [
                               BoxShadow(
                                 color: context.watch<ThemeCubit>().state
-                                    ? AppColors.black.withOpacity(0.1)
-                                    : AppColors.white.withOpacity(0.1),
+                                    ? AppColors.black.withValues(alpha: 0.1)
+                                    : AppColors.white.withValues(alpha: 0.1),
                                 blurRadius: 8,
                                 offset: const Offset(4, 4),
                               ),
@@ -160,8 +160,8 @@ class HomeTab extends StatelessWidget {
                         boxShadow: [
                           BoxShadow(
                             color: context.watch<ThemeCubit>().state
-                                ? AppColors.black.withOpacity(0.1)
-                                : AppColors.white.withOpacity(0.1),
+                                ? AppColors.black.withValues(alpha: 0.1)
+                                : AppColors.white.withValues(alpha: 0.1),
                             blurRadius: 8,
                             offset: const Offset(4, 4),
                           ),
@@ -231,8 +231,8 @@ class HomeTab extends StatelessWidget {
                         boxShadow: [
                           BoxShadow(
                             color: context.watch<ThemeCubit>().state
-                                ? AppColors.black.withOpacity(0.1)
-                                : AppColors.white.withOpacity(0.1),
+                                ? AppColors.black.withValues(alpha: 0.1)
+                                : AppColors.white.withValues(alpha: 0.1),
                             blurRadius: 8,
                             offset: const Offset(4, 4),
                           ),
@@ -302,8 +302,8 @@ class HomeTab extends StatelessWidget {
                         boxShadow: [
                           BoxShadow(
                             color: context.watch<ThemeCubit>().state
-                                ? AppColors.black.withOpacity(0.1)
-                                : AppColors.white.withOpacity(0.1),
+                                ? AppColors.black.withValues(alpha: 0.1)
+                                : AppColors.white.withValues(alpha: 0.1),
                             blurRadius: 8,
                             offset: const Offset(4, 4),
                           ),

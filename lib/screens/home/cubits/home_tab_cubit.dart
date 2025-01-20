@@ -17,37 +17,45 @@ class HomeTabCubit extends Cubit<HomeTabState> {
   }
 
   void loadVocabularies() async {
-    final vocabularyCount = <JlptLevel, int>{
-      for (final level in JlptLevel.values) level: 0
-    };
-    final List<Map<String, dynamic>> results = await _database.rawQuery("""
+    try {
+      final vocabularyCount = <JlptLevel, int>{
+        for (final level in JlptLevel.values) level: 0
+      };
+      final List<Map<String, dynamic>> results = await _database.rawQuery("""
       SELECT ${VocabularyKeys.jlptLevel}, COUNT(*) as count 
       FROM ${VocabularyKeys.tableName} 
       GROUP BY ${VocabularyKeys.jlptLevel};
     """);
-    for (final result in results) {
-      vocabularyCount[JlptLevel.values.firstWhere(
-        (jlptLevel) => jlptLevel.level == result[VocabularyKeys.jlptLevel],
-      )] = result['count'];
+      for (final result in results) {
+        vocabularyCount[JlptLevel.values.firstWhere(
+          (jlptLevel) => jlptLevel.level == result[VocabularyKeys.jlptLevel],
+        )] = result['count'];
+      }
+      emit(HomeTabVocabularyLoaded(vocabularyCount: vocabularyCount));
+    } on Exception {
+      emit(HomeTabError('có lỗi xảy ra khi tải từ vựng'));
     }
-    emit(HomeTabVocabularyLoaded(vocabularyCount: vocabularyCount));
   }
 
   void loadKanjis() async {
-    final kanjiCount = <JlptLevel, int>{
-      for (final level in JlptLevel.values) level: 0
-    };
-    final List<Map<String, dynamic>> results = await _database.rawQuery("""
+    try {
+      final kanjiCount = <JlptLevel, int>{
+        for (final level in JlptLevel.values) level: 0
+      };
+      final List<Map<String, dynamic>> results = await _database.rawQuery("""
       SELECT ${KanjiKeys.jlptLevel}, COUNT(*) as count 
       FROM ${KanjiKeys.tableName} 
       GROUP BY ${KanjiKeys.jlptLevel};
     """);
-    for (final result in results) {
-      kanjiCount[JlptLevel.values.firstWhere(
-        (jlptLevel) => jlptLevel.level == result[KanjiKeys.jlptLevel],
-      )] = result['count'];
+      for (final result in results) {
+        kanjiCount[JlptLevel.values.firstWhere(
+          (jlptLevel) => jlptLevel.level == result[KanjiKeys.jlptLevel],
+        )] = result['count'];
+      }
+      emit(HomeTabKanjiLoaded(kanjiCount: kanjiCount));
+    } on Exception {
+      emit(HomeTabError('có lỗi xảy ra khi tải Hán tự'));
     }
-    emit(HomeTabKanjiLoaded(kanjiCount: kanjiCount));
   }
 
   void loadGrammars() async {}

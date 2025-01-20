@@ -5,10 +5,11 @@ import 'package:ionicons/ionicons.dart';
 import 'package:jlpt_dictionary/dependencies/dependencies.dart';
 import 'package:jlpt_dictionary/global_cubits/theme_cubit/theme_cubit.dart';
 import 'package:jlpt_dictionary/screens/home/cubits/home_tab_cubit.dart';
-import 'package:jlpt_dictionary/screens/home/widgets/tabs/grammar_tab.dart';
-import 'package:jlpt_dictionary/screens/home/widgets/tabs/home_tab.dart';
-import 'package:jlpt_dictionary/screens/home/widgets/tabs/kanji_tab.dart';
-import 'package:jlpt_dictionary/screens/home/widgets/tabs/vocabulary_tab.dart';
+import 'package:jlpt_dictionary/screens/home/cubits/vocabulary_tab_cubit.dart';
+import 'package:jlpt_dictionary/screens/home/widgets/grammar/grammar_tab.dart';
+import 'package:jlpt_dictionary/screens/home/widgets/home/home_tab.dart';
+import 'package:jlpt_dictionary/screens/home/widgets/kanji/kanji_tab.dart';
+import 'package:jlpt_dictionary/screens/home/widgets/vocabulary/vocabulary_tab.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
@@ -34,6 +35,7 @@ class _HomeScreenState extends State<HomeScreen> {
   Widget build(BuildContext context) {
     return SafeArea(
       child: Scaffold(
+        resizeToAvoidBottomInset: false,
         floatingActionButton: FloatingActionButton(
           onPressed: _handleChangeTheme,
           child: BlocBuilder<ThemeCubit, bool>(
@@ -64,8 +66,8 @@ class _HomeScreenState extends State<HomeScreen> {
           activeColor:
               context.watch<ThemeCubit>().state ? Colors.black : Colors.white,
           inactiveColor: context.watch<ThemeCubit>().state
-              ? Colors.black.withOpacity(0.4)
-              : Colors.white.withOpacity(0.4),
+              ? Colors.black.withValues(alpha: 0.4)
+              : Colors.white.withValues(alpha: 0.4),
           splashRadius: 0,
           splashColor: Colors.transparent,
           splashSpeedInMilliseconds: 0,
@@ -83,7 +85,12 @@ class _HomeScreenState extends State<HomeScreen> {
                     ..loadGrammars(),
               child: HomeTab(tabNavigator: _handleItemTapped),
             ),
-            const VocabularyTab(),
+            BlocProvider<VocabularyTabCubit>(
+              create: (context) =>
+                  DependenciesContainer.getIt.get<VocabularyTabCubit>()
+                    ..loadVocabularies(),
+              child: const VocabularyTab(),
+            ),
             const KanjiTab(),
             const GrammarTab(),
           ],
