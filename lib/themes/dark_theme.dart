@@ -4,9 +4,11 @@ import 'package:jlpt_dictionary/constants/font_family.dart';
 
 abstract class DarkTheme {
   static final theme = ThemeData(
+    primaryColor: AppColors.white,
     textSelectionTheme: TextSelectionThemeData(
       cursorColor: AppColors.white,
       selectionColor: AppColors.white.withValues(alpha: 0.2),
+      selectionHandleColor: AppColors.white.withValues(alpha: 0.8),
     ),
     scaffoldBackgroundColor: AppColors.black,
     textTheme: const TextTheme(
