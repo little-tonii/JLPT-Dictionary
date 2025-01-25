@@ -143,6 +143,7 @@ class VocabularyItem extends StatelessWidget {
               ),
               SizedBox(height: 4),
               AppDropdownButton(
+                hint: "Chọn JLPT level",
                 displayText: currentLevel,
                 items: JlptLevel.values
                     .map(

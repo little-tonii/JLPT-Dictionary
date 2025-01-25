@@ -7,8 +7,10 @@ import 'package:jlpt_dictionary/global_cubits/theme_cubit/theme_cubit.dart';
 class AppDropdownButton extends StatefulWidget {
   final List<DropdownMenuItem> items;
   final String displayText;
+  final String hint;
 
   const AppDropdownButton({
+    required this.hint,
     super.key,
     required this.items,
     required this.displayText,
@@ -32,7 +34,7 @@ class _AppDropdownButtonState extends State<AppDropdownButton> {
     return DropdownButtonHideUnderline(
       child: DropdownButton2(
         hint: Text(
-          "Chọn JLPT level",
+          widget.hint,
           style: Theme.of(context).textTheme.displayMedium,
         ),
         items: widget.items,
