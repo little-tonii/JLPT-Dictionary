@@ -5,7 +5,7 @@ import 'package:jlpt_dictionary/helpers/toast_helper.dart';
 import 'package:jlpt_dictionary/screens/home/cubits/vocabulary_tab_cubit.dart';
 import 'package:jlpt_dictionary/screens/home/cubits/vocabulary_tab_state.dart';
 import 'package:jlpt_dictionary/screens/home/widgets/vocabulary/vocabulary_item.dart';
-import 'package:jlpt_dictionary/widgets/search_text_field.dart';
+import 'package:jlpt_dictionary/widgets/app_search_text_field.dart';
 
 class VocabularyTab extends StatefulWidget {
   const VocabularyTab({super.key});
@@ -57,7 +57,7 @@ class _VocabularyTabState extends State<VocabularyTab> {
               Container(
                 padding: EdgeInsets.all(8),
                 width: double.infinity,
-                child: SearchTextField(
+                child: AppSearchTextField(
                   onSubmit: (value) {
                     searchKey = value;
                     context
@@ -72,6 +72,9 @@ class _VocabularyTabState extends State<VocabularyTab> {
               ),
               Expanded(
                 child: BlocConsumer<VocabularyTabCubit, VocabularyTabState>(
+                  buildWhen: (previous, current) =>
+                      current is VocabularyTabLoaded ||
+                      current is VocabularyTabInitial,
                   builder: (context, state) {
                     if (state is VocabularyTabInitial) {
                       return Center(
