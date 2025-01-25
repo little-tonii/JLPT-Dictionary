@@ -66,6 +66,16 @@ class _AppDropdownButtonState extends State<AppDropdownButton> {
                 ? AppColors.white
                 : AppColors.black,
             borderRadius: BorderRadius.circular(8),
+            boxShadow: [
+              BoxShadow(
+                color: context.watch<ThemeCubit>().state
+                    ? Colors.black.withValues(alpha: 0.2)
+                    : Colors.white.withValues(alpha: 0.2),
+                blurRadius: 10,
+                spreadRadius: 2,
+                offset: Offset(0, 4),
+              ),
+            ],
           ),
         ),
       ),
