@@ -8,12 +8,14 @@ class AppDropdownButton extends StatefulWidget {
   final List<DropdownMenuItem> items;
   final String displayText;
   final String hint;
+  final void Function(String) onChanged;
 
   const AppDropdownButton({
     required this.hint,
     super.key,
     required this.items,
     required this.displayText,
+    required this.onChanged,
   });
 
   @override
@@ -42,6 +44,7 @@ class _AppDropdownButtonState extends State<AppDropdownButton> {
         onChanged: (value) {
           setState(() {
             currentSelected = value;
+            widget.onChanged(value.toString());
           });
         },
         buttonStyleData: ButtonStyleData(

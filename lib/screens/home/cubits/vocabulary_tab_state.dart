@@ -33,3 +33,23 @@ class VocabularyTabError extends VocabularyTabState {
   @override
   List<Object> get props => [message];
 }
+
+class VocabularyTabSaveSuccess extends VocabularyTabState {
+  final String message;
+
+  const VocabularyTabSaveSuccess({
+    required this.message,
+  });
+
+  @override
+  List<Object> get props => [message];
+}
+
+class VocabularyTabSaveFailed extends VocabularyTabState {
+  final String message;
+
+  const VocabularyTabSaveFailed({required this.message});
+
+  @override
+  List<Object> get props => [message];
+}

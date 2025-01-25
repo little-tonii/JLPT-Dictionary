@@ -5,6 +5,7 @@ import 'package:jlpt_dictionary/constants/colors.dart';
 import 'package:jlpt_dictionary/enums/jlpt_level.dart';
 import 'package:jlpt_dictionary/global_cubits/theme_cubit/theme_cubit.dart';
 import 'package:jlpt_dictionary/models/vocabulary_model.dart';
+import 'package:jlpt_dictionary/screens/home/cubits/vocabulary_tab_cubit.dart';
 import 'package:jlpt_dictionary/widgets/app_button.dart';
 import 'package:jlpt_dictionary/widgets/app_dropdown_button.dart';
 import 'package:jlpt_dictionary/widgets/app_input_text_field.dart';
@@ -143,6 +144,9 @@ class VocabularyItem extends StatelessWidget {
               ),
               SizedBox(height: 4),
               AppDropdownButton(
+                onChanged: (value) {
+                  currentLevel = value;
+                },
                 hint: "Chọn JLPT level",
                 displayText: currentLevel,
                 items: JlptLevel.values
@@ -165,8 +169,17 @@ class VocabularyItem extends StatelessWidget {
               SizedBox(
                 width: double.infinity,
                 child: AppButton(
-                  text: "Lưu lại",
-                  onPressed: () {},
+                  text: "Cập nhật",
+                  onPressed: () {
+                    appContext.read<VocabularyTabCubit>().updateVocabulary(
+                          kanjiForm: kanjiController.text,
+                          normalForm: normalController.text,
+                          meaning: meaningController.text,
+                          id: vocabulary.id!,
+                          jlptLevel: currentLevel,
+                        );
+                    Navigator.of(context).pop();
+                  },
                 ),
               ),
             ],

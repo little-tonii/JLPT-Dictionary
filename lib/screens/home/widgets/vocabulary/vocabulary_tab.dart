@@ -117,6 +117,12 @@ class _VocabularyTabState extends State<VocabularyTab> {
                     if (state is VocabularyTabError) {
                       ToastHelper.showError(context, state.message);
                     }
+                    if (state is VocabularyTabSaveSuccess) {
+                      ToastHelper.showSuccess(context, state.message);
+                    }
+                    if (state is VocabularyTabSaveFailed) {
+                      ToastHelper.showError(context, state.message);
+                    }
                   },
                 ),
               ),
