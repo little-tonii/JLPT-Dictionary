@@ -89,7 +89,7 @@ class VocabularyTabCubit extends Cubit<VocabularyTabState> {
             return;
           }
           emit(VocabularyTabSaveSuccess(
-            message: "Cập nhật từ vựng thành công",
+            message: "cập nhật từ vựng thành công",
           ));
           vocabularies[index] = vocabularies[index].copyWith(
             kanjiForm: kanjiForm,
@@ -107,7 +107,40 @@ class VocabularyTabCubit extends Cubit<VocabularyTabState> {
           ));
         } on Exception {
           emit(VocabularyTabSaveFailed(
-              message: "Có lỗi xảy ra khi cập nhật từ vựng"));
+              message: "có lỗi xảy ra khi cập nhật từ vựng"));
+        }
+      }
+    }
+  }
+
+  void deleteVocaulary({required int id}) async {
+    final currentState = state;
+    if (currentState is VocabularyTabLoaded) {
+      final vocabularies = currentState.vocabularies;
+      final index = vocabularies.indexWhere((v) => v.id == id);
+      if (index != -1) {
+        try {
+          final result = await database.rawDelete("""
+            DELETE FROM ${VocabularyKeys.tableName}
+            WHERE ${VocabularyKeys.id} = $id;
+          """);
+          if (result == 0) {
+            emit(VocabularyTabDeleteFailed(
+                message: "Có lỗi xảy ra khi xóa từ vựng"));
+            return;
+          }
+          emit(VocabularyTabDeleteSuccess(
+            message: "Xóa từ vựng thành công",
+          ));
+          vocabularies.removeAt(index);
+          emit(VocabularyTabLoaded(
+            vocabularies: vocabularies,
+            page: currentState.page,
+            hasReachedMax: currentState.hasReachedMax,
+          ));
+        } on Exception {
+          emit(VocabularyTabDeleteFailed(
+              message: "Có lỗi xảy ra khi xóa từ vựng"));
         }
       }
     }

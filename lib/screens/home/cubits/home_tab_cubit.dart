@@ -22,10 +22,10 @@ class HomeTabCubit extends Cubit<HomeTabState> {
         for (final level in JlptLevel.values) level: 0
       };
       final List<Map<String, dynamic>> results = await _database.rawQuery("""
-      SELECT ${VocabularyKeys.jlptLevel}, COUNT(*) as count 
-      FROM ${VocabularyKeys.tableName} 
-      GROUP BY ${VocabularyKeys.jlptLevel};
-    """);
+        SELECT ${VocabularyKeys.jlptLevel}, COUNT(*) as count 
+        FROM ${VocabularyKeys.tableName} 
+        GROUP BY ${VocabularyKeys.jlptLevel};
+      """);
       for (final result in results) {
         vocabularyCount[JlptLevel.values.firstWhere(
           (jlptLevel) => jlptLevel.level == result[VocabularyKeys.jlptLevel],
@@ -43,10 +43,10 @@ class HomeTabCubit extends Cubit<HomeTabState> {
         for (final level in JlptLevel.values) level: 0
       };
       final List<Map<String, dynamic>> results = await _database.rawQuery("""
-      SELECT ${KanjiKeys.jlptLevel}, COUNT(*) as count 
-      FROM ${KanjiKeys.tableName} 
-      GROUP BY ${KanjiKeys.jlptLevel};
-    """);
+        SELECT ${KanjiKeys.jlptLevel}, COUNT(*) as count 
+        FROM ${KanjiKeys.tableName} 
+        GROUP BY ${KanjiKeys.jlptLevel};
+      """);
       for (final result in results) {
         kanjiCount[JlptLevel.values.firstWhere(
           (jlptLevel) => jlptLevel.level == result[KanjiKeys.jlptLevel],
@@ -59,4 +59,27 @@ class HomeTabCubit extends Cubit<HomeTabState> {
   }
 
   void loadGrammars() async {}
+
+  void createVocabulary({
+    required String kanjiForm,
+    required String normalForm,
+    required String jlptLevel,
+    required String meaning,
+  }) async {
+    try {
+      await _database.insert(
+        VocabularyKeys.tableName,
+        {
+          VocabularyKeys.kanjiForm: kanjiForm,
+          VocabularyKeys.normalForm: normalForm,
+          VocabularyKeys.jlptLevel: jlptLevel,
+          VocabularyKeys.meaning: meaning,
+        },
+      );
+      emit(HomeTabSucces('tạo từ vựng thành công'));
+      loadVocabularies();
+    } on Exception {
+      emit(HomeTabError('có lỗi xảy ra khi tạo từ vựng'));
+    }
+  }
 }

@@ -20,6 +20,8 @@ class HomeScreen extends StatefulWidget {
 
 class _HomeScreenState extends State<HomeScreen> {
   int _currentIndex = 0;
+  final HomeTabCubit _homeTabCubit =
+      DependenciesContainer.getIt.get<HomeTabCubit>();
 
   void _handleItemTapped(int index) {
     setState(() {
@@ -77,19 +79,20 @@ class _HomeScreenState extends State<HomeScreen> {
           index: _currentIndex,
           children: [
             BlocProvider<HomeTabCubit>(
-              create: (context) =>
-                  DependenciesContainer.getIt.get<HomeTabCubit>()
-                    ..loadCarosel()
-                    ..loadVocabularies()
-                    ..loadKanjis()
-                    ..loadGrammars(),
+              create: (context) => _homeTabCubit
+                ..loadCarosel()
+                ..loadVocabularies()
+                ..loadKanjis()
+                ..loadGrammars(),
               child: HomeTab(tabNavigator: _handleItemTapped),
             ),
             BlocProvider<VocabularyTabCubit>(
               create: (context) =>
                   DependenciesContainer.getIt.get<VocabularyTabCubit>()
                     ..loadVocabularies(page: 1),
-              child: const VocabularyTab(),
+              child: VocabularyTab(
+                homeTabCubit: _homeTabCubit,
+              ),
             ),
             const KanjiTab(),
             const GrammarTab(),

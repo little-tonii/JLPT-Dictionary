@@ -6,7 +6,7 @@ import 'package:jlpt_dictionary/global_cubits/theme_cubit/theme_cubit.dart';
 
 class AppDropdownButton extends StatefulWidget {
   final List<DropdownMenuItem> items;
-  final String displayText;
+  final String? displayText;
   final String hint;
   final void Function(String) onChanged;
 
@@ -14,7 +14,7 @@ class AppDropdownButton extends StatefulWidget {
     required this.hint,
     super.key,
     required this.items,
-    required this.displayText,
+    this.displayText,
     required this.onChanged,
   });
 
@@ -23,7 +23,7 @@ class AppDropdownButton extends StatefulWidget {
 }
 
 class _AppDropdownButtonState extends State<AppDropdownButton> {
-  late String currentSelected;
+  late String? currentSelected;
 
   @override
   void initState() {
@@ -37,7 +37,11 @@ class _AppDropdownButtonState extends State<AppDropdownButton> {
       child: DropdownButton2(
         hint: Text(
           widget.hint,
-          style: Theme.of(context).textTheme.displayMedium,
+          style: Theme.of(context).textTheme.displayMedium!.copyWith(
+                color: context.watch<ThemeCubit>().state
+                    ? AppColors.black.withValues(alpha: 0.6)
+                    : AppColors.white.withValues(alpha: 0.6),
+              ),
         ),
         items: widget.items,
         value: currentSelected,
