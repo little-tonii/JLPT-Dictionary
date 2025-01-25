@@ -89,7 +89,7 @@ class VocabularyTabCubit extends Cubit<VocabularyTabState> {
             return;
           }
           emit(VocabularyTabSaveSuccess(
-            message: "Cập nhật từ vựng thành công",
+            message: "cập nhật từ vựng thành công",
           ));
           vocabularies[index] = vocabularies[index].copyWith(
             kanjiForm: kanjiForm,
@@ -107,7 +107,7 @@ class VocabularyTabCubit extends Cubit<VocabularyTabState> {
           ));
         } on Exception {
           emit(VocabularyTabSaveFailed(
-              message: "Có lỗi xảy ra khi cập nhật từ vựng"));
+              message: "có lỗi xảy ra khi cập nhật từ vựng"));
         }
       }
     }

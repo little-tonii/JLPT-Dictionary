@@ -54,3 +54,12 @@ class HomeTabError extends HomeTabState {
   @override
   List<Object> get props => [message];
 }
+
+class HomeTabSucces extends HomeTabState {
+  final String message;
+
+  const HomeTabSucces(this.message);
+
+  @override
+  List<Object> get props => [message];
+}
