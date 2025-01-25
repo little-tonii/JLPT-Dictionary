@@ -2,13 +2,19 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:jlpt_dictionary/constants/colors.dart';
 import 'package:jlpt_dictionary/helpers/toast_helper.dart';
+import 'package:jlpt_dictionary/screens/home/cubits/home_tab_cubit.dart';
 import 'package:jlpt_dictionary/screens/home/cubits/vocabulary_tab_cubit.dart';
 import 'package:jlpt_dictionary/screens/home/cubits/vocabulary_tab_state.dart';
 import 'package:jlpt_dictionary/screens/home/widgets/vocabulary/vocabulary_item.dart';
 import 'package:jlpt_dictionary/widgets/app_search_text_field.dart';
 
 class VocabularyTab extends StatefulWidget {
-  const VocabularyTab({super.key});
+  final HomeTabCubit homeTabCubit;
+
+  const VocabularyTab({
+    super.key,
+    required this.homeTabCubit,
+  });
 
   @override
   State<VocabularyTab> createState() => _VocabularyTabState();
@@ -121,6 +127,13 @@ class _VocabularyTabState extends State<VocabularyTab> {
                       ToastHelper.showSuccess(context, state.message);
                     }
                     if (state is VocabularyTabSaveFailed) {
+                      ToastHelper.showError(context, state.message);
+                    }
+                    if (state is VocabularyTabDeleteSuccess) {
+                      ToastHelper.showSuccess(context, state.message);
+                      widget.homeTabCubit.loadVocabularies();
+                    }
+                    if (state is VocabularyTabDeleteFailed) {
                       ToastHelper.showError(context, state.message);
                     }
                   },

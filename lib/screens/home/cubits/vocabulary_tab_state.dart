@@ -53,3 +53,23 @@ class VocabularyTabSaveFailed extends VocabularyTabState {
   @override
   List<Object> get props => [message];
 }
+
+class VocabularyTabDeleteSuccess extends VocabularyTabState {
+  final String message;
+
+  const VocabularyTabDeleteSuccess({
+    required this.message,
+  });
+
+  @override
+  List<Object> get props => [message];
+}
+
+class VocabularyTabDeleteFailed extends VocabularyTabState {
+  final String message;
+
+  const VocabularyTabDeleteFailed({required this.message});
+
+  @override
+  List<Object> get props => [message];
+}

@@ -165,6 +165,68 @@ class VocabularyItem extends StatelessWidget {
                     )
                     .toList(),
               ),
+              SizedBox(height: 4),
+              Row(
+                children: [
+                  Spacer(),
+                  GestureDetector(
+                    onTap: () {
+                      showDialog(
+                        context: context,
+                        builder: (context) {
+                          return AlertDialog(
+                            shape: RoundedRectangleBorder(
+                              borderRadius: BorderRadius.circular(8),
+                            ),
+                            backgroundColor: context.watch<ThemeCubit>().state
+                                ? AppColors.white
+                                : AppColors.black,
+                            title: Text(
+                              "Xác nhận xóa từ vựng",
+                              style: Theme.of(context).textTheme.titleMedium,
+                            ),
+                            content: Text(
+                              "Bạn có chắc chắn muốn xóa từ vựng này không?",
+                              style: Theme.of(context).textTheme.displayMedium,
+                            ),
+                            actions: [
+                              GestureDetector(
+                                onTap: () {
+                                  appContext
+                                      .read<VocabularyTabCubit>()
+                                      .deleteVocaulary(id: vocabulary.id!);
+                                  Navigator.of(context).pop();
+                                  Navigator.of(context).pop();
+                                },
+                                child: Text(
+                                  "Xác nhận",
+                                  style:
+                                      Theme.of(context).textTheme.displaySmall,
+                                ),
+                              ),
+                              SizedBox(width: 16),
+                              GestureDetector(
+                                onTap: () {
+                                  Navigator.of(context).pop();
+                                },
+                                child: Text(
+                                  "Hủy",
+                                  style:
+                                      Theme.of(context).textTheme.displaySmall,
+                                ),
+                              ),
+                            ],
+                          );
+                        },
+                      );
+                    },
+                    child: Icon(
+                      Icons.delete_forever_rounded,
+                      color: AppColors.red.withValues(alpha: 0.8),
+                    ),
+                  )
+                ],
+              ),
               Spacer(),
               SizedBox(
                 width: double.infinity,
