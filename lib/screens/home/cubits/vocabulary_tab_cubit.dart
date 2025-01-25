@@ -1,6 +1,7 @@
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:jlpt_dictionary/constants/db_key.dart';
 import 'package:jlpt_dictionary/dependencies/dependencies.dart';
+import 'package:jlpt_dictionary/enums/jlpt_level.dart';
 import 'package:jlpt_dictionary/models/vocabulary_model.dart';
 import 'package:jlpt_dictionary/screens/home/cubits/vocabulary_tab_state.dart';
 import 'package:sqflite/sqflite.dart';
@@ -57,6 +58,57 @@ class VocabularyTabCubit extends Cubit<VocabularyTabState> {
           searchKey: searchKey == '' ? null : searchKey,
           page: currentState.page + 1,
         );
+      }
+    }
+  }
+
+  void updateVocabulary({
+    required String kanjiForm,
+    required String normalForm,
+    required String meaning,
+    required int id,
+    required String jlptLevel,
+  }) async {
+    final currentState = state;
+    if (currentState is VocabularyTabLoaded) {
+      final vocabularies = currentState.vocabularies;
+      final index = vocabularies.indexWhere((v) => v.id == id);
+      if (index != -1) {
+        try {
+          final result = await database.rawUpdate("""
+            UPDATE ${VocabularyKeys.tableName}
+            SET ${VocabularyKeys.kanjiForm} = '$kanjiForm',
+                ${VocabularyKeys.normalForm} = '$normalForm',
+                ${VocabularyKeys.meaning} = '$meaning',
+                ${VocabularyKeys.jlptLevel} = '$jlptLevel'
+            WHERE ${VocabularyKeys.id} = $id;
+          """);
+          if (result == 0) {
+            emit(VocabularyTabSaveFailed(
+                message: "Có lỗi xảy ra khi cập nhật từ vựng"));
+            return;
+          }
+          emit(VocabularyTabSaveSuccess(
+            message: "Cập nhật từ vựng thành công",
+          ));
+          vocabularies[index] = vocabularies[index].copyWith(
+            kanjiForm: kanjiForm,
+            normalForm: normalForm,
+            meaning: meaning,
+            jlptLevel: JlptLevel.values.firstWhere(
+              (e) =>
+                  e.level.split(".").last.toString().toUpperCase() == jlptLevel,
+            ),
+          );
+          emit(VocabularyTabLoaded(
+            vocabularies: vocabularies,
+            page: currentState.page,
+            hasReachedMax: currentState.hasReachedMax,
+          ));
+        } on Exception {
+          emit(VocabularyTabSaveFailed(
+              message: "Có lỗi xảy ra khi cập nhật từ vựng"));
+        }
       }
     }
   }

@@ -36,4 +36,20 @@ class VocabularyModel {
       VocabularyKeys.jlptLevel: jlptLevel.level,
     };
   }
+
+  VocabularyModel copyWith({
+    int? id,
+    String? kanjiForm,
+    String? normalForm,
+    String? meaning,
+    JlptLevel? jlptLevel,
+  }) {
+    return VocabularyModel(
+      id: id ?? this.id,
+      kanjiForm: kanjiForm ?? this.kanjiForm,
+      normalForm: normalForm ?? this.normalForm,
+      meaning: meaning ?? this.meaning,
+      jlptLevel: jlptLevel ?? this.jlptLevel,
+    );
+  }
 }

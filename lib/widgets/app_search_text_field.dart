@@ -3,21 +3,26 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:jlpt_dictionary/constants/colors.dart';
 import 'package:jlpt_dictionary/global_cubits/theme_cubit/theme_cubit.dart';
 
-class SearchTextField extends StatelessWidget {
-  final String hintText;
-  final void Function(String) onSubmit;
-  final void Function(String) onChanged;
+class AppSearchTextField extends StatelessWidget {
+  final String? hintText;
+  final void Function(String)? onSubmit;
+  final void Function(String)? onChanged;
 
-  const SearchTextField({
-    required this.onSubmit,
+  const AppSearchTextField({
+    this.onSubmit,
     super.key,
-    required this.hintText,
-    required this.onChanged,
+    this.hintText,
+    this.onChanged,
   });
 
   @override
   Widget build(BuildContext context) {
     return TextField(
+      style: Theme.of(context).textTheme.displayMedium!.copyWith(
+            color: context.watch<ThemeCubit>().state
+                ? AppColors.black
+                : AppColors.white,
+          ),
       onChanged: onChanged,
       onSubmitted: onSubmit,
       cursorColor:

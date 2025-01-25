@@ -5,4 +5,5 @@ abstract class AppColors {
   static const white = Color(0xFFFFFFFF);
   static const error = Color(0xFFE57373);
   static const red = Color(0xFFD32F2F);
+  static const success = Color(0xFF4CAF50);
 }
