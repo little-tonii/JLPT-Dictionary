@@ -1,4 +1,5 @@
 import 'package:equatable/equatable.dart';
+import 'package:jlpt_dictionary/models/kanji_model.dart';
 
 abstract class KanjiTabState extends Equatable {
   const KanjiTabState();
@@ -28,7 +29,7 @@ class KanjiTabSuccess extends KanjiTabState {
 }
 
 class KanjiTabLoaded extends KanjiTabState {
-  final List<String> kanjis;
+  final List<KanjiModel> kanjis;
   final int page;
   final bool hasReachedMax;
 

@@ -89,14 +89,13 @@ class _HomeScreenState extends State<HomeScreen> {
             ),
             BlocProvider<VocabularyTabCubit>(
               create: (context) =>
-                  DependenciesContainer.getIt.get<VocabularyTabCubit>()
+                  DependenciesContainer.getIt<VocabularyTabCubit>()
                     ..loadVocabularies(page: 1),
               child: VocabularyTab(homeTabCubit: _homeTabCubit),
             ),
-            BlocProvider(
-              create: (context) =>
-                  DependenciesContainer.getIt.get<KanjiTabCubit>()
-                    ..loadKanjis(page: 1),
+            BlocProvider<KanjiTabCubit>(
+              create: (context) => DependenciesContainer.getIt<KanjiTabCubit>()
+                ..loadKanjis(page: 1),
               child: KanjiTab(homeTabCubit: _homeTabCubit),
             ),
             const GrammarTab(),

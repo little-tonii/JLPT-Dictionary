@@ -8,13 +8,13 @@ import 'package:sqflite/sqflite.dart';
 
 class VocabularyTabCubit extends Cubit<VocabularyTabState> {
   VocabularyTabCubit() : super(VocabularyTabInitial());
-  final Database database = DependenciesContainer.getIt<Database>();
+  final Database _database = DependenciesContainer.getIt<Database>();
 
   void loadVocabularies({String? searchKey, required int page}) async {
     try {
       List<Map<String, dynamic>> results;
       if (searchKey != null) {
-        results = await database.rawQuery("""
+        results = await _database.rawQuery("""
           SELECT * FROM ${VocabularyKeys.tableName}
           WHERE ${VocabularyKeys.kanjiForm} LIKE '%$searchKey%'
           OR ${VocabularyKeys.normalForm} LIKE '%$searchKey%'
@@ -22,7 +22,7 @@ class VocabularyTabCubit extends Cubit<VocabularyTabState> {
           LIMIT 20 OFFSET ${(page - 1) * 20};
         """);
       } else {
-        results = await database.rawQuery("""
+        results = await _database.rawQuery("""
           SELECT * FROM ${VocabularyKeys.tableName}
           LIMIT 20 OFFSET ${(page - 1) * 20};
         """);
@@ -75,7 +75,7 @@ class VocabularyTabCubit extends Cubit<VocabularyTabState> {
       final index = vocabularies.indexWhere((v) => v.id == id);
       if (index != -1) {
         try {
-          final result = await database.rawUpdate("""
+          final result = await _database.rawUpdate("""
             UPDATE ${VocabularyKeys.tableName}
             SET ${VocabularyKeys.kanjiForm} = '$kanjiForm',
                 ${VocabularyKeys.normalForm} = '$normalForm',
@@ -120,7 +120,7 @@ class VocabularyTabCubit extends Cubit<VocabularyTabState> {
       final index = vocabularies.indexWhere((v) => v.id == id);
       if (index != -1) {
         try {
-          final result = await database.rawDelete("""
+          final result = await _database.rawDelete("""
             DELETE FROM ${VocabularyKeys.tableName}
             WHERE ${VocabularyKeys.id} = $id;
           """);

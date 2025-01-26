@@ -93,6 +93,8 @@ class _KanjiTabState extends State<KanjiTab> {
                         );
                       }
                       return ListView.builder(
+                        controller: _scrollController,
+                        itemCount: state.kanjis.length + 1,
                         itemBuilder: (context, index) {
                           if (index < state.kanjis.length) {
                             return KanjiItem();
