@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:jlpt_dictionary/constants/colors.dart';
 import 'package:jlpt_dictionary/helpers/toast_helper.dart';
 import 'package:jlpt_dictionary/screens/home/cubits/home_tab_cubit.dart';
 import 'package:jlpt_dictionary/screens/home/cubits/vocabulary_tab_cubit.dart';
 import 'package:jlpt_dictionary/screens/home/cubits/vocabulary_tab_state.dart';
 import 'package:jlpt_dictionary/screens/home/widgets/vocabulary/vocabulary_item.dart';
+import 'package:jlpt_dictionary/widgets/app_loader.dart';
 import 'package:jlpt_dictionary/widgets/app_search_text_field.dart';
 
 class VocabularyTab extends StatefulWidget {
@@ -84,9 +84,7 @@ class _VocabularyTabState extends State<VocabularyTab> {
                   builder: (context, state) {
                     if (state is VocabularyTabInitial) {
                       return Center(
-                        child: CircularProgressIndicator(
-                          color: AppColors.black,
-                        ),
+                        child: AppLoader(),
                       );
                     }
                     if (state is VocabularyTabLoaded) {

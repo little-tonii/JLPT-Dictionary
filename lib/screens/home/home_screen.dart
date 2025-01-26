@@ -5,6 +5,7 @@ import 'package:ionicons/ionicons.dart';
 import 'package:jlpt_dictionary/dependencies/dependencies.dart';
 import 'package:jlpt_dictionary/global_cubits/theme_cubit/theme_cubit.dart';
 import 'package:jlpt_dictionary/screens/home/cubits/home_tab_cubit.dart';
+import 'package:jlpt_dictionary/screens/home/cubits/kanji_tab_cubit.dart';
 import 'package:jlpt_dictionary/screens/home/cubits/vocabulary_tab_cubit.dart';
 import 'package:jlpt_dictionary/screens/home/widgets/grammar/grammar_tab.dart';
 import 'package:jlpt_dictionary/screens/home/widgets/home/home_tab.dart';
@@ -90,11 +91,14 @@ class _HomeScreenState extends State<HomeScreen> {
               create: (context) =>
                   DependenciesContainer.getIt.get<VocabularyTabCubit>()
                     ..loadVocabularies(page: 1),
-              child: VocabularyTab(
-                homeTabCubit: _homeTabCubit,
-              ),
+              child: VocabularyTab(homeTabCubit: _homeTabCubit),
             ),
-            const KanjiTab(),
+            BlocProvider(
+              create: (context) =>
+                  DependenciesContainer.getIt.get<KanjiTabCubit>()
+                    ..loadKanjis(page: 1),
+              child: KanjiTab(homeTabCubit: _homeTabCubit),
+            ),
             const GrammarTab(),
           ],
         ),

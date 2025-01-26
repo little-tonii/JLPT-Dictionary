@@ -73,9 +73,6 @@ abstract class DarkTheme {
         color: AppColors.white,
       ),
     ),
-    progressIndicatorTheme: const ProgressIndicatorThemeData(
-      color: AppColors.white,
-    ),
     floatingActionButtonTheme: const FloatingActionButtonThemeData(
       backgroundColor: AppColors.white,
       foregroundColor: AppColors.black,

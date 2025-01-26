@@ -4,6 +4,7 @@ import 'package:jlpt_dictionary/helpers/toast_helper.dart';
 import 'package:jlpt_dictionary/routes/app_routes.dart';
 import 'package:jlpt_dictionary/screens/onboarding/cubits/onboarding_cubit.dart';
 import 'package:jlpt_dictionary/screens/onboarding/cubits/onboarding_state.dart';
+import 'package:jlpt_dictionary/widgets/app_loader.dart';
 
 class OnboardingScreen extends StatelessWidget {
   const OnboardingScreen({super.key});
@@ -23,7 +24,7 @@ class OnboardingScreen extends StatelessWidget {
             const SizedBox(
               height: 16,
             ),
-            const CircularProgressIndicator(),
+            AppLoader(),
             const SizedBox(
               height: 16,
             ),
