@@ -97,7 +97,10 @@ class _KanjiTabState extends State<KanjiTab> {
                         itemCount: state.kanjis.length + 1,
                         itemBuilder: (context, index) {
                           if (index < state.kanjis.length) {
-                            return KanjiItem();
+                            return KanjiItem(
+                              index: index,
+                              kanji: state.kanjis[index],
+                            );
                           }
                           return SizedBox();
                         },

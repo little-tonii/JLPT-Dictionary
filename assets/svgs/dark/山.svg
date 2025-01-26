@@ -1,0 +1,38 @@
+<svg height="250px" version="1.1" width="250px" xmlns="http://www.w3.org/2000/svg"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    style="overflow: hidden; position: relative; left: -0.75px; top: -0.200012px;" viewBox="0 0 125 125"
+    preserveAspectRatio="xMinYMin" class="dmak-svg">
+    <desc style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">Created with Raphaël 2.1.2</desc>
+    <defs style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></defs>
+    <path fill="none" stroke="#bcc9e2" d="M62.5,0L62.5,125" stroke-width="0.5" stroke-dasharray="4,1.5"
+        style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></path>
+    <path fill="none" stroke="#bcc9e2" d="M0,62.5L125,62.5" stroke-width="0.5" stroke-dasharray="4,1.5"
+        style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></path>
+    <path fill="none" stroke="#ffffff"
+        d="M52.49,15.5C53.870000000000005,16.88,54.75,19,54.75,21.25C54.75,22,54.53,79.55,54.5,80.5" stroke-width="3"
+        stroke-linecap="round" stroke-linejoin="round"
+        style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); stroke-linecap: round; stroke-linejoin: round; transition: stroke 400ms; stroke-dasharray: 65.5847, 65.5847; stroke-dashoffset: 0;">
+    </path><text x="45.75" y="10.63" text-anchor="middle" font-family="&quot;Arial&quot;" font-size="8px" stroke="none"
+        fill="rgba(255,255,255,0.4)"
+        style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); text-anchor: middle; font-family: Arial; font-size: 8px;">
+        <tspan dy="2.799999599456788" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">1</tspan>
+    </text>
+    <path fill="none" stroke="#ffffff"
+        d="M21.49,54.5C22.369999999999997,55.38,22.88,56.75,22.75,58.25C22.17,65.24,21.75,74.25,20.25,81.25C19.55,84.51,20.36,85.25,22.25,85C39.25,82.75,69.37,79.88,87.75,79"
+        stroke-width="3" stroke-linecap="round" stroke-linejoin="round"
+        style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); stroke-linecap: round; stroke-linejoin: round; transition: stroke 400ms; stroke-dasharray: 98.4527, 98.4527; stroke-dashoffset: 0;">
+    </path><text x="12.75" y="52.63" text-anchor="middle" font-family="&quot;Arial&quot;" font-size="8px" stroke="none"
+        fill="rgba(255,255,255,0.4)"
+        style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); text-anchor: middle; font-family: Arial; font-size: 8px;">
+        <tspan dy="2.7999995994567897" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">2</tspan>
+    </text>
+    <path fill="none" stroke="#ffffff"
+        d="M89.24,49C90.17999999999999,49.94,90.88,51.38,90.75,53.25C90.5,56.93,88.92,73.55,88.2,82.02C87.98,84.66,87.81,86.53,87.75,87"
+        stroke-width="3" stroke-linecap="round" stroke-linejoin="round"
+        style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); stroke-linecap: round; stroke-linejoin: round; transition: stroke 400ms; stroke-dasharray: 38.5374, 38.5374; stroke-dashoffset: 0;">
+    </path><text x="83.25" y="43.63" text-anchor="middle" font-family="&quot;Arial&quot;" font-size="8px" stroke="none"
+        fill="rgba(255,255,255,0.4)"
+        style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); text-anchor: middle; font-family: Arial; font-size: 8px;">
+        <tspan dy="2.799995784759524" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">3</tspan>
+    </text>
+</svg>
