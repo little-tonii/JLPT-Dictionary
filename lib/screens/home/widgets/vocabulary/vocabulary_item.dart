@@ -4,6 +4,7 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:jlpt_dictionary/constants/colors.dart';
 import 'package:jlpt_dictionary/enums/jlpt_level.dart';
 import 'package:jlpt_dictionary/global_cubits/theme_cubit/theme_cubit.dart';
+import 'package:jlpt_dictionary/helpers/dialog_helper.dart';
 import 'package:jlpt_dictionary/models/vocabulary_model.dart';
 import 'package:jlpt_dictionary/screens/home/cubits/vocabulary_tab_cubit.dart';
 import 'package:jlpt_dictionary/widgets/app_button.dart';
@@ -171,53 +172,35 @@ class VocabularyItem extends StatelessWidget {
                   Spacer(),
                   GestureDetector(
                     onTap: () {
-                      showDialog(
+                      DialogHelper.show(
+                        content: "Bạn có chắc chắn muốn xóa từ vựng này không?",
+                        title: "Xác nhận xóa từ vựng",
                         context: context,
-                        builder: (context) {
-                          return AlertDialog(
-                            shape: RoundedRectangleBorder(
-                              borderRadius: BorderRadius.circular(8),
+                        actions: [
+                          GestureDetector(
+                            onTap: () {
+                              appContext
+                                  .read<VocabularyTabCubit>()
+                                  .deleteVocaulary(id: vocabulary.id!);
+                              Navigator.of(context).pop();
+                              Navigator.of(context).pop();
+                            },
+                            child: Text(
+                              "Xác nhận",
+                              style: Theme.of(context).textTheme.displaySmall,
                             ),
-                            backgroundColor: context.watch<ThemeCubit>().state
-                                ? AppColors.white
-                                : AppColors.black,
-                            title: Text(
-                              "Xác nhận xóa từ vựng",
-                              style: Theme.of(context).textTheme.titleMedium,
+                          ),
+                          SizedBox(width: 16),
+                          GestureDetector(
+                            onTap: () {
+                              Navigator.of(context).pop();
+                            },
+                            child: Text(
+                              "Hủy",
+                              style: Theme.of(context).textTheme.displaySmall,
                             ),
-                            content: Text(
-                              "Bạn có chắc chắn muốn xóa từ vựng này không?",
-                              style: Theme.of(context).textTheme.displayMedium,
-                            ),
-                            actions: [
-                              GestureDetector(
-                                onTap: () {
-                                  appContext
-                                      .read<VocabularyTabCubit>()
-                                      .deleteVocaulary(id: vocabulary.id!);
-                                  Navigator.of(context).pop();
-                                  Navigator.of(context).pop();
-                                },
-                                child: Text(
-                                  "Xác nhận",
-                                  style:
-                                      Theme.of(context).textTheme.displaySmall,
-                                ),
-                              ),
-                              SizedBox(width: 16),
-                              GestureDetector(
-                                onTap: () {
-                                  Navigator.of(context).pop();
-                                },
-                                child: Text(
-                                  "Hủy",
-                                  style:
-                                      Theme.of(context).textTheme.displaySmall,
-                                ),
-                              ),
-                            ],
-                          );
-                        },
+                          ),
+                        ],
                       );
                     },
                     child: Icon(
