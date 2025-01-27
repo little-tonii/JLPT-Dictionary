@@ -4,10 +4,10 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:jlpt_dictionary/constants/colors.dart';
 import 'package:jlpt_dictionary/enums/jlpt_level.dart';
 import 'package:jlpt_dictionary/global_cubits/theme_cubit/theme_cubit.dart';
-import 'package:jlpt_dictionary/helpers/dialog_helper.dart';
 import 'package:jlpt_dictionary/models/vocabulary_model.dart';
 import 'package:jlpt_dictionary/screens/home/cubits/vocabulary_tab_cubit.dart';
 import 'package:jlpt_dictionary/widgets/app_button.dart';
+import 'package:jlpt_dictionary/widgets/app_confirm_dialog.dart';
 import 'package:jlpt_dictionary/widgets/app_dropdown_button.dart';
 import 'package:jlpt_dictionary/widgets/app_input_text_field.dart';
 
@@ -172,35 +172,38 @@ class VocabularyItem extends StatelessWidget {
                   Spacer(),
                   GestureDetector(
                     onTap: () {
-                      DialogHelper.show(
-                        content: "Bạn có chắc chắn muốn xóa từ vựng này không?",
-                        title: "Xác nhận xóa từ vựng",
+                      showDialog(
                         context: context,
-                        actions: [
-                          GestureDetector(
-                            onTap: () {
-                              appContext
-                                  .read<VocabularyTabCubit>()
-                                  .deleteVocaulary(id: vocabulary.id!);
-                              Navigator.of(context).pop();
-                              Navigator.of(context).pop();
-                            },
-                            child: Text(
-                              "Xác nhận",
-                              style: Theme.of(context).textTheme.displaySmall,
+                        builder: (context) => AppConfirmDialog(
+                          content:
+                              "Bạn có chắc chắn muốn xóa từ vựng này không?",
+                          title: "Xác nhận xóa từ vựng",
+                          actions: [
+                            GestureDetector(
+                              onTap: () {
+                                appContext
+                                    .read<VocabularyTabCubit>()
+                                    .deleteVocaulary(id: vocabulary.id!);
+                                Navigator.of(context).pop();
+                                Navigator.of(context).pop();
+                              },
+                              child: Text(
+                                "Xác nhận",
+                                style: Theme.of(context).textTheme.displaySmall,
+                              ),
                             ),
-                          ),
-                          SizedBox(width: 16),
-                          GestureDetector(
-                            onTap: () {
-                              Navigator.of(context).pop();
-                            },
-                            child: Text(
-                              "Hủy",
-                              style: Theme.of(context).textTheme.displaySmall,
+                            SizedBox(width: 16),
+                            GestureDetector(
+                              onTap: () {
+                                Navigator.of(context).pop();
+                              },
+                              child: Text(
+                                "Hủy",
+                                style: Theme.of(context).textTheme.displaySmall,
+                              ),
                             ),
-                          ),
-                        ],
+                          ],
+                        ),
                       );
                     },
                     child: Icon(
