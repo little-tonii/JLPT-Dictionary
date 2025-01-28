@@ -8,6 +8,8 @@ import 'package:jlpt_dictionary/global_cubits/theme_cubit/theme_cubit.dart';
 import 'package:jlpt_dictionary/models/kanji_model.dart';
 import 'package:jlpt_dictionary/screens/home/cubits/kanji_tab_cubit.dart';
 import 'package:jlpt_dictionary/screens/home/cubits/kanji_tab_state.dart';
+import 'package:jlpt_dictionary/widgets/app_button.dart';
+import 'package:jlpt_dictionary/widgets/app_input_text_field.dart';
 
 class EditKanji extends StatelessWidget {
   final KanjiTabCubit kanjiTabCubit;
@@ -18,6 +20,86 @@ class EditKanji extends StatelessWidget {
     required this.kanji,
     required this.kanjiTabCubit,
   });
+
+  void _handleCreateNewYomi(BuildContext context, YomiType yomiType) {
+    TextEditingController textEditingController = TextEditingController();
+    showDialog(
+      context: context,
+      builder: (context) {
+        return Dialog(
+          backgroundColor: Colors.red,
+          insetPadding: EdgeInsets.all(16),
+          child: Container(
+            width: double.infinity,
+            padding: EdgeInsets.all(16),
+            decoration: BoxDecoration(
+              color: context.watch<ThemeCubit>().state
+                  ? AppColors.white
+                  : AppColors.black,
+              borderRadius: BorderRadius.circular(8),
+            ),
+            child: Column(
+              mainAxisSize: MainAxisSize.min,
+              children: [
+                Row(
+                  mainAxisAlignment: MainAxisAlignment.end,
+                  children: [
+                    GestureDetector(
+                      onTap: () {
+                        Navigator.of(context).pop();
+                      },
+                      child: Icon(
+                        Icons.close,
+                        color: context.watch<ThemeCubit>().state
+                            ? AppColors.black.withValues(alpha: 0.4)
+                            : AppColors.white.withValues(alpha: 0.4),
+                      ),
+                    )
+                  ],
+                ),
+                SizedBox(height: 8),
+                Row(
+                  children: [
+                    Expanded(
+                      child: Text(
+                        "Thêm mới âm ${yomiType == YomiType.kunyomi ? "kun" : "on"} cho kanji ${kanji.kanji}",
+                        style:
+                            Theme.of(context).textTheme.displayMedium!.copyWith(
+                                  fontWeight: FontWeight.bold,
+                                ),
+                      ),
+                    ),
+                  ],
+                ),
+                SizedBox(height: 8),
+                Row(
+                  children: [
+                    Expanded(
+                      child: AppInputTextField(
+                        hintText: "Nhập âm Kun",
+                        controller: textEditingController,
+                      ),
+                    ),
+                  ],
+                ),
+                SizedBox(height: 16),
+                Row(
+                  children: [
+                    Expanded(
+                      child: AppButton(
+                        text: "Xác nhận",
+                        onPressed: () {},
+                      ),
+                    ),
+                  ],
+                ),
+              ],
+            ),
+          ),
+        );
+      },
+    );
+  }
 
   Widget _loadYomi(BuildContext context, YomiType yomiType) {
     return BlocBuilder<KanjiTabCubit, KanjiTabState>(
@@ -253,7 +335,10 @@ class EditKanji extends StatelessWidget {
                     ),
                     Spacer(),
                     GestureDetector(
-                      onTap: () {},
+                      onTap: () => _handleCreateNewYomi(
+                        context,
+                        YomiType.kunyomi,
+                      ),
                       child: Icon(
                         Ionicons.add_circle_outline,
                         color: context.watch<ThemeCubit>().state
@@ -276,7 +361,10 @@ class EditKanji extends StatelessWidget {
                     ),
                     Spacer(),
                     GestureDetector(
-                      onTap: () {},
+                      onTap: () => _handleCreateNewYomi(
+                        context,
+                        YomiType.onyomi,
+                      ),
                       child: Icon(
                         Ionicons.add_circle_outline,
                         color: context.watch<ThemeCubit>().state
