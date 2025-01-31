@@ -65,7 +65,7 @@ class OnboardingCubit extends Cubit<OnboardingState> {
             KanjiSampleKeys.kanjiForm: sample[KanjiSampleKeys.kanjiForm],
             KanjiSampleKeys.normalForm: sample[KanjiSampleKeys.normalForm],
             KanjiSampleKeys.meaning: sample[KanjiSampleKeys.meaning],
-            KanjiSampleKeys.yomiType: YomiType.kunyomi.type,
+            KanjiSampleKeys.yomiType: 'kunyomi',
           });
         }
 
@@ -75,7 +75,7 @@ class OnboardingCubit extends Cubit<OnboardingState> {
             KanjiSampleKeys.kanjiForm: sample[KanjiSampleKeys.kanjiForm],
             KanjiSampleKeys.normalForm: sample[KanjiSampleKeys.normalForm],
             KanjiSampleKeys.meaning: sample[KanjiSampleKeys.meaning],
-            KanjiSampleKeys.yomiType: YomiType.onyomi.type,
+            KanjiSampleKeys.yomiType: 'onyomi',
           });
         }
 
