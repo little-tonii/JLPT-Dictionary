@@ -17,7 +17,6 @@ class KanjiItem extends StatelessWidget {
 
   void _handleOpenEditKanji(BuildContext context) {
     final appContext = context;
-    appContext.read<KanjiTabCubit>().loadYomis(kanjiId: kanji.id!);
     final kanjiTabCubit = appContext.read<KanjiTabCubit>();
     showModalBottomSheet(
       useSafeArea: true,

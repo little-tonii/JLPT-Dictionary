@@ -1,7 +1,6 @@
 import 'package:equatable/equatable.dart';
 import 'package:jlpt_dictionary/models/kanji_model.dart';
 import 'package:jlpt_dictionary/models/kanji_sample_model.dart';
-import 'package:jlpt_dictionary/models/yomi_model.dart';
 
 abstract class KanjiTabState extends Equatable {
   const KanjiTabState();
@@ -43,15 +42,6 @@ class KanjiTabLoaded extends KanjiTabState {
 
   @override
   List<Object> get props => [hasReachedMax, kanjis, page];
-}
-
-class KanjiTabYomiLoaded extends KanjiTabState {
-  final List<YomiModel> yomis;
-
-  const KanjiTabYomiLoaded({required this.yomis});
-
-  @override
-  List<Object> get props => [yomis];
 }
 
 class KanjiTabKanjiSampleLoaded extends KanjiTabState {
