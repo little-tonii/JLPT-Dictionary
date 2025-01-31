@@ -1,17 +1,18 @@
 import 'package:jlpt_dictionary/constants/db_key.dart';
+import 'package:jlpt_dictionary/enums/yomi_type.dart';
 
 class KanjiSampleModel {
   final int? id;
   final int kanjiId;
-  final int yomiId;
   final String kanjiForm;
   final String normalForm;
   final String meaning;
+  final YomiType yomiType;
 
   KanjiSampleModel({
     this.id,
     required this.kanjiId,
-    required this.yomiId,
+    required this.yomiType,
     required this.kanjiForm,
     required this.normalForm,
     required this.meaning,
@@ -21,7 +22,9 @@ class KanjiSampleModel {
     return KanjiSampleModel(
       id: json[KanjiSampleKeys.kanjiId],
       kanjiId: json[KanjiSampleKeys.kanjiId],
-      yomiId: json[KanjiSampleKeys.yomiId],
+      yomiType: YomiType.values.firstWhere(
+        (e) => e.type == json[KanjiSampleKeys.yomiType],
+      ),
       kanjiForm: json[KanjiSampleKeys.kanjiForm],
       normalForm: json[KanjiSampleKeys.normalForm],
       meaning: json[KanjiSampleKeys.meaning],
@@ -31,7 +34,7 @@ class KanjiSampleModel {
   Map<String, dynamic> toJson() {
     return {
       KanjiSampleKeys.kanjiId: kanjiId,
-      KanjiSampleKeys.yomiId: yomiId,
+      KanjiSampleKeys.yomiType: yomiType.type,
       KanjiSampleKeys.kanjiForm: kanjiForm,
       KanjiSampleKeys.normalForm: normalForm,
       KanjiSampleKeys.meaning: meaning,

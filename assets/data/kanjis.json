@@ -3,110 +3,13 @@
         {
             "viet": "Nhất",
             "kanji": "一",
-            "kunyomi": [
-                {
-                    "pronounce": "ひと",
-                    "kanji_samples": [
-                        {
-                            "kanji_form": "一つ",
-                            "normal_form": "ひとつ",
-                            "meaning": "một"
-                        },
-                        {
-                            "kanji_form": "一人で",
-                            "normal_form": "ひとりで",
-                            "meaning": "một mình"
-                        },
-                        {
-                            "kanji_form": "一つ目",
-                            "normal_form": "ひとつめ",
-                            "meaning": "quái vật một mắt"
-                        },
-                        {
-                            "kanji_form": "一つ身",
-                            "normal_form": "ひとつみ",
-                            "meaning": "quần áo em bé"
-                        }
-                    ]
-                },
-                {
-                    "pronounce": "ひとつ",
-                    "kanji_samples": [
-                        {
-                            "kanji_form": "一月",
-                            "normal_form": "ひとつき",
-                            "meaning": "một tháng"
-                        },
-                        {
-                            "kanji_form": "一粒",
-                            "normal_form": "ひとつぶ",
-                            "meaning": "một hạt"
-                        }
-                    ]
-                }
-            ],
-            "onyomi": [
-                {
-                    "pronounce": "イチ",
-                    "kanji_samples": [
-                        {
-                            "kanji_form": "一に",
-                            "normal_form": "いちに",
-                            "meaning": "chỉ có"
-                        },
-                        {
-                            "kanji_form": "一は",
-                            "normal_form": "いちは",
-                            "meaning": "một phần"
-                        },
-                        {
-                            "kanji_form": "一事",
-                            "normal_form": "いちじ",
-                            "meaning": "một thứ"
-                        },
-                        {
-                            "kanji_form": "一二",
-                            "normal_form": "いちに",
-                            "meaning": "một hoặc hai"
-                        },
-                        {
-                            "kanji_form": "一位",
-                            "normal_form": "いちい",
-                            "meaning": "hàng cao nhất"
-                        }
-                    ]
-                },
-                {
-                    "pronounce": "イツ",
-                    "kanji_samples": [
-                        {
-                            "kanji_form": "不一",
-                            "normal_form": "ふいつ",
-                            "meaning": "rất chân thành là của bạn"
-                        },
-                        {
-                            "kanji_form": "唯一",
-                            "normal_form": "ゆいつ",
-                            "meaning": "duy nhất"
-                        },
-                        {
-                            "kanji_form": "帰一",
-                            "normal_form": "きいつ",
-                            "meaning": "sự hợp nhất thành một"
-                        },
-                        {
-                            "kanji_form": "劃一",
-                            "normal_form": "かくいつ",
-                            "meaning": "tính giống nhau"
-                        },
-                        {
-                            "kanji_form": "単一",
-                            "normal_form": "たんいつ",
-                            "meaning": "đơn nhất"
-                        }
-                    ]
-                }
-            ],
+            "kunyomi": {
+                "sounds": "ひと",
+                "sample": [
+                    
+                ]
+            },
+            "onyomi": {},
             "jlpt_level": "N5",
             "number_of_writing_strokes": 1
         }

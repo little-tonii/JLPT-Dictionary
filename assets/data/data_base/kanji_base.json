@@ -1,30 +1,28 @@
 {
     "viet": "",
     "kanji": "",
-    "kunyomi": [
-        {
-            "pronounce": "",
-            "kanji_samples": [
-                {
-                    "kanji_form": "",
-                    "normal_form": "",
-                    "meaning": ""
-                }
-            ]
-        }
-    ],
-    "onyomi": [
-        {
-            "pronounce": "",
-            "kanji_samples": [
-                {
-                    "kanji_form": "",
-                    "normal_form": "",
-                    "meaning": ""
-                }
-            ]
-        }
-    ],
+    "kunyomi": {
+        "sounds": "",
+        "samples": [
+            {
+                "kanjiForm": "",
+                "normalForm": "",
+                "meaning": "",
+                "yomi_type": "kunyomi"
+            }
+        ]
+    },
+    "onyomi": {
+        "sounds": "",
+        "samples": [
+            {
+                "kanjiForm": "",
+                "normalForm": "",
+                "meaning": "",
+                "yomi_type": "onyomi"
+            }
+        ]
+    },
     "jlpt_level": "N5",
     "number_of_writing_strokes": 0
 }

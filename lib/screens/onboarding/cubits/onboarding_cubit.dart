@@ -47,7 +47,7 @@ class OnboardingCubit extends Cubit<OnboardingState> {
         emit(OnBoardingLoading(finishedTask * 100 ~/ totalTask));
       }
 
-      // Insert kanji data to database
+      // Insert kanjis and kanji samples data to database
       for (final kanji in kanjiData) {
         final kanjiId = await _database.insert(KanjiKeys.tableName, {
           KanjiKeys.viet: kanji[KanjiKeys.viet],
@@ -55,39 +55,30 @@ class OnboardingCubit extends Cubit<OnboardingState> {
           KanjiKeys.jlptLevel: kanji[KanjiKeys.jlptLevel],
           KanjiKeys.numberOfWritingStrokes:
               kanji[KanjiKeys.numberOfWritingStrokes],
+          KanjiKeys.kunyomi: kanji[KanjiKeys.kunyomi][KanjiKeys.sounds],
+          KanjiKeys.onyomi: kanji[KanjiKeys.onyomi][KanjiKeys.sounds]
         });
-        for (final kunyomi in kanji[YomiType.kunyomi.type]) {
-          final yomiId = await _database.insert(YomiKeys.tableName, {
-            YomiKeys.pronounce: kunyomi[YomiKeys.pronounce],
-            YomiKeys.kanjiId: kanjiId,
-            YomiKeys.yomiType: YomiType.kunyomi.type,
+
+        for (final sample in kanji[KanjiKeys.kunyomi][KanjiKeys.samples]) {
+          await _database.insert(KanjiSampleKeys.tableName, {
+            KanjiSampleKeys.kanjiId: kanjiId,
+            KanjiSampleKeys.kanjiForm: sample[KanjiSampleKeys.kanjiForm],
+            KanjiSampleKeys.normalForm: sample[KanjiSampleKeys.normalForm],
+            KanjiSampleKeys.meaning: sample[KanjiSampleKeys.meaning],
+            KanjiSampleKeys.yomiType: 'kunyomi',
           });
-          for (final sample in kunyomi[KanjiSampleKeys.tableName]) {
-            await _database.insert(KanjiSampleKeys.tableName, {
-              KanjiSampleKeys.kanjiId: kanjiId,
-              KanjiSampleKeys.yomiId: yomiId,
-              KanjiSampleKeys.kanjiForm: sample[KanjiSampleKeys.kanjiForm],
-              KanjiSampleKeys.normalForm: sample[KanjiSampleKeys.normalForm],
-              KanjiSampleKeys.meaning: sample[KanjiSampleKeys.meaning],
-            });
-          }
         }
-        for (final onyomi in kanji[YomiType.onyomi.type]) {
-          final yomiId = await _database.insert(YomiKeys.tableName, {
-            YomiKeys.pronounce: onyomi[YomiKeys.pronounce],
-            YomiKeys.kanjiId: kanjiId,
-            YomiKeys.yomiType: YomiType.onyomi.type,
+
+        for (final sample in kanji[KanjiKeys.onyomi][KanjiKeys.samples]) {
+          await _database.insert(KanjiSampleKeys.tableName, {
+            KanjiSampleKeys.kanjiId: kanjiId,
+            KanjiSampleKeys.kanjiForm: sample[KanjiSampleKeys.kanjiForm],
+            KanjiSampleKeys.normalForm: sample[KanjiSampleKeys.normalForm],
+            KanjiSampleKeys.meaning: sample[KanjiSampleKeys.meaning],
+            KanjiSampleKeys.yomiType: 'onyomi',
           });
-          for (final sample in onyomi[KanjiSampleKeys.tableName]) {
-            await _database.insert(KanjiSampleKeys.tableName, {
-              KanjiSampleKeys.kanjiId: kanjiId,
-              KanjiSampleKeys.yomiId: yomiId,
-              KanjiSampleKeys.kanjiForm: sample[KanjiSampleKeys.kanjiForm],
-              KanjiSampleKeys.normalForm: sample[KanjiSampleKeys.normalForm],
-              KanjiSampleKeys.meaning: sample[KanjiSampleKeys.meaning],
-            });
-          }
         }
+
         finishedTask++;
         emit(OnBoardingLoading(finishedTask * 100 ~/ totalTask));
       }

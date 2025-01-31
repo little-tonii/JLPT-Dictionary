@@ -7,6 +7,8 @@ class KanjiModel {
   final String kanji;
   final JlptLevel jlptLevel;
   final int numberOfWritingStrokes;
+  final String kunyomi;
+  final String onyomi;
 
   KanjiModel({
     this.id,
@@ -14,6 +16,8 @@ class KanjiModel {
     required this.kanji,
     required this.jlptLevel,
     required this.numberOfWritingStrokes,
+    required this.kunyomi,
+    required this.onyomi,
   });
 
   factory KanjiModel.fromJson(Map<String, dynamic> json) {
@@ -25,6 +29,8 @@ class KanjiModel {
         (e) => e.level == json[KanjiKeys.jlptLevel],
       ),
       numberOfWritingStrokes: json[KanjiKeys.numberOfWritingStrokes],
+      kunyomi: json[KanjiKeys.kunyomi],
+      onyomi: json[KanjiKeys.onyomi],
     );
   }
 
@@ -34,6 +40,8 @@ class KanjiModel {
       KanjiKeys.kanji: kanji,
       KanjiKeys.jlptLevel: jlptLevel.level,
       KanjiKeys.numberOfWritingStrokes: numberOfWritingStrokes,
+      KanjiKeys.kunyomi: kunyomi,
+      KanjiKeys.onyomi: onyomi
     };
   }
 }
