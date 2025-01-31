@@ -21,7 +21,6 @@ abstract class DependenciesContainer {
         version: JlptDictionaryDatabase.databaseVersion,
         onCreate: (db, version) async {
           await db.execute(JlptDictionaryDatabase.createKanjiTableQuery);
-          await db.execute(JlptDictionaryDatabase.createYomiTableQuery);
           await db.execute(JlptDictionaryDatabase.createKanjiSampleTableQuery);
           await db.execute(JlptDictionaryDatabase.createVocabularyTableQuery);
         },
